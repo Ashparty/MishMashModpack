@@ -9,19 +9,19 @@
     "name": "~",
     "children": [
       {
-        "name": "Peko",
+        "name": "Peko - Nether Tools",
         "children": []
       },
       {
-        "name": "Ash",
+        "name": "Ash - Mobs End",
         "children": []
       },
       {
-        "name": "Spacular",
+        "name": "Spacular - Weapons Biomes",
         "children": []
       },
       {
-        "name": "Inspectah",
+        "name": "Inspectah - Liquid Farms",
         "children": []
       }
     ]
