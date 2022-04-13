@@ -907,15 +907,6 @@
       "path": "~/Inspectah - Liquid Farms"
     },
     {
-      "name": "AmazingBlock",
-      "type": "item",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amazing_block",
-      "path": "~/Inspectah - Liquid Farms"
-    },
-    {
       "name": "InspectahFoodrecipe",
       "type": "recipe",
       "sortid": 7,
@@ -931,6 +922,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "inspectah_food",
+      "path": "~/Inspectah - Liquid Farms"
+    },
+    {
+      "name": "InspectahBlock",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inspectah_block",
       "path": "~/Inspectah - Liquid Farms"
     }
   ],
@@ -988,11 +988,12 @@
   "language_map": {
     "en_us": {
       "subtitles.flymusic": "Player Is about to die",
+      "block.mishmashed.inspectah_block": "Inspectah Block",
       "subtitles.poggers": "POGGERS",
       "item.mishmashed.pog_armor_boots": "Pog Boots",
       "item.mishmashed.pog_armor_leggings": "Pog Leggings",
-      "item.mishmashed.funny_cookie": "Funny Cookie",
       "item.mishmashed.muffin_launcher": "Muffin Launcher",
+      "item.mishmashed.funny_cookie": "Funny Cookie",
       "item.mishmashed.sand_paper": "Sand Paper",
       "subtitles.muffinpew": "Pew!",
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
@@ -1009,7 +1010,6 @@
       "item.mishmashed.pingorite_scrap": "Pingorite Scrap",
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
       "subtitles.jumpscream": "Screams",
-      "item.mishmashed.amazing_block": "Amazing Block",
       "item.mishmashed.pog_axe": "Pog Axe",
       "item.mishmashed.muffin": "Muffin",
       "block.mishmashed.poggerrack": "Poggerrack",

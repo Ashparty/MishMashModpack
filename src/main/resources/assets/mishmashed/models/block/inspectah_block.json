@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mishmashed:blocks/unknown",
+    "up": "mishmashed:blocks/unknown",
+    "north": "mishmashed:blocks/unknown",
+    "east": "mishmashed:blocks/unknown",
+    "south": "mishmashed:blocks/unknown",
+    "west": "mishmashed:blocks/unknown",
+    "particle": "mishmashed:blocks/unknown"
+  }
+}

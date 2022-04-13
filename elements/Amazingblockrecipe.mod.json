@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AmazingBlock"
+      "value": "CUSTOM:InspectahBlock"
     },
     "name": "amazingblockrecipe",
     "namespace": "mod"

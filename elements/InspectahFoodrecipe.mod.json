@@ -5,36 +5,36 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 9,
+    "recipeRetstackSize": 20,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:AmazingBlock"
+        "value": "CUSTOM:InspectahBlock"
       },
       {
-        "value": "CUSTOM:AmazingBlock"
+        "value": "CUSTOM:InspectahBlock"
       },
       {
-        "value": "CUSTOM:AmazingBlock"
+        "value": "CUSTOM:InspectahBlock"
       },
       {
-        "value": "CUSTOM:AmazingBlock"
+        "value": "CUSTOM:InspectahBlock"
       },
       {
-        "value": "CUSTOM:AmazingBlock"
+        "value": "CUSTOM:InspectahBlock"
       },
       {
-        "value": "CUSTOM:AmazingBlock"
+        "value": "CUSTOM:InspectahBlock"
       },
       {
-        "value": "CUSTOM:AmazingBlock"
+        "value": "CUSTOM:InspectahBlock"
       },
       {
-        "value": "CUSTOM:AmazingBlock"
+        "value": "CUSTOM:InspectahBlock"
       },
       {
-        "value": "CUSTOM:AmazingBlock"
+        "value": "CUSTOM:InspectahBlock"
       }
     ],
     "recipeReturnStack": {

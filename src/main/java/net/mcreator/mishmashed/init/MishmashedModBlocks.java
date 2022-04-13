@@ -14,6 +14,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.mishmashed.block.PoggerrackBlock;
 import net.mcreator.mishmashed.block.InspectahPoppyBlock;
+import net.mcreator.mishmashed.block.InspectahBlockBlock;
 import net.mcreator.mishmashed.block.GlueBlock;
 
 import java.util.List;
@@ -25,6 +26,7 @@ public class MishmashedModBlocks {
 	public static final Block POGGERRACK = register(new PoggerrackBlock());
 	public static final Block GLUE = register(new GlueBlock());
 	public static final Block INSPECTAH_POPPY = register(new InspectahPoppyBlock());
+	public static final Block INSPECTAH_BLOCK = register(new InspectahBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

@@ -31,7 +31,6 @@ import net.mcreator.mishmashed.item.MuffinItem;
 import net.mcreator.mishmashed.item.InspectahFoodItem;
 import net.mcreator.mishmashed.item.GlueItem;
 import net.mcreator.mishmashed.item.FunnyCookieItem;
-import net.mcreator.mishmashed.item.AmazingBlockItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -46,7 +45,6 @@ public class MishmashedModItems {
 	public static final Item POG_PICKAXE = register(new PogPickaxeItem());
 	public static final Item INSPECTAH_POPPY = register(MishmashedModBlocks.INSPECTAH_POPPY, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item POG_AXE = register(new PogAxeItem());
-	public static final Item AMAZING_BLOCK = register(new AmazingBlockItem());
 	public static final Item POG_SWORD = register(new PogSwordItem());
 	public static final Item POG_SHOVEL = register(new PogShovelItem());
 	public static final Item INSPECTAH_FOOD = register(new InspectahFoodItem());
@@ -63,6 +61,7 @@ public class MishmashedModItems {
 	public static final Item PINGORITE_SCRAP = register(new PingoriteScrapItem());
 	public static final Item POGERITE_COMPOSITE = register(new PogeriteCompositeItem());
 	public static final Item SAND_PAPER = register(new SandPaperItem());
+	public static final Item INSPECTAH_BLOCK = register(MishmashedModBlocks.INSPECTAH_BLOCK, MishmashedModTabs.TAB_WHAT);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
