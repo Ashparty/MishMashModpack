@@ -47,7 +47,7 @@
       "name": "Pingot",
       "type": "item",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pingot",
       "path": "~/Peko - Nether Tools"
@@ -65,7 +65,7 @@
       "name": "PogArmor",
       "type": "armor",
       "sortid": 13,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pog_armor",
       "metadata": {
@@ -261,7 +261,7 @@
       "name": "Poggerrack",
       "type": "block",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "poggerrack",
       "path": "~/Peko - Nether Tools"
@@ -297,7 +297,7 @@
       "name": "PingoriteScrap",
       "type": "item",
       "sortid": 26,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pingorite_scrap",
       "path": "~/Peko - Nether Tools"
@@ -351,7 +351,7 @@
       "name": "PekoCreativeTabIcon",
       "type": "item",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "peko_creative_tab_icon",
       "path": "~/Peko - Nether Tools"
@@ -557,7 +557,7 @@
       "name": "MuffinLauncher",
       "type": "rangeditem",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_launcher",
       "path": "~/Ash - Mobs Overworld/Items"
@@ -625,7 +625,7 @@
       "name": "FunnyCookie",
       "type": "food",
       "sortid": 20,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "funny_cookie",
       "path": "~/Ash - Mobs Overworld/Items"
@@ -939,13 +939,31 @@
   "language_map": {
     "en_us": {
       "subtitles.flymusic": "Player Is about to die",
-      "item.mishmashed.muffin": "Muffin",
-      "subtitles.stop": "STOP",
-      "subtitles.muffinpew": "Pew!",
-      "item.mishmashed.pomb": "Pomb Unlimited",
       "subtitles.poggers": "POGGERS",
+      "item.mishmashed.pog_armor_boots": "Pog Boots",
+      "item.mishmashed.pog_armor_leggings": "Pog Leggings",
+      "item.mishmashed.funny_cookie": "Funny Cookie",
+      "item.mishmashed.muffin_launcher": "Muffin Launcher",
+      "item.mishmashed.sand_paper": "Sand Paper",
+      "subtitles.muffinpew": "Pew!",
+      "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
+      "itemGroup.tabwhat": "WHAT",
+      "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
+      "item.mishmashed.pingot": "Pingot",
+      "subtitles.stop": "STOP",
+      "item.mishmashed.pog_sword": "Pog Sword",
+      "item.mishmashed.pogerite_composite": "Pogerite Composite",
+      "item.mishmashed.pingorite_scrap": "Pingorite Scrap",
+      "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
+      "subtitles.jumpscream": "Screams",
+      "item.mishmashed.pog_axe": "Pog Axe",
+      "item.mishmashed.muffin": "Muffin",
+      "block.mishmashed.poggerrack": "Poggerrack",
+      "item.mishmashed.pomb": "Pomb Unlimited",
+      "item.mishmashed.pog_armor_helmet": "Pog Helmet",
       "item.mishmashed.pog_locator": "Pomb",
-      "subtitles.jumpscream": "Screams"
+      "item.mishmashed.pog_hoe": "Pog Hoe",
+      "item.mishmashed.pog_shovel": "Pog Shovel"
     }
   },
   "foldersRoot": {
