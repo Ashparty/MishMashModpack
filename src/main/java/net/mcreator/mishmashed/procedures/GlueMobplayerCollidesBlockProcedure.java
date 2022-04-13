@@ -1,6 +1,7 @@
 package net.mcreator.mishmashed.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 
 public class GlueMobplayerCollidesBlockProcedure {
 	public static void execute(Entity entity) {

@@ -1,12 +1,20 @@
 
 package net.mcreator.mishmashed.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionHand;
+
+import net.mcreator.mishmashed.procedures.PogLocatorRightClickedInAirProcedure;
+import net.mcreator.mishmashed.init.MishmashedModTabs;
 
 public class PogLocatorItem extends Item {
-
 	public PogLocatorItem() {
-		super(new Item.Properties().tab(MishmashedModTabs.TAB_DELETED_MOD_ELEMENT).stacksTo(64).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).stacksTo(64).rarity(Rarity.EPIC));
 		setRegistryName("pog_locator");
 	}
 
@@ -26,5 +34,4 @@ public class PogLocatorItem extends Item {
 		PogLocatorRightClickedInAirProcedure.execute(entity);
 		return ar;
 	}
-
 }

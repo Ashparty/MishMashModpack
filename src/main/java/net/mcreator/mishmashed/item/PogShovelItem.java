@@ -1,7 +1,14 @@
 
 package net.mcreator.mishmashed.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ShovelItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.mishmashed.init.MishmashedModTabs;
+import net.mcreator.mishmashed.init.MishmashedModItems;
 
 public class PogShovelItem extends ShovelItem {
 	public PogShovelItem() {
@@ -29,13 +36,7 @@ public class PogShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(MishmashedModItems.PINGOT));
 			}
-		},
-
-				1, -3f,
-
-				new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
-
+		}, 1, -3f, new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
 		setRegistryName("pog_shovel");
 	}
-
 }

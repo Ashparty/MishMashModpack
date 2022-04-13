@@ -1,6 +1,20 @@
 package net.mcreator.mishmashed.procedures;
 
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.Explosion;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.tags.EntityTypeTags;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.TextComponent;
+
+import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
 public class VillagerInteractProcedure {

@@ -1,6 +1,21 @@
 package net.mcreator.mishmashed.procedures;
 
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.event.entity.living.LivingDeathEvent;
+
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.monster.Silverfish;
+import net.minecraft.world.entity.MobSpawnType;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.tags.EntityTypeTags;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
+
+import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
 public class SpiderDeathProcedure {
