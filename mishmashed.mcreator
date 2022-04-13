@@ -932,6 +932,15 @@
       "locked_code": false,
       "registry_name": "inspectah_block",
       "path": "~/Inspectah - Liquid Farms"
+    },
+    {
+      "name": "CreepePlant",
+      "type": "plant",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creepe_plant",
+      "path": "~/Inspectah - Liquid Farms"
     }
   ],
   "variable_elements": [],
@@ -1015,6 +1024,7 @@
       "block.mishmashed.poggerrack": "Poggerrack",
       "item.mishmashed.pomb": "Pomb Unlimited",
       "block.mishmashed.glue": "Glue",
+      "block.mishmashed.creepe_plant": "Creepe Plant",
       "item.mishmashed.pog_armor_helmet": "Pog Helmet",
       "item.mishmashed.pog_locator": "Pomb",
       "block.mishmashed.inspectah_poppy": "Inspectah Poppy",

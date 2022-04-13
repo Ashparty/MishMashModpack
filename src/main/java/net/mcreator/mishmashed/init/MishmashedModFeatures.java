@@ -17,6 +17,7 @@ import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.mishmashed.world.features.plants.InspectahPoppyFeature;
+import net.mcreator.mishmashed.world.features.plants.CreepePlantFeature;
 import net.mcreator.mishmashed.world.features.ores.PoggerrackFeature;
 import net.mcreator.mishmashed.world.features.lakes.GlueFeature;
 
@@ -34,6 +35,8 @@ public class MishmashedModFeatures {
 				new FeatureRegistration(GenerationStep.Decoration.LAKES, GlueFeature.GENERATE_BIOMES, GlueFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(InspectahPoppyFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
 				InspectahPoppyFeature.GENERATE_BIOMES, InspectahPoppyFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(CreepePlantFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
+				CreepePlantFeature.GENERATE_BIOMES, CreepePlantFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

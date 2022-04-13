@@ -62,6 +62,7 @@ public class MishmashedModItems {
 	public static final Item POGERITE_COMPOSITE = register(new PogeriteCompositeItem());
 	public static final Item SAND_PAPER = register(new SandPaperItem());
 	public static final Item INSPECTAH_BLOCK = register(MishmashedModBlocks.INSPECTAH_BLOCK, MishmashedModTabs.TAB_WHAT);
+	public static final Item CREEPE_PLANT = register(MishmashedModBlocks.CREEPE_PLANT, CreativeModeTab.TAB_DECORATIONS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

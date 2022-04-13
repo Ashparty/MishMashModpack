@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class InspectahBlockBlock extends Block {
 	public InspectahBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(0.3f, 10f));
 		setRegistryName("inspectah_block");
 	}
 
