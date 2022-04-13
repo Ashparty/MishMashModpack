@@ -47,7 +47,7 @@
       "name": "Pingot",
       "type": "item",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "pingot",
       "path": "~/Peko - Nether Tools"
@@ -65,7 +65,7 @@
       "name": "PogArmor",
       "type": "armor",
       "sortid": 13,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "pog_armor",
       "metadata": {
@@ -261,7 +261,7 @@
       "name": "Poggerrack",
       "type": "block",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "poggerrack",
       "path": "~/Peko - Nether Tools"
@@ -297,7 +297,7 @@
       "name": "PingoriteScrap",
       "type": "item",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "pingorite_scrap",
       "path": "~/Peko - Nether Tools"
@@ -351,7 +351,7 @@
       "name": "PekoCreativeTabIcon",
       "type": "item",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "peko_creative_tab_icon",
       "path": "~/Peko - Nether Tools"
@@ -557,7 +557,7 @@
       "name": "MuffinLauncher",
       "type": "rangeditem",
       "sortid": 21,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "muffin_launcher",
       "path": "~/Ash - Mobs Overworld/Items"
@@ -625,7 +625,7 @@
       "name": "FunnyCookie",
       "type": "food",
       "sortid": 20,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "funny_cookie",
       "path": "~/Ash - Mobs Overworld/Items"
@@ -939,13 +939,13 @@
   "language_map": {
     "en_us": {
       "subtitles.flymusic": "Player Is about to die",
-      "subtitles.stop": "STOP",
-      "subtitles.poggers": "POGGERS",
-      "subtitles.jumpscream": "Screams",
       "item.mishmashed.muffin": "Muffin",
+      "subtitles.stop": "STOP",
       "subtitles.muffinpew": "Pew!",
       "item.mishmashed.pomb": "Pomb Unlimited",
-      "item.mishmashed.pog_locator": "Pomb"
+      "subtitles.poggers": "POGGERS",
+      "item.mishmashed.pog_locator": "Pomb",
+      "subtitles.jumpscream": "Screams"
     }
   },
   "foldersRoot": {
