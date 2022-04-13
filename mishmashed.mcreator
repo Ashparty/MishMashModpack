@@ -4,7 +4,7 @@
       "name": "InspectahPoppy",
       "type": "plant",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "inspectah_poppy",
       "path": "~/Inspectah - Liquid Farms"
@@ -30,7 +30,7 @@
       "name": "Glue",
       "type": "fluid",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "glue",
       "metadata": {
@@ -51,7 +51,7 @@
       "name": "AmazingBlock",
       "type": "item",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "amazing_block",
       "path": "~/Inspectah - Liquid Farms"
@@ -120,7 +120,7 @@
       "name": "Pingot",
       "type": "item",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pingot",
       "path": "~/Peko - Nether Tools"
@@ -415,7 +415,7 @@
       "name": "PingoriteScrap",
       "type": "item",
       "sortid": 26,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pingorite_scrap",
       "path": "~/Peko - Nether Tools"
@@ -607,7 +607,7 @@
       "name": "PogArmor",
       "type": "armor",
       "sortid": 13,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pog_armor",
       "metadata": {
@@ -961,7 +961,7 @@
       "name": "PekoCreativeTabIcon",
       "type": "item",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "peko_creative_tab_icon",
       "path": "~/Peko - Nether Tools"
@@ -1021,13 +1021,13 @@
   "language_map": {
     "en_us": {
       "subtitles.flymusic": "Player Is about to die",
-      "subtitles.poggers": "POGGERS",
-      "subtitles.muffinpew": "Pew!",
-      "subtitles.gluebucket": "Glue grogs",
-      "subtitles.stop": "STOP",
-      "subtitles.jumpscream": "Screams",
       "item.mishmashed.muffin": "Muffin",
-      "item.mishmashed.pomb": "Pomb Unlimited"
+      "subtitles.stop": "STOP",
+      "subtitles.muffinpew": "Pew!",
+      "item.mishmashed.pomb": "Pomb Unlimited",
+      "subtitles.poggers": "POGGERS",
+      "subtitles.jumpscream": "Screams",
+      "subtitles.gluebucket": "Glue grogs"
     }
   },
   "foldersRoot": {
@@ -1094,6 +1094,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.mishmashed",
     "lockBaseModFiles": false
   },
