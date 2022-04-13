@@ -941,6 +941,33 @@
       "locked_code": false,
       "registry_name": "creepe_plant",
       "path": "~/Inspectah - Liquid Farms"
+    },
+    {
+      "name": "AncientNugget",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_nugget",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "AncientCraftNugget",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_craft_nugget",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "AncientCraft",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_craft",
+      "path": "~/Peko - Nether Tools"
     }
   ],
   "variable_elements": [],
@@ -1017,6 +1044,7 @@
       "item.mishmashed.pogerite_composite": "Pogerite Composite",
       "item.mishmashed.glue_bucket": "Glue Bucket",
       "item.mishmashed.pingorite_scrap": "Pingorite Scrap",
+      "item.mishmashed.ancient_nugget": "Ancient Nugget",
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
       "subtitles.jumpscream": "Screams",
       "item.mishmashed.pog_axe": "Pog Axe",

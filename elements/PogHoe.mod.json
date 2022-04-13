@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "pog_hoe",
+    "texture": "poghoe",
     "customModelName": "Normal",
     "name": "Pog Hoe",
     "specialInfo": [],

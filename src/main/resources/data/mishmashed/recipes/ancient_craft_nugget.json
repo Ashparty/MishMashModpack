@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mishmashed:ancient_nugget"
+    },
+    "1": {
+      "item": "mishmashed:ancient_nugget"
+    },
+    "2": {
+      "item": "mishmashed:ancient_nugget"
+    },
+    "3": {
+      "item": "mishmashed:ancient_nugget"
+    },
+    "4": {
+      "item": "mishmashed:ancient_nugget"
+    },
+    "5": {
+      "item": "mishmashed:ancient_nugget"
+    },
+    "6": {
+      "item": "mishmashed:ancient_nugget"
+    },
+    "7": {
+      "item": "mishmashed:ancient_nugget"
+    },
+    "8": {
+      "item": "mishmashed:ancient_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:ancient_debris",
+    "count": 1
+  }
+}
