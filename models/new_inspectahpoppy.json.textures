@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "stiched_texture",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "gluebucket": {
+    "category": "neutral",
+    "subtitle": "subtitles.gluebucket",
+    "sounds": [
+      {
+        "name": "mishmashed:gluebucket",
+        "stream": false
+      }
+    ]
+  }
+}

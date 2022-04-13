@@ -1,9 +1,101 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Glue",
+      "type": "fluid",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glue",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/Inspectah - Liquid Farms"
+    },
+    {
+      "name": "GlueMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glue_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Inspectah - Liquid Farms"
+    },
+    {
+      "name": "InspectahPoppy",
+      "type": "plant",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inspectah_poppy",
+      "path": "~/Inspectah - Liquid Farms"
+    },
+    {
+      "name": "AmazingBlock",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amazing_block",
+      "path": "~/Inspectah - Liquid Farms"
+    },
+    {
+      "name": "Amazingblockrecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amazingblockrecipe",
+      "path": "~/Inspectah - Liquid Farms"
+    },
+    {
+      "name": "InspectahFood",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inspectah_food",
+      "path": "~/Inspectah - Liquid Farms"
+    },
+    {
+      "name": "InspectahFoodrecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inspectah_foodrecipe",
+      "path": "~/Inspectah - Liquid Farms"
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "gluebucket",
+      "files": [
+        "gluebucket"
+      ],
+      "category": "neutral",
+      "subtitle": "Glue grogs"
+    }
+  ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "fluid.mishmashed.glue": "Glue",
+      "item.mishmashed.glue_bucket": "Glue Bucket",
+      "block.mishmashed.glue": "Glue",
+      "block.mishmashed.inspectah_poppy": "Inspectah Poppy",
+      "item.mishmashed.amazing_block": "Amazing Block",
+      "subtitles.gluebucket": "Glue grogs",
+      "item.mishmashed.inspectah_food": "Inspectah Food"
+    }
   },
   "foldersRoot": {
     "name": "~",

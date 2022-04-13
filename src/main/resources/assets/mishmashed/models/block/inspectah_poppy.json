@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mishmashed:blocks/poopy_1",
+    "particle": "mishmashed:blocks/poopy_1"
+  }
+}

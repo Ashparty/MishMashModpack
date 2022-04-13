@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mishmashed:inspectah_poppy"
+    },
+    "1": {
+      "item": "mishmashed:inspectah_poppy"
+    },
+    "2": {
+      "item": "mishmashed:inspectah_poppy"
+    },
+    "3": {
+      "item": "mishmashed:inspectah_poppy"
+    },
+    "4": {
+      "item": "mishmashed:inspectah_poppy"
+    },
+    "5": {
+      "item": "mishmashed:inspectah_poppy"
+    },
+    "6": {
+      "item": "mishmashed:inspectah_poppy"
+    },
+    "7": {
+      "item": "mishmashed:inspectah_poppy"
+    },
+    "8": {
+      "item": "mishmashed:inspectah_poppy"
+    }
+  },
+  "result": {
+    "item": "mishmashed:amazing_block",
+    "count": 1
+  }
+}

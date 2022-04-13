@@ -1,0 +1,56 @@
+{
+  "_fv": 24,
+  "_type": "fluid",
+  "definition": {
+    "name": "Glue",
+    "bucketName": "Glue Bucket",
+    "textureStill": "new_project_5",
+    "textureFlowing": "new_project_6",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 23,
+    "levelDecrease": 2,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 4.8999999999999995,
+    "luminosity": 0,
+    "density": 10000,
+    "viscosity": 10000,
+    "isGas": false,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": "CUSTOM:gluebucket"
+    },
+    "rarity": "RARE",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 11,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "SNOW",
+    "frequencyOnChunks": 8,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "badlands"
+      }
+    ],
+    "onEntityCollides": {
+      "name": "GlueMobplayerCollidesBlock"
+    }
+  }
+}

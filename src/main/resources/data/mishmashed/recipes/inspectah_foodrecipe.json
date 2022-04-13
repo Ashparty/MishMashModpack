@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mishmashed:amazing_block"
+    },
+    "1": {
+      "item": "mishmashed:amazing_block"
+    },
+    "2": {
+      "item": "mishmashed:amazing_block"
+    },
+    "3": {
+      "item": "mishmashed:amazing_block"
+    },
+    "4": {
+      "item": "mishmashed:amazing_block"
+    },
+    "5": {
+      "item": "mishmashed:amazing_block"
+    },
+    "6": {
+      "item": "mishmashed:amazing_block"
+    },
+    "7": {
+      "item": "mishmashed:amazing_block"
+    },
+    "8": {
+      "item": "mishmashed:amazing_block"
+    }
+  },
+  "result": {
+    "item": "mishmashed:inspectah_food",
+    "count": 9
+  }
+}
