@@ -26,6 +26,9 @@ import net.mcreator.mishmashed.item.PogArmorItem;
 import net.mcreator.mishmashed.item.PingotItem;
 import net.mcreator.mishmashed.item.PingoriteScrapItem;
 import net.mcreator.mishmashed.item.PekoCreativeTabIconItem;
+import net.mcreator.mishmashed.item.MuffinLauncherItem;
+import net.mcreator.mishmashed.item.MuffinItem;
+import net.mcreator.mishmashed.item.FunnyCookieItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -33,8 +36,8 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MishmashedModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
-	public static final Item PEKO_CREATIVE_TAB_ICON = register(new PekoCreativeTabIconItem());
 	public static final Item POGGERRACK = register(MishmashedModBlocks.POGGERRACK, MishmashedModTabs.TAB_WHAT);
+	public static final Item PEKO_CREATIVE_TAB_ICON = register(new PekoCreativeTabIconItem());
 	public static final Item PINGOT = register(new PingotItem());
 	public static final Item POG_PICKAXE = register(new PogPickaxeItem());
 	public static final Item POG_AXE = register(new PogAxeItem());
@@ -47,6 +50,9 @@ public class MishmashedModItems {
 	public static final Item POG_ARMOR_BOOTS = register(new PogArmorItem.Boots());
 	public static final Item POG_LOCATOR = register(new PogLocatorItem());
 	public static final Item POMB = register(new PombItem());
+	public static final Item FUNNY_COOKIE = register(new FunnyCookieItem());
+	public static final Item MUFFIN_LAUNCHER = register(new MuffinLauncherItem());
+	public static final Item MUFFIN = register(new MuffinItem());
 	public static final Item PINGORITE_SCRAP = register(new PingoriteScrapItem());
 	public static final Item POGERITE_COMPOSITE = register(new PogeriteCompositeItem());
 	public static final Item SAND_PAPER = register(new SandPaperItem());

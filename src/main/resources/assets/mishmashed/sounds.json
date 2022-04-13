@@ -1,4 +1,14 @@
 {
+  "stop": {
+    "category": "voice",
+    "subtitle": "subtitles.stop",
+    "sounds": [
+      {
+        "name": "mishmashed:stop",
+        "stream": false
+      }
+    ]
+  },
   "poggers": {
     "category": "player",
     "subtitle": "subtitles.poggers",
@@ -9,12 +19,32 @@
       }
     ]
   },
-  "stop": {
-    "category": "voice",
-    "subtitle": "subtitles.stop",
+  "jumpscream": {
+    "category": "player",
+    "subtitle": "subtitles.jumpscream",
     "sounds": [
       {
-        "name": "mishmashed:stop",
+        "name": "mishmashed:scream",
+        "stream": false
+      }
+    ]
+  },
+  "muffinpew": {
+    "category": "player",
+    "subtitle": "subtitles.muffinpew",
+    "sounds": [
+      {
+        "name": "mishmashed:muffinshoot",
+        "stream": false
+      }
+    ]
+  },
+  "flymusic": {
+    "category": "player",
+    "subtitle": "subtitles.flymusic",
+    "sounds": [
+      {
+        "name": "mishmashed:flygofly",
         "stream": false
       }
     ]

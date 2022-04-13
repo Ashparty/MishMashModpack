@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "muffin",
+    "customModelName": "Normal",
+    "name": "Muffin",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Hmm... Definitely not from another mod"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 4.0,
+    "eatingSpeed": 14,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "MuffinFoodEaten"
+    }
+  }
+}

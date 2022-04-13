@@ -3,9 +3,9 @@
   "experience": 256,
   "cookingtime": 250,
   "ingredient": {
-    "item": "mishmashed:poggerrack"
+    "item": "mishmashed:deleted_mod_element"
   },
   "result": {
-    "item": "mishmashed:pingorite_scrap"
+    "item": "mishmashed:deleted_mod_element"
   }
 }

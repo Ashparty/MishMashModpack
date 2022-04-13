@@ -1,0 +1,42 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "muffin_launcher",
+    "customModelName": "Normal",
+    "name": "Muffin Launcher",
+    "specialInfo": [
+      "Shoots muffins!"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Muffin"
+    },
+    "shootConstantly": true,
+    "usageCount": 514,
+    "actionSound": {
+      "value": "CUSTOM:muffinpew"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 3,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Muffin"
+    },
+    "bulletModel": "Modelcustom_model",
+    "customBulletModelTexture": "texture.png",
+    "onBulletHitsEntity": {
+      "name": "MuffinLauncherProjectileHitsLivingEntity"
+    }
+  }
+}

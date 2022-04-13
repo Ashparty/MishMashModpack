@@ -1,8 +1,6 @@
 package net.mcreator.mishmashed.procedures;
 
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffects;
+import net.minecraftforge.eventbus.api.Event;
 
 public class PogArmorBootsTickEventProcedure {
 	public static void execute(Entity entity) {
