@@ -1,25 +1,8 @@
 
 package net.mcreator.mishmashed.fluid;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fluids.ForgeFlowingFluid;
-import net.minecraftforge.fluids.FluidAttributes;
-
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.material.Fluid;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.mishmashed.init.MishmashedModItems;
-import net.mcreator.mishmashed.init.MishmashedModFluids;
-import net.mcreator.mishmashed.init.MishmashedModBlocks;
-
 public abstract class GlueFluid extends ForgeFlowingFluid {
+
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> MishmashedModFluids.GLUE,
 			() -> MishmashedModFluids.FLOWING_GLUE,
 			FluidAttributes.builder(new ResourceLocation("mishmashed:blocks/new_project_5"), new ResourceLocation("mishmashed:blocks/new_project_6"))
@@ -76,4 +59,5 @@ public abstract class GlueFluid extends ForgeFlowingFluid {
 			return false;
 		}
 	}
+
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:feather"
+    },
+    "1": {
+      "item": "minecraft:cookie"
+    },
+    "2": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "mishmashed:deleted_mod_element",
+    "count": 1
+  }
+}

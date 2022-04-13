@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.mishmashed.block.PoggerrackBlock;
 import net.mcreator.mishmashed.block.InspectahPoppyBlock;
 import net.mcreator.mishmashed.block.GlueBlock;
 
@@ -22,6 +23,7 @@ import java.util.ArrayList;
 public class MishmashedModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block GLUE = register(new GlueBlock());
+	public static final Block POGGERRACK = register(new PoggerrackBlock());
 	public static final Block INSPECTAH_POPPY = register(new InspectahPoppyBlock());
 
 	private static Block register(Block block) {

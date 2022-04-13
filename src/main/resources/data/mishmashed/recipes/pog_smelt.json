@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 256,
+  "cookingtime": 2000,
+  "ingredient": {
+    "item": "mishmashed:poggerrack"
+  },
+  "result": {
+    "item": "mishmashed:pingorite_scrap"
+  }
+}

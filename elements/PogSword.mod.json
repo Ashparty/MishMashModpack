@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pog_sword",
+    "customModelName": "Normal",
+    "name": "Pog Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:WHAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 15,
+    "efficiency": 20.0,
+    "attackSpeed": 2.0,
+    "enchantability": 100,
+    "damageVsEntity": 43.0,
+    "usageCount": 3811,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Pingot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

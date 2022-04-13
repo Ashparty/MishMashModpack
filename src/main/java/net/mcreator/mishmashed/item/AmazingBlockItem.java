@@ -1,18 +1,10 @@
 
 package net.mcreator.mishmashed.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.Component;
-
-import java.util.List;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class AmazingBlockItem extends Item {
+
 	public AmazingBlockItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.COMMON));
 		setRegistryName("amazing_block");
@@ -29,4 +21,5 @@ public class AmazingBlockItem extends Item {
 		list.add(new TextComponent("made with InspectahPoppys"));
 		list.add(new TextComponent("can be crafted into food"));
 	}
+
 }

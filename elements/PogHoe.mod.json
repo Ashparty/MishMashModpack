@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pog_hoe",
+    "customModelName": "Normal",
+    "name": "Pog Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:WHAT"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 15,
+    "efficiency": 20.0,
+    "attackSpeed": 1.0,
+    "enchantability": 100,
+    "damageVsEntity": 14.0,
+    "usageCount": 3811,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Pingot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

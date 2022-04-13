@@ -24,6 +24,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.mishmashed.init.MishmashedModTabs;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -38,7 +40,7 @@ public class MishmashedMod {
 	private static int messageID = 0;
 
 	public MishmashedMod() {
-
+		MishmashedModTabs.load();
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,
