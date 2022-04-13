@@ -1,9 +1,578 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ZombieThing",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_thing",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Zombies"
+    },
+    {
+      "name": "Zombies",
+      "type": "tag",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombies",
+      "path": "~/Ash - Mobs Overworld/Zombies"
+    },
+    {
+      "name": "Skeletons",
+      "type": "tag",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeletons",
+      "path": "~/Ash - Mobs Overworld/Skeletons"
+    },
+    {
+      "name": "SkeletonArrow",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_arrow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Skeletons"
+    },
+    {
+      "name": "Player",
+      "type": "tag",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player",
+      "path": "~/Ash - Mobs Overworld"
+    },
+    {
+      "name": "Spiders",
+      "type": "tag",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spiders",
+      "path": "~/Ash - Mobs Overworld/Spiders"
+    },
+    {
+      "name": "Creepers",
+      "type": "tag",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creepers",
+      "path": "~/Ash - Mobs Overworld/Creepers"
+    },
+    {
+      "name": "Charged",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Creepers"
+    },
+    {
+      "name": "OPspiders",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_pspiders",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Spiders"
+    },
+    {
+      "name": "SpiderAttack",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Spiders"
+    },
+    {
+      "name": "Villagers",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagers",
+      "path": "~/Ash - Mobs Overworld/Villager"
+    },
+    {
+      "name": "VillagerInteract",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_interact",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Villager"
+    },
+    {
+      "name": "LavaBucketBurn",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_bucket_burn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Events"
+    },
+    {
+      "name": "DesertWARM",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_warm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Events"
+    },
+    {
+      "name": "PlainsQuiet",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plains_quiet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Events"
+    },
+    {
+      "name": "PodzolWeird",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "podzol_weird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Events"
+    },
+    {
+      "name": "PainfulGravel",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painful_gravel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Events"
+    },
+    {
+      "name": "Scared",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindlightlevel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Events"
+    },
+    {
+      "name": "SpiderDeath",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Spiders"
+    },
+    {
+      "name": "FunnyCookieFoodEaten",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funny_cookie_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Items"
+    },
+    {
+      "name": "FunnyCookie",
+      "type": "food",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funny_cookie",
+      "path": "~/Ash - Mobs Overworld/Items"
+    },
+    {
+      "name": "MuffinFoodEaten",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muffin_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Items"
+    },
+    {
+      "name": "Muffin",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muffin",
+      "path": "~/Ash - Mobs Overworld/Items"
+    },
+    {
+      "name": "MuffinLauncherProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muffin_launcher_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Items"
+    },
+    {
+      "name": "MuffinLauncher",
+      "type": "rangeditem",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muffin_launcher",
+      "path": "~/Ash - Mobs Overworld/Items"
+    },
+    {
+      "name": "MuffinRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muffin_recipe",
+      "path": "~/Ash - Mobs Overworld/Items"
+    },
+    {
+      "name": "MuffinLauncherRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muffin_launcher_recipe",
+      "path": "~/Ash - Mobs Overworld/Items"
+    },
+    {
+      "name": "FunnyCookieRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funny_cookie_recipe",
+      "path": "~/Ash - Mobs Overworld/Items"
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "jumpscream",
+      "files": [
+        "scream"
+      ],
+      "category": "player",
+      "subtitle": "Screams"
+    },
+    {
+      "name": "flymusic",
+      "files": [
+        "flygofly"
+      ],
+      "category": "player",
+      "subtitle": "Player Is about to die"
+    },
+    {
+      "name": "muffinpew",
+      "files": [
+        "muffinshoot"
+      ],
+      "category": "player",
+      "subtitle": "Pew!"
+    }
+  ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "subtitles.flymusic": "Player Is about to die",
+      "item.mishmashed.muffin": "Muffin",
+      "subtitles.muffinpew": "Pew!",
+      "subtitles.jumpscream": "Screams",
+      "item.mishmashed.funny_cookie": "Funny Cookie",
+      "item.mishmashed.muffin_launcher": "Muffin Launcher"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -14,7 +583,36 @@
       },
       {
         "name": "Ash - Mobs Overworld",
-        "children": []
+        "children": [
+          {
+            "name": "Zombies",
+            "children": []
+          },
+          {
+            "name": "Skeletons",
+            "children": []
+          },
+          {
+            "name": "Spiders",
+            "children": []
+          },
+          {
+            "name": "Creepers",
+            "children": []
+          },
+          {
+            "name": "Villager",
+            "children": []
+          },
+          {
+            "name": "Events",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Spacular - Weapons Biomes",

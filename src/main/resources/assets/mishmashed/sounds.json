@@ -1,0 +1,32 @@
+{
+  "jumpscream": {
+    "category": "player",
+    "subtitle": "subtitles.jumpscream",
+    "sounds": [
+      {
+        "name": "mishmashed:scream",
+        "stream": false
+      }
+    ]
+  },
+  "flymusic": {
+    "category": "player",
+    "subtitle": "subtitles.flymusic",
+    "sounds": [
+      {
+        "name": "mishmashed:flygofly",
+        "stream": false
+      }
+    ]
+  },
+  "muffinpew": {
+    "category": "player",
+    "subtitle": "subtitles.muffinpew",
+    "sounds": [
+      {
+        "name": "mishmashed:muffinshoot",
+        "stream": false
+      }
+    ]
+  }
+}
