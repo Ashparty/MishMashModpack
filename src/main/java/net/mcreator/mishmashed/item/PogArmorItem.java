@@ -52,7 +52,7 @@ public abstract class PogArmorItem extends ArmorItem {
 	public static class Helmet extends PogArmorItem {
 
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(MishmashedModTabs.TAB_DELETED_MOD_ELEMENT).fireResistant());
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
 
 			setRegistryName("pog_armor_helmet");
 		}
@@ -67,7 +67,7 @@ public abstract class PogArmorItem extends ArmorItem {
 	public static class Chestplate extends PogArmorItem {
 
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(MishmashedModTabs.TAB_DELETED_MOD_ELEMENT).fireResistant());
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
 
 			setRegistryName("pog_armor_chestplate");
 		}
@@ -86,7 +86,7 @@ public abstract class PogArmorItem extends ArmorItem {
 	public static class Leggings extends PogArmorItem {
 
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(MishmashedModTabs.TAB_DELETED_MOD_ELEMENT).fireResistant());
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
 
 			setRegistryName("pog_armor_leggings");
 		}
@@ -101,7 +101,7 @@ public abstract class PogArmorItem extends ArmorItem {
 	public static class Boots extends PogArmorItem {
 
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(MishmashedModTabs.TAB_DELETED_MOD_ELEMENT).fireResistant());
+			super(EquipmentSlot.FEET, new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
 
 			setRegistryName("pog_armor_boots");
 		}

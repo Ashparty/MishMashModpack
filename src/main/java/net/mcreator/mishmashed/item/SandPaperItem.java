@@ -6,7 +6,7 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 public class SandPaperItem extends Item {
 
 	public SandPaperItem() {
-		super(new Item.Properties().tab(MishmashedModTabs.TAB_DELETED_MOD_ELEMENT).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).stacksTo(64).rarity(Rarity.COMMON));
 		setRegistryName("sand_paper");
 	}
 

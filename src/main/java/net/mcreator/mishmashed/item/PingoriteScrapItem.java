@@ -6,7 +6,7 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 public class PingoriteScrapItem extends Item {
 
 	public PingoriteScrapItem() {
-		super(new Item.Properties().tab(MishmashedModTabs.TAB_DELETED_MOD_ELEMENT).stacksTo(64).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).stacksTo(64).rarity(Rarity.UNCOMMON));
 		setRegistryName("pingorite_scrap");
 	}
 

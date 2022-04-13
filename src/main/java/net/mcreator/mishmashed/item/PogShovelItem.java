@@ -33,7 +33,7 @@ public class PogShovelItem extends ShovelItem {
 
 				1, -3f,
 
-				new Item.Properties().tab(MishmashedModTabs.TAB_DELETED_MOD_ELEMENT).fireResistant());
+				new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
 
 		setRegistryName("pog_shovel");
 	}

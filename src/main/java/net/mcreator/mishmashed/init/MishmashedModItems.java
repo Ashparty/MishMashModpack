@@ -39,17 +39,17 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MishmashedModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
-	public static final Item GLUE_BUCKET = register(new GlueItem());
 	public static final Item POGGERRACK = register(MishmashedModBlocks.POGGERRACK, MishmashedModTabs.TAB_WHAT);
 	public static final Item PEKO_CREATIVE_TAB_ICON = register(new PekoCreativeTabIconItem());
+	public static final Item GLUE_BUCKET = register(new GlueItem());
 	public static final Item PINGOT = register(new PingotItem());
-	public static final Item INSPECTAH_POPPY = register(MishmashedModBlocks.INSPECTAH_POPPY, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item POG_PICKAXE = register(new PogPickaxeItem());
-	public static final Item AMAZING_BLOCK = register(new AmazingBlockItem());
+	public static final Item INSPECTAH_POPPY = register(MishmashedModBlocks.INSPECTAH_POPPY, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item POG_AXE = register(new PogAxeItem());
+	public static final Item AMAZING_BLOCK = register(new AmazingBlockItem());
 	public static final Item POG_SWORD = register(new PogSwordItem());
-	public static final Item INSPECTAH_FOOD = register(new InspectahFoodItem());
 	public static final Item POG_SHOVEL = register(new PogShovelItem());
+	public static final Item INSPECTAH_FOOD = register(new InspectahFoodItem());
 	public static final Item POG_HOE = register(new PogHoeItem());
 	public static final Item POG_ARMOR_HELMET = register(new PogArmorItem.Helmet());
 	public static final Item POG_ARMOR_CHESTPLATE = register(new PogArmorItem.Chestplate());

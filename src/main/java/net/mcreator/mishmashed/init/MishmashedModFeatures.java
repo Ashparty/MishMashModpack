@@ -28,10 +28,10 @@ import java.util.HashMap;
 public class MishmashedModFeatures {
 	private static final Map<Feature<?>, FeatureRegistration> REGISTRY = new HashMap<>();
 	static {
-		REGISTRY.put(GlueFeature.FEATURE,
-				new FeatureRegistration(GenerationStep.Decoration.LAKES, GlueFeature.GENERATE_BIOMES, GlueFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(PoggerrackFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, PoggerrackFeature.GENERATE_BIOMES,
 				PoggerrackFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(GlueFeature.FEATURE,
+				new FeatureRegistration(GenerationStep.Decoration.LAKES, GlueFeature.GENERATE_BIOMES, GlueFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(InspectahPoppyFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
 				InspectahPoppyFeature.GENERATE_BIOMES, InspectahPoppyFeature.CONFIGURED_FEATURE));
 	}

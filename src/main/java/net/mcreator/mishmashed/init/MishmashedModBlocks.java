@@ -22,8 +22,8 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MishmashedModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
-	public static final Block GLUE = register(new GlueBlock());
 	public static final Block POGGERRACK = register(new PoggerrackBlock());
+	public static final Block GLUE = register(new GlueBlock());
 	public static final Block INSPECTAH_POPPY = register(new InspectahPoppyBlock());
 
 	private static Block register(Block block) {

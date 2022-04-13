@@ -33,7 +33,7 @@ public class PogHoeItem extends HoeItem {
 
 				0, -3f,
 
-				new Item.Properties().tab(MishmashedModTabs.TAB_DELETED_MOD_ELEMENT).fireResistant());
+				new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
 
 		setRegistryName("pog_hoe");
 	}
