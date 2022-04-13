@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mishmashed:pogerite_composite"
+    },
+    {
+      "item": "mishmashed:sand_paper"
+    }
+  ],
+  "result": {
+    "item": "mishmashed:pingot",
+    "count": 1
+  }
+}

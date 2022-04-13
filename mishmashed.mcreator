@@ -1,9 +1,404 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "PekoCreativeTabIcon",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peko_creative_tab_icon",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "WHAT",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "Poggerrack",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poggerrack",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "Pingot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pingot",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_pickaxe",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogAxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_axe",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogSword",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_sword",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogShovel",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_shovel",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogHoe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_hoe",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_pickaxe_recipe",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogAxeRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_axe_recipe",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogSwordRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_sword_recipe",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogShovelRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_shovel_recipe",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogHoeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_hoe_recipe",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogArmor",
+      "type": "armor",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_armor_helmet_recipe",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_armor_body_recipe",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_armor_leggings_recipe",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_armor_boots_recipe",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogSmelt",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_smelt",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogSmeltBlast",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_smelt_blast",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogLocator",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_locator",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PombProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pomb_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "Pomb",
+      "type": "rangeditem",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pomb",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogLocatorRightClickedInAir",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_locator_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "Pombcator",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pombcator",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pog_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PingoriteScrap",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pingorite_scrap",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PogeriteComposite",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pogerite_composite",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "Pogcomposite",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pogcomposite",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "SandPaper",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_paper",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "Sandypaper",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandypaper",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "PingotCraft",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pingot_craft",
+      "path": "~/Peko - Nether Tools"
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "poggers",
+      "files": [
+        "poggers"
+      ],
+      "category": "player",
+      "subtitle": "POGGERS"
+    },
+    {
+      "name": "stop",
+      "files": [
+        "stop"
+      ],
+      "category": "voice",
+      "subtitle": "STOP"
+    }
+  ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.mishmashed.pingot": "Pingot",
+      "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
+      "item.mishmashed.pog_sword": "Pog Sword",
+      "subtitles.stop": "STOP",
+      "item.mishmashed.pogerite_composite": "Pogerite Composite",
+      "item.mishmashed.pingorite_scrap": "Pingorite Scrap",
+      "subtitles.poggers": "POGGERS",
+      "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
+      "item.mishmashed.pog_armor_boots": "Pog Boots",
+      "item.mishmashed.pog_armor_leggings": "Pog Leggings",
+      "item.mishmashed.pog_axe": "Pog Axe",
+      "item.mishmashed.sand_paper": "Sand Paper",
+      "block.mishmashed.poggerrack": "Poggerrack",
+      "item.mishmashed.pomb": "Pomb Unlimited",
+      "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
+      "item.mishmashed.pog_armor_helmet": "Pog Helmet",
+      "item.mishmashed.pog_locator": "Pomb",
+      "itemGroup.tabwhat": "WHAT",
+      "item.mishmashed.pog_hoe": "Pog Hoe",
+      "item.mishmashed.pog_shovel": "Pog Shovel"
+    }
   },
   "foldersRoot": {
     "name": "~",

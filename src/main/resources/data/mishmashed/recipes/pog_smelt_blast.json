@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 256,
+  "cookingtime": 250,
+  "ingredient": {
+    "item": "mishmashed:poggerrack"
+  },
+  "result": {
+    "item": "mishmashed:pingorite_scrap"
+  }
+}

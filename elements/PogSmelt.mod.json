@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 256.0,
+    "cookingTime": 2000,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Poggerrack"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:PingoriteScrap"
+    },
+    "name": "pog_smelt",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pog_pickaxe",
+    "customModelName": "Normal",
+    "name": "Pog Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:WHAT"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 15,
+    "efficiency": 20.0,
+    "attackSpeed": 1.0,
+    "enchantability": 100,
+    "damageVsEntity": 14.0,
+    "usageCount": 3811,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Pingot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

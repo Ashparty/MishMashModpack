@@ -1,0 +1,68 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "helmet",
+    "enableBody": true,
+    "textureBody": "chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "leggins",
+    "enableBoots": true,
+    "textureBoots": "boots",
+    "onBodyTick": {
+      "name": "PogArmorBodyTickEvent"
+    },
+    "onBootsTick": {
+      "name": "PogArmorBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:WHAT"
+    },
+    "armorTextureFile": "layer_1",
+    "helmetName": "Pog Helmet",
+    "bodyName": "Pog Chestplate",
+    "leggingsName": "Pog Leggings",
+    "bootsName": "Pog Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 150,
+    "damageValueHelmet": 25,
+    "damageValueBody": 55,
+    "damageValueLeggings": 50,
+    "damageValueBoots": 15,
+    "enchantability": 95,
+    "toughness": 6.0,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": "CUSTOM:poggers"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Pingot"
+      }
+    ]
+  }
+}

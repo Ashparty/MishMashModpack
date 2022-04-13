@@ -1,0 +1,22 @@
+{
+  "poggers": {
+    "category": "player",
+    "subtitle": "subtitles.poggers",
+    "sounds": [
+      {
+        "name": "mishmashed:poggers",
+        "stream": false
+      }
+    ]
+  },
+  "stop": {
+    "category": "voice",
+    "subtitle": "subtitles.stop",
+    "sounds": [
+      {
+        "name": "mishmashed:stop",
+        "stream": false
+      }
+    ]
+  }
+}

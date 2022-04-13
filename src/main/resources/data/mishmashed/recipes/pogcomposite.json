@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ingot"
+    },
+    "1": {
+      "item": "mishmashed:pingorite_scrap"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "mishmashed:pingorite_scrap"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "mishmashed:pingorite_scrap"
+    },
+    "6": {
+      "item": "minecraft:gold_ingot"
+    },
+    "7": {
+      "item": "mishmashed:pingorite_scrap"
+    },
+    "8": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "mishmashed:pogerite_composite",
+    "count": 1
+  }
+}

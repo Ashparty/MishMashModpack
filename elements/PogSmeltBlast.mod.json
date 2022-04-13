@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 256.0,
+    "cookingTime": 250,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:Poggerrack"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:PingoriteScrap"
+    },
+    "name": "pog_smelt_blast",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lightning_rod"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "mishmashed:pingot"
+    }
+  ],
+  "result": {
+    "item": "mishmashed:pog_locator",
+    "count": 16
+  }
+}
