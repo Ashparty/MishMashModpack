@@ -399,39 +399,6 @@
       "path": "~/Ash - Mobs Overworld/Items"
     },
     {
-      "name": "Scared",
-      "type": "procedure",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blindlightlevel",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Ash - Mobs Overworld/Events"
-    },
-    {
       "name": "MuffinLauncherProjectileHitsLivingEntity",
       "type": "procedure",
       "sortid": 22,
