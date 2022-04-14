@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Uh Oh...",
-    "achievementDescription": "Craft a Pomb",
+    "achievementDescription": "Construct a Pomb",
     "achievementIcon": {
       "value": "CUSTOM:PogLocator"
     },

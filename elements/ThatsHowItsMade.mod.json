@@ -2,8 +2,8 @@
   "_fv": 24,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Thats How It's Made?",
-    "achievementDescription": "Craft Sandpaper",
+    "achievementName": "Thats How it's Made?",
+    "achievementDescription": "Construct Sandpaper",
     "achievementIcon": {
       "value": "CUSTOM:SandPaper"
     },

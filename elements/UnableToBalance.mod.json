@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Unable To Balance!",
-    "achievementDescription": "Craft a Sifting Station",
+    "achievementDescription": "Construct a Sifting Station",
     "achievementIcon": {
       "value": "CUSTOM:AncientNugget"
     },
