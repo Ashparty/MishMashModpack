@@ -1,15 +1,16 @@
 {
+  "group": "aameeting",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "0"
   ],
   "key": {
     "0": {
-      "item": "mishmashed:deleted_mod_element"
+      "item": "mishmashed:enchant_plant"
     }
   },
   "result": {
-    "item": "mishmashed:deleted_mod_element",
+    "item": "mishmashed:enchant_dust",
     "count": 1
   }
 }
