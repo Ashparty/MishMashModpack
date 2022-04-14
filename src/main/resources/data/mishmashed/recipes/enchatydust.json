@@ -5,11 +5,11 @@
   ],
   "key": {
     "0": {
-      "item": "mishmashed:deleted_mod_element"
+      "item": "mishmashed:enchant_plant"
     }
   },
   "result": {
-    "item": "mishmashed:deleted_mod_element",
+    "item": "mishmashed:enchant_dust",
     "count": 1
   }
 }
