@@ -1363,11 +1363,7 @@
         "name": "Ash",
         "children": [
           {
-            "name": "Creepers",
-            "children": []
-          },
-          {
-            "name": "Skeletons",
+            "name": "Creative Tab",
             "children": []
           },
           {
@@ -1375,7 +1371,48 @@
             "children": []
           },
           {
+            "name": "Zombies",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": [
+              {
+                "name": "Ores",
+                "children": []
+              },
+              {
+                "name": "Fluids",
+                "children": []
+              },
+              {
+                "name": "Plants",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Bosses",
+            "children": []
+          },
+          {
+            "name": "Biomes",
+            "children": []
+          },
+          {
+            "name": "Creepers",
+            "children": []
+          },
+          {
             "name": "Events",
+            "children": []
+          },
+          {
+            "name": "Skeletons",
+            "children": []
+          },
+          {
+            "name": "Spiders",
             "children": []
           },
           {
@@ -1391,51 +1428,14 @@
                 ]
               },
               {
-                "name": "Food",
-                "children": []
-              },
-              {
                 "name": "Tools",
                 "children": []
-              }
-            ]
-          },
-          {
-            "name": "Zombies",
-            "children": []
-          },
-          {
-            "name": "Spiders",
-            "children": []
-          },
-          {
-            "name": "Blocks",
-            "children": [
-              {
-                "name": "Plants",
-                "children": []
               },
               {
-                "name": "Ores",
-                "children": []
-              },
-              {
-                "name": "Fluids",
+                "name": "Food",
                 "children": []
               }
             ]
-          },
-          {
-            "name": "Bosses",
-            "children": []
-          },
-          {
-            "name": "Biomes",
-            "children": []
-          },
-          {
-            "name": "Creative Tab",
-            "children": []
           }
         ]
       },
