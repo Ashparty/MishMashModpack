@@ -964,7 +964,7 @@
       "name": "EnchantDust",
       "type": "item",
       "sortid": 35,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "enchant_dust",
       "path": "~/Inspectah - Liquid Farms"
@@ -973,7 +973,7 @@
       "name": "EnchantPlant",
       "type": "plant",
       "sortid": 35,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "enchant_plant",
       "path": "~/Inspectah - Liquid Farms"
@@ -982,7 +982,7 @@
       "name": "EnchantmentTable",
       "type": "block",
       "sortid": 34,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "enchantment_table",
       "path": "~/Inspectah - Liquid Farms"
@@ -1018,7 +1018,7 @@
       "name": "AncientNugget",
       "type": "item",
       "sortid": 34,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ancient_nugget",
       "path": "~/Peko - Nether Tools"
@@ -1027,7 +1027,7 @@
       "name": "SiftingBlockOnBlockRightClicked",
       "type": "procedure",
       "sortid": 38,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "sifting_block_on_block_right_clicked",
       "metadata": {
