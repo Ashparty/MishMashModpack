@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MuffinLauncher"
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.LEAD"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MuffinTraveller"
+    },
+    "name": "muffin_traveller_recipe",
+    "namespace": "mod"
+  }
+}

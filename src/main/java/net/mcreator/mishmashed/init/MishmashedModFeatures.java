@@ -17,9 +17,11 @@ import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.mishmashed.world.features.plants.InspectahPoppyFeature;
+import net.mcreator.mishmashed.world.features.plants.ExperienceFlowerFeature;
 import net.mcreator.mishmashed.world.features.plants.EnchantPlantFeature;
 import net.mcreator.mishmashed.world.features.plants.CreepePlantFeature;
 import net.mcreator.mishmashed.world.features.ores.PoggerrackFeature;
+import net.mcreator.mishmashed.world.features.ores.ExperienceOreFeature;
 import net.mcreator.mishmashed.world.features.lakes.GlueFeature;
 
 import java.util.Set;
@@ -40,6 +42,10 @@ public class MishmashedModFeatures {
 				CreepePlantFeature.GENERATE_BIOMES, CreepePlantFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(EnchantPlantFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
 				EnchantPlantFeature.GENERATE_BIOMES, EnchantPlantFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(ExperienceFlowerFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
+				ExperienceFlowerFeature.GENERATE_BIOMES, ExperienceFlowerFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(ExperienceOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				ExperienceOreFeature.GENERATE_BIOMES, ExperienceOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

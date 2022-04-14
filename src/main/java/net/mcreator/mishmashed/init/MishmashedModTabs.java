@@ -12,6 +12,7 @@ import net.minecraft.world.item.CreativeModeTab;
 
 public class MishmashedModTabs {
 	public static CreativeModeTab TAB_WHAT;
+	public static CreativeModeTab TAB_HM;
 
 	public static void load() {
 		TAB_WHAT = new CreativeModeTab("tabwhat") {
@@ -25,5 +26,16 @@ public class MishmashedModTabs {
 				return false;
 			}
 		};
+		TAB_HM = new CreativeModeTab("tabhm") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(MishmashedModItems.ASH_CREATIVE_TAB_ICON);
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return true;
+			}
+		}.setBackgroundSuffix("item_search.png");
 	}
 }

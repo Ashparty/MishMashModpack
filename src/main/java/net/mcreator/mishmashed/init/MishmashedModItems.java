@@ -27,12 +27,14 @@ import net.mcreator.mishmashed.item.PogArmorItem;
 import net.mcreator.mishmashed.item.PingotItem;
 import net.mcreator.mishmashed.item.PingoriteScrapItem;
 import net.mcreator.mishmashed.item.PekoCreativeTabIconItem;
+import net.mcreator.mishmashed.item.MuffinTravellerItem;
 import net.mcreator.mishmashed.item.MuffinLauncherItem;
 import net.mcreator.mishmashed.item.MuffinItem;
 import net.mcreator.mishmashed.item.InspectahFoodItem;
 import net.mcreator.mishmashed.item.GlueItem;
 import net.mcreator.mishmashed.item.FunnyCookieItem;
 import net.mcreator.mishmashed.item.EnchantDustItem;
+import net.mcreator.mishmashed.item.AshCreativeTabIconItem;
 import net.mcreator.mishmashed.item.AncientNuggetItem;
 
 import java.util.List;
@@ -71,7 +73,11 @@ public class MishmashedModItems {
 	public static final Item ENCHANT_DUST = register(new EnchantDustItem());
 	public static final Item ENCHANT_PLANT = register(MishmashedModBlocks.ENCHANT_PLANT, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item SIFTING_BLOCK = register(MishmashedModBlocks.SIFTING_BLOCK, MishmashedModTabs.TAB_WHAT);
+	public static final Item MUFFIN_TRAVELLER = register(new MuffinTravellerItem());
+	public static final Item EXPERIENCE_FLOWER = register(MishmashedModBlocks.EXPERIENCE_FLOWER, MishmashedModTabs.TAB_HM);
 	public static final Item POG = register(new PogItem());
+	public static final Item ASH_CREATIVE_TAB_ICON = register(new AshCreativeTabIconItem());
+	public static final Item EXPERIENCE_ORE = register(MishmashedModBlocks.EXPERIENCE_ORE, MishmashedModTabs.TAB_HM);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

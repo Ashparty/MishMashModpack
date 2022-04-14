@@ -32,7 +32,7 @@ public class LavaBucketBurnProcedure {
 			return;
 		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.LAVA_BUCKET)) : false) {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("THE LAVA IS TOO HOT FOR YOU TO HANDLE!!"), (false));
+				_player.displayClientMessage(new TextComponent("THE LAVA IS TOO HOT FOR YOU TO HANDLE!"), (false));
 			entity.setSecondsOnFire(1);
 		}
 	}

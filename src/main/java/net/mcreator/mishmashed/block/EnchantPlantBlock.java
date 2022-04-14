@@ -49,7 +49,7 @@ public class EnchantPlantBlock extends FlowerBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(MishmashedModBlocks.ENCHANT_PLANT, (int) (3)));
+		return Collections.singletonList(new ItemStack(MishmashedModBlocks.ENCHANT_PLANT));
 	}
 
 	@OnlyIn(Dist.CLIENT)
