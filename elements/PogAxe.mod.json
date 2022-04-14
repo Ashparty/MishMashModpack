@@ -11,12 +11,12 @@
       "value": "CUSTOM:WHAT"
     },
     "toolType": "Axe",
-    "harvestLevel": 15,
+    "harvestLevel": 5,
     "efficiency": 20.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 1.2000000000000002,
     "enchantability": 100,
-    "damageVsEntity": 64.0,
-    "usageCount": 3811,
+    "damageVsEntity": 12.0,
+    "usageCount": 2532,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
