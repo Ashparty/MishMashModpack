@@ -964,7 +964,7 @@
       "name": "EnchantDust",
       "type": "item",
       "sortid": 35,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "enchant_dust",
       "path": "~/Inspectah - Liquid Farms"
@@ -973,7 +973,7 @@
       "name": "EnchantPlant",
       "type": "plant",
       "sortid": 35,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "enchant_plant",
       "path": "~/Inspectah - Liquid Farms"
@@ -982,7 +982,7 @@
       "name": "EnchantmentTable",
       "type": "block",
       "sortid": 34,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "enchantment_table",
       "path": "~/Inspectah - Liquid Farms"
@@ -1018,7 +1018,7 @@
       "name": "AncientNugget",
       "type": "item",
       "sortid": 34,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "ancient_nugget",
       "path": "~/Peko - Nether Tools"
@@ -1027,7 +1027,7 @@
       "name": "SiftingBlockOnBlockRightClicked",
       "type": "procedure",
       "sortid": 38,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "sifting_block_on_block_right_clicked",
       "metadata": {
@@ -1137,6 +1137,7 @@
       "item.mishmashed.funny_cookie": "Funny Cookie",
       "item.mishmashed.sand_paper": "Sand Paper",
       "subtitles.muffinpew": "Pew!",
+      "item.mishmashed.enchant_dust": "Enchant Dust",
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
       "itemGroup.tabwhat": "WHAT",
       "subtitles.gluebucket": "Glue grogs",
@@ -1149,6 +1150,8 @@
       "item.mishmashed.pogerite_composite": "Pogerite Composite",
       "item.mishmashed.glue_bucket": "Glue Bucket",
       "item.mishmashed.pingorite_scrap": "Pingorite Scrap",
+      "item.mishmashed.ancient_nugget": "Ancient Nugget",
+      "block.mishmashed.enchantment_table": "Enchantment Table",
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
       "subtitles.jumpscream": "Screams",
       "item.mishmashed.pog_axe": "Pog Axe",
@@ -1161,6 +1164,7 @@
       "item.mishmashed.pog_armor_helmet": "Pog Helmet",
       "item.mishmashed.pog_locator": "Pomb",
       "block.mishmashed.inspectah_poppy": "Inspectah Poppy",
+      "block.mishmashed.enchant_plant": "Enchant Plant",
       "item.mishmashed.pog_hoe": "Pog Hoe",
       "item.mishmashed.pog_shovel": "Pog Shovel"
     }
