@@ -73,7 +73,7 @@ public class MishmashedModItems {
 	public static final Item ENCHANT_PLANT = register(MishmashedModBlocks.ENCHANT_PLANT, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item SIFTING_BLOCK = register(MishmashedModBlocks.SIFTING_BLOCK, MishmashedModTabs.TAB_WHAT);
 	public static final Item MUFFIN_TRAVELLER = register(new MuffinTravellerItem());
-	public static final Item EXPERIENCE_FLOWER = register(MishmashedModBlocks.EXPERIENCE_FLOWER, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item EXPERIENCE_FLOWER = register(MishmashedModBlocks.EXPERIENCE_FLOWER, MishmashedModTabs.TAB_HM);
 	public static final Item ASH_CREATIVE_TAB_ICON = register(new AshCreativeTabIconItem());
 	public static final Item EXPERIENCE_ORE = register(MishmashedModBlocks.EXPERIENCE_ORE, MishmashedModTabs.TAB_HM);
 

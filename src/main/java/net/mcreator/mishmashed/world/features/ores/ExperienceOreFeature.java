@@ -26,8 +26,8 @@ import java.util.Random;
 public class ExperienceOreFeature extends OreFeature {
 	public static final ExperienceOreFeature FEATURE = (ExperienceOreFeature) new ExperienceOreFeature().setRegistryName("mishmashed:experience_ore");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(ExperienceOreFeatureRuleTest.INSTANCE, MishmashedModBlocks.EXPERIENCE_ORE.defaultBlockState(), 4))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(24)))).squared().count(2);
+			.configured(new OreConfiguration(ExperienceOreFeatureRuleTest.INSTANCE, MishmashedModBlocks.EXPERIENCE_ORE.defaultBlockState(), 5))
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(50)))).squared().count(4);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("mishmashed:experience_plains"));
 
 	public ExperienceOreFeature() {

@@ -57,6 +57,7 @@ public class ExperiencePlainsBiome {
 		BiomeDefaultFeatures.addSavannaGrass(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultCrystalFormations(biomeGenerationSettings);
 		BiomeDefaultFeatures.addExtraEmeralds(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDripstone(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder().setPlayerCanSpawn();
 		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.COW, 20, 4, 4));
 		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.PIG, 20, 4, 4));
