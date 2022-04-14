@@ -66,7 +66,7 @@ public class MishmashedModItems {
 	public static final Item PINGORITE_SCRAP = register(new PingoriteScrapItem());
 	public static final Item POGERITE_COMPOSITE = register(new PogeriteCompositeItem());
 	public static final Item SAND_PAPER = register(new SandPaperItem());
-	public static final Item INSPECTAH_BLOCK = register(MishmashedModBlocks.INSPECTAH_BLOCK, MishmashedModTabs.TAB_WHAT);
+	public static final Item INSPECTAH_BLOCK = register(MishmashedModBlocks.INSPECTAH_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item CREEPE_PLANT = register(MishmashedModBlocks.CREEPE_PLANT, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item ENCHANTMENT_TABLE = register(MishmashedModBlocks.ENCHANTMENT_TABLE, CreativeModeTab.TAB_MISC);
 	public static final Item ANCIENT_NUGGET = register(new AncientNuggetItem());

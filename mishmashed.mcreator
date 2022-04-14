@@ -14,7 +14,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Peko"
     },
     {
       "name": "PogArmorBootsTickEvent",
@@ -30,7 +31,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Peko"
     },
     {
       "name": "PogSmeltBlast",
@@ -38,7 +40,8 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_smelt_blast"
+      "registry_name": "pog_smelt_blast",
+      "path": "~/Peko"
     },
     {
       "name": "Pingot",
@@ -46,7 +49,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pingot"
+      "registry_name": "pingot",
+      "path": "~/Peko"
     },
     {
       "name": "PogAxe",
@@ -54,7 +58,8 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_axe"
+      "registry_name": "pog_axe",
+      "path": "~/Peko"
     },
     {
       "name": "PogArmor",
@@ -68,7 +73,8 @@
         "el": true,
         "eb": true,
         "ec": true
-      }
+      },
+      "path": "~/Peko"
     },
     {
       "name": "PogSword",
@@ -76,7 +82,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_sword"
+      "registry_name": "pog_sword",
+      "path": "~/Peko"
     },
     {
       "name": "PogSwordRecipe",
@@ -84,7 +91,8 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_sword_recipe"
+      "registry_name": "pog_sword_recipe",
+      "path": "~/Peko"
     },
     {
       "name": "PogPickaxeRecipe",
@@ -92,7 +100,8 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_pickaxe_recipe"
+      "registry_name": "pog_pickaxe_recipe",
+      "path": "~/Peko"
     },
     {
       "name": "PogLocator",
@@ -100,7 +109,8 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_locator"
+      "registry_name": "pog_locator",
+      "path": "~/Peko"
     },
     {
       "name": "Pomb",
@@ -108,7 +118,8 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pomb"
+      "registry_name": "pomb",
+      "path": "~/Peko"
     },
     {
       "name": "PogeriteComposite",
@@ -116,7 +127,8 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pogerite_composite"
+      "registry_name": "pogerite_composite",
+      "path": "~/Peko"
     },
     {
       "name": "PogAxeRecipe",
@@ -124,7 +136,8 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_axe_recipe"
+      "registry_name": "pog_axe_recipe",
+      "path": "~/Peko"
     },
     {
       "name": "Pogcomposite",
@@ -132,7 +145,8 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pogcomposite"
+      "registry_name": "pogcomposite",
+      "path": "~/Peko"
     },
     {
       "name": "PogArmorLeggingsRecipe",
@@ -140,7 +154,8 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_armor_leggings_recipe"
+      "registry_name": "pog_armor_leggings_recipe",
+      "path": "~/Peko"
     },
     {
       "name": "Sandypaper",
@@ -148,7 +163,8 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sandypaper"
+      "registry_name": "sandypaper",
+      "path": "~/Peko"
     },
     {
       "name": "PogShovel",
@@ -156,7 +172,8 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_shovel"
+      "registry_name": "pog_shovel",
+      "path": "~/Peko"
     },
     {
       "name": "PogLocatorRightClickedInAir",
@@ -172,7 +189,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Peko"
     },
     {
       "name": "SandPaper",
@@ -180,7 +198,8 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sand_paper"
+      "registry_name": "sand_paper",
+      "path": "~/Peko"
     },
     {
       "name": "PogShovelRecipe",
@@ -188,7 +207,8 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_shovel_recipe"
+      "registry_name": "pog_shovel_recipe",
+      "path": "~/Peko"
     },
     {
       "name": "PombProjectileHitsBlock",
@@ -216,7 +236,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Peko"
     },
     {
       "name": "PingotCraft",
@@ -224,7 +245,8 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pingot_craft"
+      "registry_name": "pingot_craft",
+      "path": "~/Peko"
     },
     {
       "name": "WHAT",
@@ -232,7 +254,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "what"
+      "registry_name": "what",
+      "path": "~/Peko"
     },
     {
       "name": "Poggerrack",
@@ -240,7 +263,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "poggerrack"
+      "registry_name": "poggerrack",
+      "path": "~/Peko"
     },
     {
       "name": "Pombcator",
@@ -248,7 +272,8 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pombcator"
+      "registry_name": "pombcator",
+      "path": "~/Peko"
     },
     {
       "name": "PogSmelt",
@@ -256,7 +281,8 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_smelt"
+      "registry_name": "pog_smelt",
+      "path": "~/Peko"
     },
     {
       "name": "PogArmorBootsRecipe",
@@ -264,7 +290,8 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_armor_boots_recipe"
+      "registry_name": "pog_armor_boots_recipe",
+      "path": "~/Peko"
     },
     {
       "name": "PingoriteScrap",
@@ -272,7 +299,8 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pingorite_scrap"
+      "registry_name": "pingorite_scrap",
+      "path": "~/Peko"
     },
     {
       "name": "PogPickaxe",
@@ -280,7 +308,8 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_pickaxe"
+      "registry_name": "pog_pickaxe",
+      "path": "~/Peko"
     },
     {
       "name": "PogHoeRecipe",
@@ -288,7 +317,8 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_hoe_recipe"
+      "registry_name": "pog_hoe_recipe",
+      "path": "~/Peko"
     },
     {
       "name": "PogHoe",
@@ -296,7 +326,8 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_hoe"
+      "registry_name": "pog_hoe",
+      "path": "~/Peko"
     },
     {
       "name": "PogArmorBodyRecipe",
@@ -304,7 +335,8 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_armor_body_recipe"
+      "registry_name": "pog_armor_body_recipe",
+      "path": "~/Peko"
     },
     {
       "name": "PogArmorHelmetRecipe",
@@ -312,7 +344,8 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_armor_helmet_recipe"
+      "registry_name": "pog_armor_helmet_recipe",
+      "path": "~/Peko"
     },
     {
       "name": "PekoCreativeTabIcon",
@@ -320,7 +353,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "peko_creative_tab_icon"
+      "registry_name": "peko_creative_tab_icon",
+      "path": "~/Peko"
     },
     {
       "name": "Villagers",
@@ -328,7 +362,8 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "villagers"
+      "registry_name": "villagers",
+      "path": "~/Ash"
     },
     {
       "name": "FunnyCookieFoodEaten",
@@ -360,7 +395,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "MuffinLauncherProjectileHitsLivingEntity",
@@ -388,7 +424,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "FunnyCookieRecipe",
@@ -396,7 +433,8 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "funny_cookie_recipe"
+      "registry_name": "funny_cookie_recipe",
+      "path": "~/Ash"
     },
     {
       "name": "VillagerInteract",
@@ -432,7 +470,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "SpiderAttack",
@@ -452,7 +491,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "LavaBucketBurn",
@@ -468,7 +508,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "Skeletons",
@@ -476,7 +517,8 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "skeletons"
+      "registry_name": "skeletons",
+      "path": "~/Ash"
     },
     {
       "name": "MuffinLauncher",
@@ -484,7 +526,8 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "muffin_launcher"
+      "registry_name": "muffin_launcher",
+      "path": "~/Ash"
     },
     {
       "name": "OPspiders",
@@ -500,7 +543,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "Charged",
@@ -516,7 +560,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "SkeletonArrow",
@@ -540,7 +585,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "FunnyCookie",
@@ -548,7 +594,8 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "funny_cookie"
+      "registry_name": "funny_cookie",
+      "path": "~/Ash"
     },
     {
       "name": "Player",
@@ -556,7 +603,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "player"
+      "registry_name": "player",
+      "path": "~/Ash"
     },
     {
       "name": "ZombieThing",
@@ -572,7 +620,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "Zombies",
@@ -580,7 +629,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zombies"
+      "registry_name": "zombies",
+      "path": "~/Ash"
     },
     {
       "name": "PainfulGravel",
@@ -612,7 +662,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "DesertWARM",
@@ -644,7 +695,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "PodzolWeird",
@@ -676,7 +728,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "Muffin",
@@ -684,7 +737,8 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "muffin"
+      "registry_name": "muffin",
+      "path": "~/Ash"
     },
     {
       "name": "MuffinFoodEaten",
@@ -700,7 +754,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "Spiders",
@@ -708,7 +763,8 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "spiders"
+      "registry_name": "spiders",
+      "path": "~/Ash"
     },
     {
       "name": "MuffinRecipe",
@@ -716,7 +772,8 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "muffin_recipe"
+      "registry_name": "muffin_recipe",
+      "path": "~/Ash"
     },
     {
       "name": "SpiderDeath",
@@ -748,7 +805,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "Creepers",
@@ -756,7 +814,8 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "creepers"
+      "registry_name": "creepers",
+      "path": "~/Ash"
     },
     {
       "name": "MuffinLauncherRecipe",
@@ -764,7 +823,8 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "muffin_launcher_recipe"
+      "registry_name": "muffin_launcher_recipe",
+      "path": "~/Ash"
     },
     {
       "name": "PlainsQuiet",
@@ -796,7 +856,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Ash"
     },
     {
       "name": "InspectahPoppy",
@@ -804,7 +865,8 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "inspectah_poppy"
+      "registry_name": "inspectah_poppy",
+      "path": "~/Inspectah"
     },
     {
       "name": "GlueMobplayerCollidesBlock",
@@ -820,7 +882,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Inspectah"
     },
     {
       "name": "Glue",
@@ -831,7 +894,8 @@
       "registry_name": "glue",
       "metadata": {
         "gb": true
-      }
+      },
+      "path": "~/Inspectah"
     },
     {
       "name": "Amazingblockrecipe",
@@ -839,7 +903,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amazingblockrecipe"
+      "registry_name": "amazingblockrecipe",
+      "path": "~/Inspectah"
     },
     {
       "name": "InspectahFoodrecipe",
@@ -847,7 +912,8 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "inspectah_foodrecipe"
+      "registry_name": "inspectah_foodrecipe",
+      "path": "~/Inspectah"
     },
     {
       "name": "InspectahFood",
@@ -855,7 +921,8 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "inspectah_food"
+      "registry_name": "inspectah_food",
+      "path": "~/Inspectah"
     },
     {
       "name": "InspectahBlock",
@@ -863,7 +930,8 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "inspectah_block"
+      "registry_name": "inspectah_block",
+      "path": "~/Inspectah"
     },
     {
       "name": "CreepePlant",
@@ -871,7 +939,8 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "creepe_plant"
+      "registry_name": "creepe_plant",
+      "path": "~/Inspectah"
     },
     {
       "name": "Eff5",
@@ -879,7 +948,8 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "eff_5"
+      "registry_name": "eff_5",
+      "path": "~/Inspectah"
     },
     {
       "name": "Enchatydust",
@@ -887,7 +957,8 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchatydust"
+      "registry_name": "enchatydust",
+      "path": "~/Inspectah"
     },
     {
       "name": "EnchantDust",
@@ -895,7 +966,8 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchant_dust"
+      "registry_name": "enchant_dust",
+      "path": "~/Inspectah"
     },
     {
       "name": "EnchantPlant",
@@ -903,7 +975,8 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchant_plant"
+      "registry_name": "enchant_plant",
+      "path": "~/Inspectah"
     },
     {
       "name": "EnchantmentTable",
@@ -911,7 +984,8 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchantment_table"
+      "registry_name": "enchantment_table",
+      "path": "~/Inspectah"
     },
     {
       "name": "AncientCraftNugget",
@@ -919,7 +993,8 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ancient_craft_nugget"
+      "registry_name": "ancient_craft_nugget",
+      "path": "~/Peko"
     },
     {
       "name": "SiftingBlock",
@@ -927,7 +1002,8 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sifting_block"
+      "registry_name": "sifting_block",
+      "path": "~/Peko"
     },
     {
       "name": "SiftingTable",
@@ -935,7 +1011,8 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sifting_table"
+      "registry_name": "sifting_table",
+      "path": "~/Peko"
     },
     {
       "name": "AncientNugget",
@@ -943,7 +1020,8 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ancient_nugget"
+      "registry_name": "ancient_nugget",
+      "path": "~/Peko"
     },
     {
       "name": "SiftingBlockOnBlockRightClicked",
@@ -975,7 +1053,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Peko"
     },
     {
       "name": "AncientCraft",
@@ -983,7 +1062,8 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ancient_craft"
+      "registry_name": "ancient_craft",
+      "path": "~/Peko"
     },
     {
       "name": "Siftr",
@@ -991,7 +1071,8 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "siftr"
+      "registry_name": "siftr",
+      "path": "~/Peko"
     },
     {
       "name": "ThatsHowItsMade",
@@ -999,7 +1080,8 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "thats_how_its_made"
+      "registry_name": "thats_how_its_made",
+      "path": "~/Peko"
     },
     {
       "name": "UhOh",
@@ -1007,7 +1089,8 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "uh_oh"
+      "registry_name": "uh_oh",
+      "path": "~/Peko"
     },
     {
       "name": "UnableToBalance",
@@ -1015,7 +1098,8 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "unable_to_balance"
+      "registry_name": "unable_to_balance",
+      "path": "~/Peko"
     },
     {
       "name": "FullPog",
@@ -1031,7 +1115,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Peko"
     },
     {
       "name": "Pog",
@@ -1039,7 +1124,8 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog"
+      "registry_name": "pog",
+      "path": "~/Peko"
     },
     {
       "name": "FullSetOfPog",
@@ -1047,7 +1133,8 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "full_set_of_pog"
+      "registry_name": "full_set_of_pog",
+      "path": "~/Peko"
     },
     {
       "name": "ShownInTheAttic",
@@ -1055,7 +1142,8 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shown_in_the_attic"
+      "registry_name": "shown_in_the_attic",
+      "path": "~/Peko"
     },
     {
       "name": "PogFoodRecipe",
@@ -1063,7 +1151,8 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_food_recipe"
+      "registry_name": "pog_food_recipe",
+      "path": "~/Peko"
     },
     {
       "name": "PogFoodEaten",
@@ -1091,7 +1180,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Peko"
     },
     {
       "name": "AshCreativeTabIcon",
