@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "mishmashed:enchant_dust"
+    },
+    "1": {
+      "item": "mishmashed:enchant_dust"
+    },
+    "2": {
+      "item": "mishmashed:enchant_dust"
+    },
+    "3": {
+      "item": "mishmashed:enchant_dust"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_block",
+    "count": 2
+  }
+}

@@ -16,6 +16,8 @@ import net.mcreator.mishmashed.block.PoggerrackBlock;
 import net.mcreator.mishmashed.block.InspectahPoppyBlock;
 import net.mcreator.mishmashed.block.InspectahBlockBlock;
 import net.mcreator.mishmashed.block.GlueBlock;
+import net.mcreator.mishmashed.block.EnchantmentTableBlock;
+import net.mcreator.mishmashed.block.EnchantPlantBlock;
 import net.mcreator.mishmashed.block.CreepePlantBlock;
 
 import java.util.List;
@@ -29,6 +31,8 @@ public class MishmashedModBlocks {
 	public static final Block INSPECTAH_POPPY = register(new InspectahPoppyBlock());
 	public static final Block INSPECTAH_BLOCK = register(new InspectahBlockBlock());
 	public static final Block CREEPE_PLANT = register(new CreepePlantBlock());
+	public static final Block ENCHANTMENT_TABLE = register(new EnchantmentTableBlock());
+	public static final Block ENCHANT_PLANT = register(new EnchantPlantBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -46,6 +50,7 @@ public class MishmashedModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			InspectahPoppyBlock.registerRenderLayer();
 			CreepePlantBlock.registerRenderLayer();
+			EnchantPlantBlock.registerRenderLayer();
 		}
 	}
 }

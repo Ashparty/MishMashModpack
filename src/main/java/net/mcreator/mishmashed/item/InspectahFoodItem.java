@@ -14,7 +14,7 @@ import net.minecraft.world.entity.LivingEntity;
 public class InspectahFoodItem extends Item {
 	public InspectahFoodItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.3f)
+				.food((new FoodProperties.Builder()).nutrition(50).saturationMod(5f)
 
 						.build()));
 		setRegistryName("inspectah_food");

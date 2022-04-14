@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mishmashed:blocks/sd",
+    "up": "mishmashed:blocks/sd",
+    "north": "mishmashed:blocks/sd",
+    "east": "mishmashed:blocks/sd",
+    "south": "mishmashed:blocks/sd",
+    "west": "mishmashed:blocks/sd",
+    "particle": "mishmashed:blocks/sd"
+  }
+}

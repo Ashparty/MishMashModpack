@@ -12,8 +12,8 @@
       "value": "FOOD"
     },
     "stackSize": 64,
-    "nutritionalValue": 2,
-    "saturation": 0.3,
+    "nutritionalValue": 50,
+    "saturation": 5.0,
     "eatingSpeed": 10,
     "resultItem": {
       "value": "Items.DYE#3"
