@@ -1222,7 +1222,8 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "thats_how_its_made"
+      "registry_name": "thats_how_its_made",
+      "path": "~/Peko"
     },
     {
       "name": "UhOh",
@@ -1230,7 +1231,8 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "uh_oh"
+      "registry_name": "uh_oh",
+      "path": "~/Peko"
     },
     {
       "name": "UnableToBalance",
@@ -1238,7 +1240,8 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "unable_to_balance"
+      "registry_name": "unable_to_balance",
+      "path": "~/Peko"
     },
     {
       "name": "FullPog",
@@ -1270,7 +1273,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Peko"
     },
     {
       "name": "Pog",
@@ -1278,7 +1282,8 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog"
+      "registry_name": "pog",
+      "path": "~/Peko"
     },
     {
       "name": "FullSetOfPog",
@@ -1286,7 +1291,8 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "full_set_of_pog"
+      "registry_name": "full_set_of_pog",
+      "path": "~/Peko"
     },
     {
       "name": "ShownInTheAttic",
@@ -1294,7 +1300,8 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shown_in_the_attic"
+      "registry_name": "shown_in_the_attic",
+      "path": "~/Peko"
     },
     {
       "name": "PogFoodRecipe",
@@ -1302,7 +1309,8 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_food_recipe"
+      "registry_name": "pog_food_recipe",
+      "path": "~/Peko"
     },
     {
       "name": "PogFoodEaten",
@@ -1330,7 +1338,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Peko"
     }
   ],
   "variable_elements": [],
@@ -1522,6 +1531,10 @@
       },
       {
         "name": "Peko",
+        "children": []
+      },
+      {
+        "name": "Taylor",
         "children": []
       }
     ]
