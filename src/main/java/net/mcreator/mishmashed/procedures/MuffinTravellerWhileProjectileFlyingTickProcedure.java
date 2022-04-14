@@ -1,6 +1,6 @@
 package net.mcreator.mishmashed.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.Entity;
 
 public class MuffinTravellerWhileProjectileFlyingTickProcedure {
 	public static void execute(Entity entity, Entity imediatesourceentity) {
