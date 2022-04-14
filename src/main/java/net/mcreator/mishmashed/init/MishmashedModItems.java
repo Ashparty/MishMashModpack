@@ -33,6 +33,7 @@ import net.mcreator.mishmashed.item.InspectahFoodItem;
 import net.mcreator.mishmashed.item.GlueItem;
 import net.mcreator.mishmashed.item.FunnyCookieItem;
 import net.mcreator.mishmashed.item.EnchantDustItem;
+import net.mcreator.mishmashed.item.CorruptedTestItem;
 import net.mcreator.mishmashed.item.AncientNuggetItem;
 
 import java.util.List;
@@ -72,6 +73,7 @@ public class MishmashedModItems {
 	public static final Item ENCHANT_PLANT = register(MishmashedModBlocks.ENCHANT_PLANT, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item SIFTING_BLOCK = register(MishmashedModBlocks.SIFTING_BLOCK, MishmashedModTabs.TAB_WHAT);
 	public static final Item MUFFIN_TRAVELLER = register(new MuffinTravellerItem());
+	public static final Item CORRUPTED_TEST = register(new CorruptedTestItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

@@ -1112,6 +1112,15 @@
       "locked_code": false,
       "registry_name": "muffin_traveller_recipe",
       "path": "~/Ash/Items/MuffinLauncher"
+    },
+    {
+      "name": "CorruptedTest",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "corrupted_test",
+      "path": "~/Ash/Events"
     }
   ],
   "variable_elements": [],
@@ -1201,6 +1210,7 @@
       "item.mishmashed.pomb": "Pomb Unlimited",
       "block.mishmashed.glue": "Glue",
       "block.mishmashed.creepe_plant": "Creepe Plant",
+      "item.mishmashed.corrupted_test": "Corrupted Test",
       "item.mishmashed.pog_armor_helmet": "Pog Helmet",
       "item.mishmashed.pog_locator": "Pomb",
       "block.mishmashed.inspectah_poppy": "Inspectah Poppy",
