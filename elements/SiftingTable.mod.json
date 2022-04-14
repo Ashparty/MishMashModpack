@@ -31,8 +31,8 @@
               "value": "Items.GOLD_NUGGET"
             },
             "weight": 14,
-            "minCount": 4,
-            "maxCount": 11,
+            "minCount": 3,
+            "maxCount": 6,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -45,8 +45,8 @@
               "value": "Items.QUARTZ"
             },
             "weight": 18,
-            "minCount": 2,
-            "maxCount": 5,
+            "minCount": 1,
+            "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
