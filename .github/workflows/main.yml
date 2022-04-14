@@ -18,6 +18,6 @@ jobs:
       - name: Upload the built artifact
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ steps.exec.outputs.jar }}
-          path: build/libs/${{ steps.exec.outputs.jar }}
+          name: Build.jar
+          path: build/libs/Build.jar
           if-no-files-found: error
