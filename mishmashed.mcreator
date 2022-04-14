@@ -14,8 +14,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Peko - Nether Tools"
+      }
     },
     {
       "name": "PogArmorBootsTickEvent",
@@ -31,8 +30,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Peko - Nether Tools"
+      }
     },
     {
       "name": "PogSmeltBlast",
@@ -40,8 +38,7 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_smelt_blast",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_smelt_blast"
     },
     {
       "name": "Pingot",
@@ -49,8 +46,7 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pingot",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pingot"
     },
     {
       "name": "PogAxe",
@@ -58,8 +54,7 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_axe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_axe"
     },
     {
       "name": "PogArmor",
@@ -73,8 +68,7 @@
         "el": true,
         "eb": true,
         "ec": true
-      },
-      "path": "~/Peko - Nether Tools"
+      }
     },
     {
       "name": "PogSword",
@@ -82,8 +76,7 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_sword",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_sword"
     },
     {
       "name": "PogSwordRecipe",
@@ -91,8 +84,7 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_sword_recipe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_sword_recipe"
     },
     {
       "name": "PogPickaxeRecipe",
@@ -100,8 +92,7 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_pickaxe_recipe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_pickaxe_recipe"
     },
     {
       "name": "PogLocator",
@@ -109,8 +100,7 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_locator",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_locator"
     },
     {
       "name": "Pomb",
@@ -118,8 +108,7 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pomb",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pomb"
     },
     {
       "name": "PogeriteComposite",
@@ -127,8 +116,7 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pogerite_composite",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pogerite_composite"
     },
     {
       "name": "PogAxeRecipe",
@@ -136,8 +124,7 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_axe_recipe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_axe_recipe"
     },
     {
       "name": "Pogcomposite",
@@ -145,8 +132,7 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pogcomposite",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pogcomposite"
     },
     {
       "name": "PogArmorLeggingsRecipe",
@@ -154,8 +140,7 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_armor_leggings_recipe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_armor_leggings_recipe"
     },
     {
       "name": "Sandypaper",
@@ -163,8 +148,7 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sandypaper",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "sandypaper"
     },
     {
       "name": "PogShovel",
@@ -172,8 +156,7 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_shovel",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_shovel"
     },
     {
       "name": "PogLocatorRightClickedInAir",
@@ -189,8 +172,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Peko - Nether Tools"
+      }
     },
     {
       "name": "SandPaper",
@@ -198,8 +180,7 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sand_paper",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "sand_paper"
     },
     {
       "name": "PogShovelRecipe",
@@ -207,8 +188,7 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_shovel_recipe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_shovel_recipe"
     },
     {
       "name": "PombProjectileHitsBlock",
@@ -236,8 +216,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Peko - Nether Tools"
+      }
     },
     {
       "name": "PingotCraft",
@@ -245,8 +224,7 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pingot_craft",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pingot_craft"
     },
     {
       "name": "WHAT",
@@ -254,8 +232,7 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "what",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "what"
     },
     {
       "name": "Poggerrack",
@@ -263,8 +240,7 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "poggerrack",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "poggerrack"
     },
     {
       "name": "Pombcator",
@@ -272,8 +248,7 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pombcator",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pombcator"
     },
     {
       "name": "PogSmelt",
@@ -281,8 +256,7 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_smelt",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_smelt"
     },
     {
       "name": "PogArmorBootsRecipe",
@@ -290,8 +264,7 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_armor_boots_recipe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_armor_boots_recipe"
     },
     {
       "name": "PingoriteScrap",
@@ -299,8 +272,7 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pingorite_scrap",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pingorite_scrap"
     },
     {
       "name": "PogPickaxe",
@@ -308,8 +280,7 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_pickaxe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_pickaxe"
     },
     {
       "name": "PogHoeRecipe",
@@ -317,8 +288,7 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_hoe_recipe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_hoe_recipe"
     },
     {
       "name": "PogHoe",
@@ -326,8 +296,7 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_hoe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_hoe"
     },
     {
       "name": "PogArmorBodyRecipe",
@@ -335,8 +304,7 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_armor_body_recipe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_armor_body_recipe"
     },
     {
       "name": "PogArmorHelmetRecipe",
@@ -344,8 +312,7 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_armor_helmet_recipe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_armor_helmet_recipe"
     },
     {
       "name": "PekoCreativeTabIcon",
@@ -353,8 +320,7 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "peko_creative_tab_icon",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "peko_creative_tab_icon"
     },
     {
       "name": "Villagers",
@@ -362,8 +328,7 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "villagers",
-      "path": "~/Ash - Mobs Overworld/Villager"
+      "registry_name": "villagers"
     },
     {
       "name": "FunnyCookieFoodEaten",
@@ -395,8 +360,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Items"
+      }
     },
     {
       "name": "MuffinLauncherProjectileHitsLivingEntity",
@@ -424,8 +388,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Items"
+      }
     },
     {
       "name": "FunnyCookieRecipe",
@@ -433,8 +396,7 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "funny_cookie_recipe",
-      "path": "~/Ash - Mobs Overworld/Items"
+      "registry_name": "funny_cookie_recipe"
     },
     {
       "name": "VillagerInteract",
@@ -470,8 +432,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Villager"
+      }
     },
     {
       "name": "SpiderAttack",
@@ -491,8 +452,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Spiders"
+      }
     },
     {
       "name": "LavaBucketBurn",
@@ -508,8 +468,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Events"
+      }
     },
     {
       "name": "Skeletons",
@@ -517,8 +476,7 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "skeletons",
-      "path": "~/Ash - Mobs Overworld/Skeletons"
+      "registry_name": "skeletons"
     },
     {
       "name": "MuffinLauncher",
@@ -526,8 +484,7 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "muffin_launcher",
-      "path": "~/Ash - Mobs Overworld/Items"
+      "registry_name": "muffin_launcher"
     },
     {
       "name": "OPspiders",
@@ -543,8 +500,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Spiders"
+      }
     },
     {
       "name": "Charged",
@@ -560,8 +516,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Creepers"
+      }
     },
     {
       "name": "SkeletonArrow",
@@ -585,8 +540,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Skeletons"
+      }
     },
     {
       "name": "FunnyCookie",
@@ -594,8 +548,7 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "funny_cookie",
-      "path": "~/Ash - Mobs Overworld/Items"
+      "registry_name": "funny_cookie"
     },
     {
       "name": "Player",
@@ -603,8 +556,7 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "player",
-      "path": "~/Ash - Mobs Overworld"
+      "registry_name": "player"
     },
     {
       "name": "ZombieThing",
@@ -620,8 +572,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Zombies"
+      }
     },
     {
       "name": "Zombies",
@@ -629,8 +580,7 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zombies",
-      "path": "~/Ash - Mobs Overworld/Zombies"
+      "registry_name": "zombies"
     },
     {
       "name": "PainfulGravel",
@@ -662,8 +612,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Events"
+      }
     },
     {
       "name": "DesertWARM",
@@ -695,8 +644,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Events"
+      }
     },
     {
       "name": "PodzolWeird",
@@ -728,8 +676,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Events"
+      }
     },
     {
       "name": "Muffin",
@@ -737,8 +684,7 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "muffin",
-      "path": "~/Ash - Mobs Overworld/Items"
+      "registry_name": "muffin"
     },
     {
       "name": "MuffinFoodEaten",
@@ -754,8 +700,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Items"
+      }
     },
     {
       "name": "Spiders",
@@ -763,8 +708,7 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "spiders",
-      "path": "~/Ash - Mobs Overworld/Spiders"
+      "registry_name": "spiders"
     },
     {
       "name": "MuffinRecipe",
@@ -772,8 +716,7 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "muffin_recipe",
-      "path": "~/Ash - Mobs Overworld/Items"
+      "registry_name": "muffin_recipe"
     },
     {
       "name": "SpiderDeath",
@@ -805,8 +748,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Spiders"
+      }
     },
     {
       "name": "Creepers",
@@ -814,8 +756,7 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "creepers",
-      "path": "~/Ash - Mobs Overworld/Creepers"
+      "registry_name": "creepers"
     },
     {
       "name": "MuffinLauncherRecipe",
@@ -823,8 +764,7 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "muffin_launcher_recipe",
-      "path": "~/Ash - Mobs Overworld/Items"
+      "registry_name": "muffin_launcher_recipe"
     },
     {
       "name": "PlainsQuiet",
@@ -856,8 +796,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Ash - Mobs Overworld/Events"
+      }
     },
     {
       "name": "InspectahPoppy",
@@ -865,8 +804,7 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "inspectah_poppy",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "inspectah_poppy"
     },
     {
       "name": "GlueMobplayerCollidesBlock",
@@ -882,8 +820,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Inspectah - Liquid Farms"
+      }
     },
     {
       "name": "Glue",
@@ -894,8 +831,7 @@
       "registry_name": "glue",
       "metadata": {
         "gb": true
-      },
-      "path": "~/Inspectah - Liquid Farms"
+      }
     },
     {
       "name": "Amazingblockrecipe",
@@ -903,8 +839,7 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amazingblockrecipe",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "amazingblockrecipe"
     },
     {
       "name": "InspectahFoodrecipe",
@@ -912,8 +847,7 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "inspectah_foodrecipe",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "inspectah_foodrecipe"
     },
     {
       "name": "InspectahFood",
@@ -921,8 +855,7 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "inspectah_food",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "inspectah_food"
     },
     {
       "name": "InspectahBlock",
@@ -930,8 +863,7 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "inspectah_block",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "inspectah_block"
     },
     {
       "name": "CreepePlant",
@@ -939,8 +871,7 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "creepe_plant",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "creepe_plant"
     },
     {
       "name": "Eff5",
@@ -948,8 +879,7 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "eff_5",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "eff_5"
     },
     {
       "name": "Enchatydust",
@@ -957,8 +887,7 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchatydust",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "enchatydust"
     },
     {
       "name": "EnchantDust",
@@ -966,8 +895,7 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchant_dust",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "enchant_dust"
     },
     {
       "name": "EnchantPlant",
@@ -975,8 +903,7 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchant_plant",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "enchant_plant"
     },
     {
       "name": "EnchantmentTable",
@@ -984,8 +911,7 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchantment_table",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "enchantment_table"
     },
     {
       "name": "AncientCraftNugget",
@@ -993,8 +919,7 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ancient_craft_nugget",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "ancient_craft_nugget"
     },
     {
       "name": "SiftingBlock",
@@ -1002,8 +927,7 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sifting_block",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "sifting_block"
     },
     {
       "name": "SiftingTable",
@@ -1011,8 +935,7 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sifting_table",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "sifting_table"
     },
     {
       "name": "AncientNugget",
@@ -1020,8 +943,7 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ancient_nugget",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "ancient_nugget"
     },
     {
       "name": "SiftingBlockOnBlockRightClicked",
@@ -1053,8 +975,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Peko - Nether Tools"
+      }
     },
     {
       "name": "AncientCraft",
@@ -1062,8 +983,7 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ancient_craft",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "ancient_craft"
     },
     {
       "name": "Siftr",
@@ -1071,8 +991,7 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "siftr",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "siftr"
     },
     {
       "name": "ThatsHowItsMade",
@@ -1080,8 +999,7 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "thats_how_its_made",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "thats_how_its_made"
     },
     {
       "name": "UhOh",
@@ -1089,8 +1007,7 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "uh_oh",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "uh_oh"
     },
     {
       "name": "UnableToBalance",
@@ -1098,8 +1015,7 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "unable_to_balance",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "unable_to_balance"
     },
     {
       "name": "FullPog",
@@ -1131,8 +1047,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Peko - Nether Tools"
+      }
     },
     {
       "name": "Pog",
@@ -1140,8 +1055,7 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog"
     },
     {
       "name": "FullSetOfPog",
@@ -1149,8 +1063,7 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "full_set_of_pog",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "full_set_of_pog"
     },
     {
       "name": "ShownInTheAttic",
@@ -1158,8 +1071,7 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shown_in_the_attic",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "shown_in_the_attic"
     },
     {
       "name": "PogFoodRecipe",
@@ -1167,8 +1079,7 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pog_food_recipe",
-      "path": "~/Peko - Nether Tools"
+      "registry_name": "pog_food_recipe"
     },
     {
       "name": "PogFoodEaten",
@@ -1196,8 +1107,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Peko - Nether Tools"
+      }
     },
     {
       "name": "AshCreativeTabIcon",
@@ -1400,42 +1310,45 @@
       "subtitles.poggers": "POGGERS",
       "item.mishmashed.pog_armor_boots": "Pog Boots",
       "item.mishmashed.pog_armor_leggings": "Pog Leggings",
+      "item.mishmashed.muffin_launcher": "Muffin Launcher",
+      "item.mishmashed.funny_cookie": "Funny Cookie",
       "item.mishmashed.sand_paper": "Sand Paper",
+      "subtitles.muffinpew": "Pew!",
       "item.mishmashed.enchant_dust": "Enchant Dust",
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
+      "itemGroup.tabwhat": "WHAT",
       "subtitles.gluebucket": "Glue grogs",
       "block.mishmashed.experience_flower": "Experience Flower",
       "item.mishmashed.inspectah_food": "Inspectah Food",
       "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
-      "subtitles.stop": "STOP",
-      "item.mishmashed.ancient_nugget": "Ancient Nugget",
-      "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
-      "item.mishmashed.muffin": "Muffin",
-      "item.mishmashed.pog": "Pog",
-      "block.mishmashed.sifting_block": "Sifting Block",
-      "block.mishmashed.creepe_plant": "Creepe Plant",
-      "item.mishmashed.pog_armor_helmet": "Pog Helmet",
-      "item.mishmashed.pog_locator": "Pomb",
-      "item.mishmashed.pog_hoe": "Pog Hoe",
-      "item.mishmashed.muffin_launcher": "Muffin Launcher",
-      "item.mishmashed.funny_cookie": "Funny Cookie",
-      "subtitles.muffinpew": "Pew!",
-      "itemGroup.tabwhat": "WHAT",
       "fluid.mishmashed.glue": "Glue",
       "item.mishmashed.pingot": "Pingot",
+      "subtitles.stop": "STOP",
       "item.mishmashed.pog_sword": "Pog Sword",
       "item.mishmashed.pogerite_composite": "Pogerite Composite",
       "item.mishmashed.glue_bucket": "Glue Bucket",
+      "item.mishmashed.ancient_nugget": "Ancient Nugget",
       "item.mishmashed.pingorite_scrap": "Pingorite Scrap",
       "block.mishmashed.enchantment_table": "Enchantment Table",
+      "biome.mishmashed.experience_plains": "Experience Plains",
+      "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
       "subtitles.jumpscream": "Screams",
       "item.mishmashed.pog_axe": "Pog Axe",
       "block.mishmashed.experience_ore": "Experience Ore",
+      "item.mishmashed.muffin_traveller": "Muffin Traveller",
+      "item.mishmashed.muffin": "Muffin",
+      "item.mishmashed.pog": "Pog",
+      "block.mishmashed.sifting_block": "Sifting Block",
       "block.mishmashed.poggerrack": "Poggerrack",
+      "item.mishmashed.ash_creative_tab_icon": "Ash Creative Tab Icon",
       "item.mishmashed.pomb": "Pomb Unlimited",
+      "block.mishmashed.creepe_plant": "Creepe Plant",
       "block.mishmashed.glue": "Glue",
+      "item.mishmashed.pog_armor_helmet": "Pog Helmet",
+      "item.mishmashed.pog_locator": "Pomb",
       "block.mishmashed.inspectah_poppy": "Inspectah Poppy",
       "block.mishmashed.enchant_plant": "Enchant Plant",
+      "item.mishmashed.pog_hoe": "Pog Hoe",
       "item.mishmashed.pog_shovel": "Pog Shovel"
     }
   },
