@@ -79,7 +79,7 @@ public abstract class PogArmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			FullPogProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+			FullPogProcedure.execute(entity);
 		}
 	}
 
