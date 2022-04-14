@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "mishmashed:pog_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.full_set_of_pog.title"
+    },
+    "description": {
+      "translate": "advancements.full_set_of_pog.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "full_set_of_pog": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "minecraft:nether/netherite_armor"
+}

@@ -20,6 +20,7 @@ import net.mcreator.mishmashed.item.PogSwordItem;
 import net.mcreator.mishmashed.item.PogShovelItem;
 import net.mcreator.mishmashed.item.PogPickaxeItem;
 import net.mcreator.mishmashed.item.PogLocatorItem;
+import net.mcreator.mishmashed.item.PogItem;
 import net.mcreator.mishmashed.item.PogHoeItem;
 import net.mcreator.mishmashed.item.PogAxeItem;
 import net.mcreator.mishmashed.item.PogArmorItem;
@@ -70,6 +71,7 @@ public class MishmashedModItems {
 	public static final Item ENCHANT_DUST = register(new EnchantDustItem());
 	public static final Item ENCHANT_PLANT = register(MishmashedModBlocks.ENCHANT_PLANT, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item SIFTING_BLOCK = register(MishmashedModBlocks.SIFTING_BLOCK, MishmashedModTabs.TAB_WHAT);
+	public static final Item POG = register(new PogItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

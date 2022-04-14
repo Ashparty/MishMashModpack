@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "mishmashed:sand_paper"
+    },
+    "title": {
+      "translate": "advancements.thats_how_its_made.title"
+    },
+    "description": {
+      "translate": "advancements.thats_how_its_made.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thats_how_its_made": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mishmashed:sand_paper"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/root"
+}

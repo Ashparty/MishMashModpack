@@ -10,6 +10,9 @@
     "textureLeggings": "leggins",
     "enableBoots": true,
     "textureBoots": "boots",
+    "onHelmetTick": {
+      "name": "FullPog"
+    },
     "onBodyTick": {
       "name": "PogArmorBodyTickEvent"
     },
