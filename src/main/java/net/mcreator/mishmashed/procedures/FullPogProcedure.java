@@ -1,10 +1,6 @@
 package net.mcreator.mishmashed.procedures;
 
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.Entity;
-
-import net.mcreator.mishmashed.init.MishmashedModItems;
+import net.minecraftforge.eventbus.api.Event;
 
 public class FullPogProcedure {
 	public static void execute(Entity entity) {
