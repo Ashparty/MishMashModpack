@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "  5"
+  ],
+  "key": {
+    "0": {
+      "item": "mishmashed:muffin_launcher"
+    },
+    "1": {
+      "item": "minecraft:slime_ball"
+    },
+    "2": {
+      "item": "minecraft:redstone"
+    },
+    "5": {
+      "item": "minecraft:lead"
+    }
+  },
+  "result": {
+    "item": "mishmashed:muffin_traveller",
+    "count": 1
+  }
+}

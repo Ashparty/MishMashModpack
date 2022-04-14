@@ -26,6 +26,7 @@ import net.mcreator.mishmashed.item.PogArmorItem;
 import net.mcreator.mishmashed.item.PingotItem;
 import net.mcreator.mishmashed.item.PingoriteScrapItem;
 import net.mcreator.mishmashed.item.PekoCreativeTabIconItem;
+import net.mcreator.mishmashed.item.MuffinTravellerItem;
 import net.mcreator.mishmashed.item.MuffinLauncherItem;
 import net.mcreator.mishmashed.item.MuffinItem;
 import net.mcreator.mishmashed.item.InspectahFoodItem;
@@ -70,6 +71,7 @@ public class MishmashedModItems {
 	public static final Item ENCHANT_DUST = register(new EnchantDustItem());
 	public static final Item ENCHANT_PLANT = register(MishmashedModBlocks.ENCHANT_PLANT, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item SIFTING_BLOCK = register(MishmashedModBlocks.SIFTING_BLOCK, MishmashedModTabs.TAB_WHAT);
+	public static final Item MUFFIN_TRAVELLER = register(new MuffinTravellerItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

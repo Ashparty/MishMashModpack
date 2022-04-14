@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.mishmashed.client.renderer.MuffinTravellerRenderer;
 import net.mcreator.mishmashed.client.renderer.MuffinLauncherRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -19,5 +20,6 @@ public class MishmashedModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(MishmashedModEntities.POMB, ThrownItemRenderer::new);
 		event.registerEntityRenderer(MishmashedModEntities.MUFFIN_LAUNCHER, MuffinLauncherRenderer::new);
+		event.registerEntityRenderer(MishmashedModEntities.MUFFIN_TRAVELLER, MuffinTravellerRenderer::new);
 	}
 }

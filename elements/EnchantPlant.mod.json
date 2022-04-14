@@ -62,7 +62,7 @@
     "customDrop": {
       "value": "CUSTOM:EnchantPlant"
     },
-    "dropAmount": 3,
+    "dropAmount": 1,
     "forceTicking": false,
     "emissiveRendering": false,
     "hasTileEntity": false,

@@ -15,6 +15,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.mishmashed.entity.PombEntity;
+import net.mcreator.mishmashed.entity.MuffinTravellerEntity;
 import net.mcreator.mishmashed.entity.MuffinLauncherEntity;
 
 import java.util.List;
@@ -29,6 +30,10 @@ public class MishmashedModEntities {
 	public static final EntityType<MuffinLauncherEntity> MUFFIN_LAUNCHER = register("entitybulletmuffin_launcher",
 			EntityType.Builder.<MuffinLauncherEntity>of(MuffinLauncherEntity::new, MobCategory.MISC).setCustomClientFactory(MuffinLauncherEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<MuffinTravellerEntity> MUFFIN_TRAVELLER = register("entitybulletmuffin_traveller",
+			EntityType.Builder.<MuffinTravellerEntity>of(MuffinTravellerEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(MuffinTravellerEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);

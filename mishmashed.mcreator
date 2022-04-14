@@ -399,35 +399,6 @@
       "path": "~/Ash - Mobs Overworld/Items"
     },
     {
-      "name": "MuffinLauncherProjectileHitsLivingEntity",
-      "type": "procedure",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "muffin_launcher_projectile_hits_living_entity",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Ash - Mobs Overworld/Items"
-    },
-    {
       "name": "FunnyCookieRecipe",
       "type": "recipe",
       "sortid": 25,
@@ -527,7 +498,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_launcher",
-      "path": "~/Ash - Mobs Overworld/Items"
+      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
     },
     {
       "name": "OPspiders",
@@ -738,7 +709,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin",
-      "path": "~/Ash - Mobs Overworld/Items"
+      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
     },
     {
       "name": "MuffinFoodEaten",
@@ -755,7 +726,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Items"
+      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
     },
     {
       "name": "Spiders",
@@ -773,7 +744,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_recipe",
-      "path": "~/Ash - Mobs Overworld/Items"
+      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
     },
     {
       "name": "SpiderDeath",
@@ -824,7 +795,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_launcher_recipe",
-      "path": "~/Ash - Mobs Overworld/Items"
+      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
     },
     {
       "name": "PlainsQuiet",
@@ -1073,6 +1044,74 @@
       "locked_code": false,
       "registry_name": "siftr",
       "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "MuffinLauncherProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muffin_launcher_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
+    },
+    {
+      "name": "MuffinTraveller",
+      "type": "rangeditem",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muffin_traveller",
+      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
+    },
+    {
+      "name": "MuffinTravellerWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muffin_traveller_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
+    },
+    {
+      "name": "MuffinTravellerRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muffin_traveller_recipe",
+      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
     }
   ],
   "variable_elements": [],
@@ -1155,6 +1194,7 @@
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
       "subtitles.jumpscream": "Screams",
       "item.mishmashed.pog_axe": "Pog Axe",
+      "item.mishmashed.muffin_traveller": "Muffin Traveller",
       "item.mishmashed.muffin": "Muffin",
       "block.mishmashed.poggerrack": "Poggerrack",
       "block.mishmashed.sifting_block": "Sifting Block",
@@ -1205,7 +1245,12 @@
           },
           {
             "name": "Items",
-            "children": []
+            "children": [
+              {
+                "name": "MuffinLauncher",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Zombies",
