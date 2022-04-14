@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mishmashed:blocks/xpore",
+    "up": "mishmashed:blocks/xpore",
+    "north": "mishmashed:blocks/xpore",
+    "east": "mishmashed:blocks/xpore",
+    "south": "mishmashed:blocks/xpore",
+    "west": "mishmashed:blocks/xpore",
+    "particle": "mishmashed:blocks/xpore"
+  }
+}

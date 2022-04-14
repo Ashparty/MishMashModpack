@@ -7,7 +7,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ProjectileWeaponItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
@@ -18,6 +17,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.mishmashed.init.MishmashedModTabs;
 import net.mcreator.mishmashed.init.MishmashedModItems;
 import net.mcreator.mishmashed.entity.MuffinTravellerEntity;
 
@@ -25,7 +25,7 @@ import java.util.List;
 
 public class MuffinTravellerItem extends Item {
 	public MuffinTravellerItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(550));
+		super(new Item.Properties().tab(MishmashedModTabs.TAB_HM).durability(550));
 		setRegistryName("muffin_traveller");
 	}
 

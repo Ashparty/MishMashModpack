@@ -498,7 +498,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_launcher",
-      "path": "~/Ash/Items/MuffinLauncher"
+      "path": "~/Ash/Items/Weapons/MuffinLauncher"
     },
     {
       "name": "OPspiders",
@@ -709,7 +709,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin",
-      "path": "~/Ash/Items/MuffinLauncher"
+      "path": "~/Ash/Items/Weapons/MuffinLauncher"
     },
     {
       "name": "MuffinFoodEaten",
@@ -726,7 +726,7 @@
           }
         ]
       },
-      "path": "~/Ash/Items/MuffinLauncher"
+      "path": "~/Ash/Items/Weapons/MuffinLauncher"
     },
     {
       "name": "Spiders",
@@ -744,7 +744,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_recipe",
-      "path": "~/Ash/Items/MuffinLauncher"
+      "path": "~/Ash/Items/Weapons/MuffinLauncher"
     },
     {
       "name": "SpiderDeath",
@@ -795,7 +795,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_launcher_recipe",
-      "path": "~/Ash/Items/MuffinLauncher"
+      "path": "~/Ash/Items/Weapons/MuffinLauncher"
     },
     {
       "name": "PlainsQuiet",
@@ -1072,7 +1072,7 @@
           }
         ]
       },
-      "path": "~/Ash/Items/MuffinLauncher"
+      "path": "~/Ash/Items/Weapons/MuffinLauncher"
     },
     {
       "name": "MuffinTraveller",
@@ -1081,7 +1081,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_traveller",
-      "path": "~/Ash/Items/MuffinLauncher"
+      "path": "~/Ash/Items/Weapons/MuffinLauncher"
     },
     {
       "name": "MuffinTravellerWhileProjectileFlyingTick",
@@ -1102,7 +1102,7 @@
           }
         ]
       },
-      "path": "~/Ash/Items/MuffinLauncher"
+      "path": "~/Ash/Items/Weapons/MuffinLauncher"
     },
     {
       "name": "MuffinTravellerRecipe",
@@ -1111,7 +1111,110 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_traveller_recipe",
-      "path": "~/Ash/Items/MuffinLauncher"
+      "path": "~/Ash/Items/Weapons/MuffinLauncher"
+    },
+    {
+      "name": "ExperiencePlains",
+      "type": "biome",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experience_plains",
+      "path": "~/Ash/Biomes"
+    },
+    {
+      "name": "ExperienceFlowerPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experience_flower_plant_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash/Blocks/Plants"
+    },
+    {
+      "name": "ExperienceFlower",
+      "type": "plant",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experience_flower",
+      "path": "~/Ash/Blocks/Plants"
+    },
+    {
+      "name": "AshCreativeTabIcon",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_creative_tab_icon",
+      "path": "~/Ash"
+    },
+    {
+      "name": "Hm",
+      "type": "tab",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hm",
+      "path": "~/Ash"
+    },
+    {
+      "name": "ExperienceOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experience_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ash/Blocks/Ores"
+    },
+    {
+      "name": "ExperienceOre",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experience_ore",
+      "path": "~/Ash/Blocks/Ores"
     }
   ],
   "variable_elements": [],
@@ -1172,6 +1275,7 @@
       "subtitles.poggers": "POGGERS",
       "item.mishmashed.pog_armor_boots": "Pog Boots",
       "item.mishmashed.pog_armor_leggings": "Pog Leggings",
+      "itemGroup.tabhm": "HMM?",
       "item.mishmashed.muffin_launcher": "Muffin Launcher",
       "item.mishmashed.funny_cookie": "Funny Cookie",
       "item.mishmashed.sand_paper": "Sand Paper",
@@ -1180,6 +1284,7 @@
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
       "itemGroup.tabwhat": "WHAT",
       "subtitles.gluebucket": "Glue grogs",
+      "block.mishmashed.experience_flower": "Experience Flower",
       "item.mishmashed.inspectah_food": "Inspectah Food",
       "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
       "item.mishmashed.pingot": "Pingot",
@@ -1191,13 +1296,16 @@
       "item.mishmashed.pingorite_scrap": "Pingorite Scrap",
       "item.mishmashed.ancient_nugget": "Ancient Nugget",
       "block.mishmashed.enchantment_table": "Enchantment Table",
+      "biome.mishmashed.experience_plains": "Experience Plains",
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
       "subtitles.jumpscream": "Screams",
       "item.mishmashed.pog_axe": "Pog Axe",
       "item.mishmashed.muffin_traveller": "Muffin Traveller",
+      "block.mishmashed.experience_ore": "Experience Ore",
       "item.mishmashed.muffin": "Muffin",
       "block.mishmashed.poggerrack": "Poggerrack",
       "block.mishmashed.sifting_block": "Sifting Block",
+      "item.mishmashed.ash_creative_tab_icon": "Ash Creative Tab Icon",
       "item.mishmashed.pomb": "Pomb Unlimited",
       "block.mishmashed.glue": "Glue",
       "block.mishmashed.creepe_plant": "Creepe Plant",
@@ -1243,8 +1351,13 @@
             "name": "Items",
             "children": [
               {
-                "name": "MuffinLauncher",
-                "children": []
+                "name": "Weapons",
+                "children": [
+                  {
+                    "name": "MuffinLauncher",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
@@ -1254,6 +1367,27 @@
           },
           {
             "name": "Spiders",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": [
+              {
+                "name": "Plants",
+                "children": []
+              },
+              {
+                "name": "Ores",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Bosses",
+            "children": []
+          },
+          {
+            "name": "Biomes",
             "children": []
           }
         ]
