@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mishmashed:pingot"
+    },
+    {
+      "item": "mishmashed:pingot"
+    },
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "item": "mishmashed:pingot"
+    },
+    {
+      "item": "mishmashed:pingot"
+    }
+  ],
+  "result": {
+    "item": "mishmashed:pog",
+    "count": 1
+  }
+}

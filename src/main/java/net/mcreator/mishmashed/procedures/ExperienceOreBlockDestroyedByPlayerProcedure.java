@@ -1,8 +1,6 @@
 package net.mcreator.mishmashed.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.ExperienceOrb;
+import net.minecraftforge.eventbus.api.Event;
 
 public class ExperienceOreBlockDestroyedByPlayerProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

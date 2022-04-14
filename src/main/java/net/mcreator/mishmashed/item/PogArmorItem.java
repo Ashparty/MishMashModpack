@@ -17,6 +17,7 @@ import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.mishmashed.procedures.PogArmorBootsTickEventProcedure;
 import net.mcreator.mishmashed.procedures.PogArmorBodyTickEventProcedure;
+import net.mcreator.mishmashed.procedures.FullPogProcedure;
 import net.mcreator.mishmashed.init.MishmashedModTabs;
 import net.mcreator.mishmashed.init.MishmashedModItems;
 
@@ -74,6 +75,11 @@ public abstract class PogArmorItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "mishmashed:textures/models/armor/layer_1_layer_1.png";
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			FullPogProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 		}
 	}
 

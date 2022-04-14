@@ -1,31 +1,13 @@
 
 package net.mcreator.mishmashed.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.UseAnim;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.ProjectileWeaponItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.world.InteractionHand;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.Component;
-
-import net.mcreator.mishmashed.init.MishmashedModTabs;
-import net.mcreator.mishmashed.init.MishmashedModItems;
-import net.mcreator.mishmashed.entity.MuffinTravellerEntity;
-
-import java.util.List;
+import net.minecraft.world.entity.ai.attributes.Attribute;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class MuffinTravellerItem extends Item {
+
 	public MuffinTravellerItem() {
-		super(new Item.Properties().tab(MishmashedModTabs.TAB_HM).durability(550));
+		super(new Item.Properties().tab(MishmashedModTabs.TAB_DELETED_MOD_ELEMENT).durability(550));
 		setRegistryName("muffin_traveller");
 	}
 
@@ -60,6 +42,7 @@ public class MuffinTravellerItem extends Item {
 			double z = entity.getZ();
 			if (true) {
 				ItemStack stack = ProjectileWeaponItem.getHeldProjectile(entity, e -> e.getItem() == MishmashedModItems.MUFFIN);
+
 				if (stack == ItemStack.EMPTY) {
 					for (int i = 0; i < entity.getInventory().items.size(); i++) {
 						ItemStack teststack = entity.getInventory().items.get(i);
@@ -69,9 +52,13 @@ public class MuffinTravellerItem extends Item {
 						}
 					}
 				}
+
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
+
 					MuffinTravellerEntity entityarrow = MuffinTravellerEntity.shoot(world, entity, world.getRandom(), 1f, 5, 1);
+
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
+
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
 					} else {
@@ -88,8 +75,10 @@ public class MuffinTravellerItem extends Item {
 								entity.getInventory().removeItem(stack);
 						}
 					}
+
 				}
 			}
 		}
 	}
+
 }

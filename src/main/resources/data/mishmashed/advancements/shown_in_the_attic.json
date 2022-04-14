@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "mishmashed:poggerrack"
+    },
+    "title": {
+      "translate": "advancements.shown_in_the_attic.title"
+    },
+    "description": {
+      "translate": "advancements.shown_in_the_attic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shown_in_the_attic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mishmashed:poggerrack"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mishmashed:deleted_mod_element"
+}
