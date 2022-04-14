@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "pog_sword",
+    "texture": "pogsword",
     "customModelName": "Normal",
     "name": "Pog Sword",
     "specialInfo": [],

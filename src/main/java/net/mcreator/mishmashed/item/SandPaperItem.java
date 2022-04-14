@@ -9,7 +9,7 @@ import net.mcreator.mishmashed.init.MishmashedModTabs;
 
 public class SandPaperItem extends Item {
 	public SandPaperItem() {
-		super(new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).durability(8).rarity(Rarity.COMMON));
 		setRegistryName("sand_paper");
 	}
 
@@ -20,7 +20,17 @@ public class SandPaperItem extends Item {
 
 	@Override
 	public ItemStack getContainerItem(ItemStack itemstack) {
-		return new ItemStack(this);
+		ItemStack retval = new ItemStack(this);
+		retval.setDamageValue(itemstack.getDamageValue() + 1);
+		if (retval.getDamageValue() >= retval.getMaxDamage()) {
+			return ItemStack.EMPTY;
+		}
+		return retval;
+	}
+
+	@Override
+	public boolean isRepairable(ItemStack itemstack) {
+		return false;
 	}
 
 	@Override

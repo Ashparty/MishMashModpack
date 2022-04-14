@@ -943,12 +943,21 @@
       "path": "~/Inspectah - Liquid Farms"
     },
     {
-      "name": "EnchantmentTable",
-      "type": "block",
-      "sortid": 34,
+      "name": "Eff5",
+      "type": "recipe",
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchantment_table",
+      "registry_name": "eff_5",
+      "path": "~/Inspectah - Liquid Farms"
+    },
+    {
+      "name": "Enchatydust",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchatydust",
       "path": "~/Inspectah - Liquid Farms"
     },
     {
@@ -970,22 +979,100 @@
       "path": "~/Inspectah - Liquid Farms"
     },
     {
-      "name": "Eff5",
+      "name": "EnchantmentTable",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantment_table",
+      "path": "~/Inspectah - Liquid Farms"
+    },
+    {
+      "name": "AncientCraftNugget",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_craft_nugget",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "SiftingBlock",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sifting_block",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "SiftingTable",
+      "type": "loottable",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sifting_table",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "AncientNugget",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_nugget",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "SiftingBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sifting_block_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "AncientCraft",
       "type": "recipe",
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "eff_5",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "ancient_craft",
+      "path": "~/Peko - Nether Tools"
     },
     {
-      "name": "Enchatydust",
+      "name": "Siftr",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchatydust",
-      "path": "~/Inspectah - Liquid Farms"
+      "registry_name": "siftr",
+      "path": "~/Peko - Nether Tools"
     }
   ],
   "variable_elements": [],
@@ -1050,7 +1137,6 @@
       "item.mishmashed.funny_cookie": "Funny Cookie",
       "item.mishmashed.sand_paper": "Sand Paper",
       "subtitles.muffinpew": "Pew!",
-      "item.mishmashed.enchant_dust": "Enchant Dust",
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
       "itemGroup.tabwhat": "WHAT",
       "subtitles.gluebucket": "Glue grogs",
@@ -1063,19 +1149,18 @@
       "item.mishmashed.pogerite_composite": "Pogerite Composite",
       "item.mishmashed.glue_bucket": "Glue Bucket",
       "item.mishmashed.pingorite_scrap": "Pingorite Scrap",
-      "block.mishmashed.enchantment_table": "Enchantment Table",
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
       "subtitles.jumpscream": "Screams",
       "item.mishmashed.pog_axe": "Pog Axe",
       "item.mishmashed.muffin": "Muffin",
       "block.mishmashed.poggerrack": "Poggerrack",
+      "block.mishmashed.sifting_block": "Sifting Block",
       "item.mishmashed.pomb": "Pomb Unlimited",
       "block.mishmashed.glue": "Glue",
       "block.mishmashed.creepe_plant": "Creepe Plant",
       "item.mishmashed.pog_armor_helmet": "Pog Helmet",
       "item.mishmashed.pog_locator": "Pomb",
       "block.mishmashed.inspectah_poppy": "Inspectah Poppy",
-      "block.mishmashed.enchant_plant": "Enchant Plant",
       "item.mishmashed.pog_hoe": "Pog Hoe",
       "item.mishmashed.pog_shovel": "Pog Shovel"
     }

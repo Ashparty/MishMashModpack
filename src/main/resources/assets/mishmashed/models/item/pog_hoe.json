@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "mishmashed:items/pog_hoe"
+    "layer0": "mishmashed:items/poghoe"
   }
 }

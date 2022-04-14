@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.mishmashed.block.SiftingBlockBlock;
 import net.mcreator.mishmashed.block.PoggerrackBlock;
 import net.mcreator.mishmashed.block.InspectahPoppyBlock;
 import net.mcreator.mishmashed.block.InspectahBlockBlock;
@@ -33,6 +34,7 @@ public class MishmashedModBlocks {
 	public static final Block CREEPE_PLANT = register(new CreepePlantBlock());
 	public static final Block ENCHANTMENT_TABLE = register(new EnchantmentTableBlock());
 	public static final Block ENCHANT_PLANT = register(new EnchantPlantBlock());
+	public static final Block SIFTING_BLOCK = register(new SiftingBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -51,6 +53,7 @@ public class MishmashedModBlocks {
 			InspectahPoppyBlock.registerRenderLayer();
 			CreepePlantBlock.registerRenderLayer();
 			EnchantPlantBlock.registerRenderLayer();
+			SiftingBlockBlock.registerRenderLayer();
 		}
 	}
 }

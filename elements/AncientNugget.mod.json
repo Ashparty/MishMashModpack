@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "sandpaper",
+    "texture": "debrisnugget",
     "customModelName": "Normal",
-    "name": "Sand Paper",
+    "name": "Ancient Nugget",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:WHAT"
@@ -14,14 +14,14 @@
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 8,
+    "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
-    "stayInGridWhenCrafting": true,
-    "damageOnCrafting": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],

@@ -32,6 +32,7 @@ import net.mcreator.mishmashed.item.InspectahFoodItem;
 import net.mcreator.mishmashed.item.GlueItem;
 import net.mcreator.mishmashed.item.FunnyCookieItem;
 import net.mcreator.mishmashed.item.EnchantDustItem;
+import net.mcreator.mishmashed.item.AncientNuggetItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -65,8 +66,10 @@ public class MishmashedModItems {
 	public static final Item INSPECTAH_BLOCK = register(MishmashedModBlocks.INSPECTAH_BLOCK, MishmashedModTabs.TAB_WHAT);
 	public static final Item CREEPE_PLANT = register(MishmashedModBlocks.CREEPE_PLANT, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item ENCHANTMENT_TABLE = register(MishmashedModBlocks.ENCHANTMENT_TABLE, CreativeModeTab.TAB_MISC);
+	public static final Item ANCIENT_NUGGET = register(new AncientNuggetItem());
 	public static final Item ENCHANT_DUST = register(new EnchantDustItem());
 	public static final Item ENCHANT_PLANT = register(MishmashedModBlocks.ENCHANT_PLANT, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item SIFTING_BLOCK = register(MishmashedModBlocks.SIFTING_BLOCK, MishmashedModTabs.TAB_WHAT);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

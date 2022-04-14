@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mishmashed:deleted_mod_element"
+    },
+    "1": {
+      "item": "mishmashed:deleted_mod_element"
+    },
+    "2": {
+      "item": "mishmashed:deleted_mod_element"
+    },
+    "3": {
+      "item": "mishmashed:deleted_mod_element"
+    },
+    "4": {
+      "item": "mishmashed:deleted_mod_element"
+    },
+    "5": {
+      "item": "mishmashed:deleted_mod_element"
+    },
+    "6": {
+      "item": "mishmashed:deleted_mod_element"
+    },
+    "7": {
+      "item": "mishmashed:deleted_mod_element"
+    },
+    "8": {
+      "item": "mishmashed:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "minecraft:ancient_debris",
+    "count": 1
+  }
+}
