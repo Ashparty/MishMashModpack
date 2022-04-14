@@ -1427,6 +1427,24 @@
       "locked_code": false,
       "registry_name": "susmet",
       "path": "~/Taylor"
+    },
+    {
+      "name": "E",
+      "type": "biome",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e",
+      "path": "~/Redstones"
+    },
+    {
+      "name": "EntityMuffin",
+      "type": "livingentity",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_muffin",
+      "path": "~/Ash/MuffinEntity"
     }
   ],
   "variable_elements": [],
@@ -1484,7 +1502,7 @@
       "files": [
         "amogus_sound_effect"
       ],
-      "category": "player",
+      "category": "ambient",
       "subtitle": ""
     }
   ],
@@ -1527,6 +1545,7 @@
       "item.mishmashed.funny_cookie": "Funny Cookie",
       "subtitles.muffinpew": "Pew!",
       "item.mishmashed.sus_leggings": "Sus Leggings",
+      "itemGroup.tabhell": "Hell",
       "itemGroup.tabwhat": "WHAT",
       "item.mishmashed.sus_chestplate": "Sus Body",
       "fluid.mishmashed.glue": "Glue",
@@ -1575,10 +1594,6 @@
             "children": []
           },
           {
-            "name": "Zombies",
-            "children": []
-          },
-          {
             "name": "Blocks",
             "children": [
               {
@@ -1600,11 +1615,19 @@
             "children": []
           },
           {
-            "name": "Biomes",
+            "name": "Creepers",
             "children": []
           },
           {
-            "name": "Creepers",
+            "name": "Spiders",
+            "children": []
+          },
+          {
+            "name": "Zombies",
+            "children": []
+          },
+          {
+            "name": "Biomes",
             "children": []
           },
           {
@@ -1613,10 +1636,6 @@
           },
           {
             "name": "Skeletons",
-            "children": []
-          },
-          {
-            "name": "Spiders",
             "children": []
           },
           {
@@ -1649,7 +1668,32 @@
       },
       {
         "name": "Peko",
-        "children": []
+        "children": [
+          {
+            "name": "Crafting ingredients",
+            "children": []
+          },
+          {
+            "name": "Loot and procedure",
+            "children": []
+          },
+          {
+            "name": "PogGear",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Advancements",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Taylor",
