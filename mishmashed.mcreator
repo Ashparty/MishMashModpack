@@ -968,6 +968,66 @@
       "locked_code": false,
       "registry_name": "ancient_craft",
       "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "SiftingTable",
+      "type": "loottable",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sifting_table",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "SiftingBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sifting_block_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "SiftingBlock",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sifting_block",
+      "path": "~/Peko - Nether Tools"
+    },
+    {
+      "name": "Siftr",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siftr",
+      "path": "~/Peko - Nether Tools"
     }
   ],
   "variable_elements": [],
@@ -1050,6 +1110,7 @@
       "item.mishmashed.pog_axe": "Pog Axe",
       "item.mishmashed.muffin": "Muffin",
       "block.mishmashed.poggerrack": "Poggerrack",
+      "block.mishmashed.sifting_block": "Sifting Block",
       "item.mishmashed.pomb": "Pomb Unlimited",
       "block.mishmashed.glue": "Glue",
       "block.mishmashed.creepe_plant": "Creepe Plant",

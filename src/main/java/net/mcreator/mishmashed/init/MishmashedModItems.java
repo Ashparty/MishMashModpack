@@ -65,6 +65,7 @@ public class MishmashedModItems {
 	public static final Item INSPECTAH_BLOCK = register(MishmashedModBlocks.INSPECTAH_BLOCK, MishmashedModTabs.TAB_WHAT);
 	public static final Item CREEPE_PLANT = register(MishmashedModBlocks.CREEPE_PLANT, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item ANCIENT_NUGGET = register(new AncientNuggetItem());
+	public static final Item SIFTING_BLOCK = register(MishmashedModBlocks.SIFTING_BLOCK, MishmashedModTabs.TAB_WHAT);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

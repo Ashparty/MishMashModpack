@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.mishmashed.block.SiftingBlockBlock;
 import net.mcreator.mishmashed.block.PoggerrackBlock;
 import net.mcreator.mishmashed.block.InspectahPoppyBlock;
 import net.mcreator.mishmashed.block.InspectahBlockBlock;
@@ -29,6 +30,7 @@ public class MishmashedModBlocks {
 	public static final Block INSPECTAH_POPPY = register(new InspectahPoppyBlock());
 	public static final Block INSPECTAH_BLOCK = register(new InspectahBlockBlock());
 	public static final Block CREEPE_PLANT = register(new CreepePlantBlock());
+	public static final Block SIFTING_BLOCK = register(new SiftingBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -46,6 +48,7 @@ public class MishmashedModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			InspectahPoppyBlock.registerRenderLayer();
 			CreepePlantBlock.registerRenderLayer();
+			SiftingBlockBlock.registerRenderLayer();
 		}
 	}
 }

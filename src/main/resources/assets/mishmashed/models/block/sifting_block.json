@@ -1,0 +1,9 @@
+{
+  "parent": "mishmashed:custom/wipsift",
+  "textures": {
+    "all": "mishmashed:blocks/oak_planks",
+    "particle": "mishmashed:blocks/oak_planks",
+    "0": "mishmashed:blocks/oak_planks",
+    "1": "mishmashed:blocks/white_wool"
+  }
+}
