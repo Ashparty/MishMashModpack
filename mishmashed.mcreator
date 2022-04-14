@@ -15,7 +15,7 @@
           }
         ]
       },
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogArmorBootsTickEvent",
@@ -32,7 +32,7 @@
           }
         ]
       },
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogSmeltBlast",
@@ -41,7 +41,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_smelt_blast",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "Pingot",
@@ -50,7 +50,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pingot",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogAxe",
@@ -59,7 +59,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_axe",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogArmor",
@@ -74,7 +74,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogSword",
@@ -83,7 +83,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_sword",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogSwordRecipe",
@@ -92,7 +92,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_sword_recipe",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogPickaxeRecipe",
@@ -101,7 +101,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_pickaxe_recipe",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogLocator",
@@ -110,7 +110,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_locator",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "Pomb",
@@ -119,7 +119,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pomb",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogeriteComposite",
@@ -128,7 +128,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pogerite_composite",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogAxeRecipe",
@@ -137,7 +137,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_axe_recipe",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "Pogcomposite",
@@ -146,7 +146,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pogcomposite",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogArmorLeggingsRecipe",
@@ -155,7 +155,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_armor_leggings_recipe",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "Sandypaper",
@@ -164,7 +164,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandypaper",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogShovel",
@@ -173,7 +173,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_shovel",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogLocatorRightClickedInAir",
@@ -190,7 +190,7 @@
           }
         ]
       },
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "SandPaper",
@@ -199,7 +199,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sand_paper",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogShovelRecipe",
@@ -208,7 +208,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_shovel_recipe",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PombProjectileHitsBlock",
@@ -237,7 +237,7 @@
           }
         ]
       },
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PingotCraft",
@@ -246,7 +246,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pingot_craft",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "WHAT",
@@ -255,7 +255,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "what",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "Poggerrack",
@@ -264,7 +264,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "poggerrack",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "Pombcator",
@@ -273,7 +273,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pombcator",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogSmelt",
@@ -282,7 +282,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_smelt",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogArmorBootsRecipe",
@@ -291,7 +291,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_armor_boots_recipe",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PingoriteScrap",
@@ -300,7 +300,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pingorite_scrap",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogPickaxe",
@@ -309,7 +309,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_pickaxe",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogHoeRecipe",
@@ -318,7 +318,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_hoe_recipe",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogHoe",
@@ -327,7 +327,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_hoe",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogArmorBodyRecipe",
@@ -336,7 +336,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_armor_body_recipe",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PogArmorHelmetRecipe",
@@ -345,7 +345,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_armor_helmet_recipe",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "PekoCreativeTabIcon",
@@ -354,7 +354,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "peko_creative_tab_icon",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "Villagers",
@@ -363,7 +363,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "villagers",
-      "path": "~/Ash - Mobs Overworld/Villager"
+      "path": "~/Ash/Villager"
     },
     {
       "name": "FunnyCookieFoodEaten",
@@ -396,7 +396,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Items"
+      "path": "~/Ash/Items"
     },
     {
       "name": "FunnyCookieRecipe",
@@ -405,7 +405,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "funny_cookie_recipe",
-      "path": "~/Ash - Mobs Overworld/Items"
+      "path": "~/Ash/Items"
     },
     {
       "name": "VillagerInteract",
@@ -442,7 +442,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Villager"
+      "path": "~/Ash/Villager"
     },
     {
       "name": "SpiderAttack",
@@ -463,7 +463,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Spiders"
+      "path": "~/Ash/Spiders"
     },
     {
       "name": "LavaBucketBurn",
@@ -480,7 +480,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Events"
+      "path": "~/Ash/Events"
     },
     {
       "name": "Skeletons",
@@ -489,7 +489,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "skeletons",
-      "path": "~/Ash - Mobs Overworld/Skeletons"
+      "path": "~/Ash/Skeletons"
     },
     {
       "name": "MuffinLauncher",
@@ -498,7 +498,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_launcher",
-      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
+      "path": "~/Ash/Items/MuffinLauncher"
     },
     {
       "name": "OPspiders",
@@ -515,7 +515,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Spiders"
+      "path": "~/Ash/Spiders"
     },
     {
       "name": "Charged",
@@ -532,7 +532,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Creepers"
+      "path": "~/Ash/Creepers"
     },
     {
       "name": "SkeletonArrow",
@@ -557,7 +557,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Skeletons"
+      "path": "~/Ash/Skeletons"
     },
     {
       "name": "FunnyCookie",
@@ -566,7 +566,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "funny_cookie",
-      "path": "~/Ash - Mobs Overworld/Items"
+      "path": "~/Ash/Items"
     },
     {
       "name": "Player",
@@ -575,7 +575,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "player",
-      "path": "~/Ash - Mobs Overworld"
+      "path": "~/Ash"
     },
     {
       "name": "ZombieThing",
@@ -592,7 +592,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Zombies"
+      "path": "~/Ash/Zombies"
     },
     {
       "name": "Zombies",
@@ -601,7 +601,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "zombies",
-      "path": "~/Ash - Mobs Overworld/Zombies"
+      "path": "~/Ash/Zombies"
     },
     {
       "name": "PainfulGravel",
@@ -634,7 +634,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Events"
+      "path": "~/Ash/Events"
     },
     {
       "name": "DesertWARM",
@@ -667,7 +667,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Events"
+      "path": "~/Ash/Events"
     },
     {
       "name": "PodzolWeird",
@@ -700,7 +700,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Events"
+      "path": "~/Ash/Events"
     },
     {
       "name": "Muffin",
@@ -709,7 +709,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin",
-      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
+      "path": "~/Ash/Items/MuffinLauncher"
     },
     {
       "name": "MuffinFoodEaten",
@@ -726,7 +726,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
+      "path": "~/Ash/Items/MuffinLauncher"
     },
     {
       "name": "Spiders",
@@ -735,7 +735,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "spiders",
-      "path": "~/Ash - Mobs Overworld/Spiders"
+      "path": "~/Ash/Spiders"
     },
     {
       "name": "MuffinRecipe",
@@ -744,7 +744,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_recipe",
-      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
+      "path": "~/Ash/Items/MuffinLauncher"
     },
     {
       "name": "SpiderDeath",
@@ -777,7 +777,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Spiders"
+      "path": "~/Ash/Spiders"
     },
     {
       "name": "Creepers",
@@ -786,7 +786,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "creepers",
-      "path": "~/Ash - Mobs Overworld/Creepers"
+      "path": "~/Ash/Creepers"
     },
     {
       "name": "MuffinLauncherRecipe",
@@ -795,7 +795,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_launcher_recipe",
-      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
+      "path": "~/Ash/Items/MuffinLauncher"
     },
     {
       "name": "PlainsQuiet",
@@ -828,7 +828,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Events"
+      "path": "~/Ash/Events"
     },
     {
       "name": "InspectahPoppy",
@@ -837,7 +837,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "inspectah_poppy",
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "GlueMobplayerCollidesBlock",
@@ -854,7 +854,7 @@
           }
         ]
       },
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "Glue",
@@ -866,7 +866,7 @@
       "metadata": {
         "gb": true
       },
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "Amazingblockrecipe",
@@ -875,7 +875,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "amazingblockrecipe",
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "InspectahFoodrecipe",
@@ -884,7 +884,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "inspectah_foodrecipe",
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "InspectahFood",
@@ -893,7 +893,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "inspectah_food",
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "InspectahBlock",
@@ -902,7 +902,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "inspectah_block",
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "CreepePlant",
@@ -911,7 +911,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "creepe_plant",
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "Eff5",
@@ -920,7 +920,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "eff_5",
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "Enchatydust",
@@ -929,7 +929,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchatydust",
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "EnchantDust",
@@ -938,7 +938,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchant_dust",
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "EnchantPlant",
@@ -947,7 +947,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchant_plant",
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "EnchantmentTable",
@@ -956,7 +956,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchantment_table",
-      "path": "~/Inspectah - Liquid Farms"
+      "path": "~/Inspectah"
     },
     {
       "name": "AncientCraftNugget",
@@ -965,7 +965,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ancient_craft_nugget",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "SiftingBlock",
@@ -974,7 +974,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sifting_block",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "SiftingTable",
@@ -983,7 +983,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sifting_table",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "AncientNugget",
@@ -992,7 +992,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ancient_nugget",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "SiftingBlockOnBlockRightClicked",
@@ -1025,7 +1025,7 @@
           }
         ]
       },
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "AncientCraft",
@@ -1034,7 +1034,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ancient_craft",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "Siftr",
@@ -1043,7 +1043,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "siftr",
-      "path": "~/Peko - Nether Tools"
+      "path": "~/Peko"
     },
     {
       "name": "MuffinLauncherProjectileHitsLivingEntity",
@@ -1072,7 +1072,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
+      "path": "~/Ash/Items/MuffinLauncher"
     },
     {
       "name": "MuffinTraveller",
@@ -1081,7 +1081,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_traveller",
-      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
+      "path": "~/Ash/Items/MuffinLauncher"
     },
     {
       "name": "MuffinTravellerWhileProjectileFlyingTick",
@@ -1102,7 +1102,7 @@
           }
         ]
       },
-      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
+      "path": "~/Ash/Items/MuffinLauncher"
     },
     {
       "name": "MuffinTravellerRecipe",
@@ -1111,7 +1111,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muffin_traveller_recipe",
-      "path": "~/Ash - Mobs Overworld/Items/MuffinLauncher"
+      "path": "~/Ash/Items/MuffinLauncher"
     }
   ],
   "variable_elements": [],
@@ -1213,19 +1213,15 @@
     "name": "~",
     "children": [
       {
-        "name": "Inspectah - Liquid Farms",
+        "name": "Inspectah",
         "children": []
       },
       {
-        "name": "Spacular - Weapons Biomes",
+        "name": "Peko",
         "children": []
       },
       {
-        "name": "Peko - Nether Tools",
-        "children": []
-      },
-      {
-        "name": "Ash - Mobs Overworld",
+        "name": "Ash",
         "children": [
           {
             "name": "Creepers",
