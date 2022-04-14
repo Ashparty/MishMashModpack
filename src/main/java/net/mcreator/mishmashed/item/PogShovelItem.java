@@ -14,15 +14,15 @@ public class PogShovelItem extends ShovelItem {
 	public PogShovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 3811;
+				return 2532;
 			}
 
 			public float getSpeed() {
-				return 20f;
+				return 11f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 12f;
+				return 1.5f;
 			}
 
 			public int getLevel() {
@@ -30,7 +30,7 @@ public class PogShovelItem extends ShovelItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 100;
+				return 19;
 			}
 
 			public Ingredient getRepairIngredient() {

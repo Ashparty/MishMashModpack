@@ -1342,15 +1342,6 @@
       "path": "~/Peko"
     },
     {
-      "name": "Hell",
-      "type": "tab",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hell",
-      "path": "~/Taylor"
-    },
-    {
       "name": "Sus",
       "type": "armor",
       "sortid": 50,
@@ -1363,15 +1354,6 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/Taylor"
-    },
-    {
-      "name": "Imposter",
-      "type": "livingentity",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "imposter",
       "path": "~/Taylor"
     },
     {
@@ -1399,6 +1381,24 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "imposterdrops",
+      "path": "~/Taylor"
+    },
+    {
+      "name": "Hell",
+      "type": "tab",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hell",
+      "path": "~/Taylor"
+    },
+    {
+      "name": "Imposter",
+      "type": "livingentity",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imposter",
       "path": "~/Taylor"
     }
   ],
@@ -1465,21 +1465,23 @@
     "en_us": {
       "subtitles.flymusic": "Player Is about to die",
       "block.mishmashed.inspectah_block": "Inspectah Block",
+      "advancements.full_set_of_pog.title": "Cover Me In Pog",
       "subtitles.poggers": "POGGERS",
       "item.mishmashed.pog_armor_boots": "Pog Boots",
-      "item.mishmashed.sus_helmet": "Sus Helmet",
       "item.mishmashed.pog_armor_leggings": "Pog Leggings",
       "item.mishmashed.sand_paper": "Sand Paper",
+      "advancements.unable_to_balance.title": "Unable To Balance!",
       "item.mishmashed.enchant_dust": "Enchant Dust",
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
       "subtitles.gluebucket": "Glue grogs",
       "block.mishmashed.experience_flower": "Experience Flower",
       "item.mishmashed.inspectah_food": "Inspectah Food",
-      "item.mishmashed.imposter_spawn_egg": "Imposter Spawn Egg",
       "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
+      "advancements.shown_in_the_attic.title": "Shown In The Attic",
       "subtitles.stop": "STOP",
       "item.mishmashed.ancient_nugget": "Ancient Nugget",
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
+      "advancements.uh_oh.title": "Uh Oh...",
       "item.mishmashed.muffin": "Muffin",
       "item.mishmashed.pog": "Pog",
       "block.mishmashed.sifting_block": "Sifting Block",
@@ -1487,33 +1489,34 @@
       "block.mishmashed.creepe_plant": "Creepe Plant",
       "item.mishmashed.pog_armor_helmet": "Pog Helmet",
       "item.mishmashed.pog_locator": "Pomb",
+      "advancements.thats_how_its_made.title": "Thats How It\u0027s Made?",
       "item.mishmashed.pog_hoe": "Pog Hoe",
-      "item.mishmashed.sus_boots": "Sus Boots",
-      "entity.mishmashed.imposter": "Imposter",
+      "itemGroup.tabhm": "HMM?",
       "item.mishmashed.muffin_launcher": "Muffin Launcher",
       "item.mishmashed.funny_cookie": "Funny Cookie",
       "subtitles.muffinpew": "Pew!",
-      "item.mishmashed.sus_leggings": "Sus Leggings",
-      "itemGroup.tabhell": "Hell",
       "itemGroup.tabwhat": "WHAT",
-      "item.mishmashed.sus_chestplate": "Sus Body",
       "fluid.mishmashed.glue": "Glue",
       "item.mishmashed.pingot": "Pingot",
       "subtitles.sus": "",
+      "advancements.unable_to_balance.descr": "Craft a Sifting Station",
       "item.mishmashed.pog_sword": "Pog Sword",
       "item.mishmashed.pogerite_composite": "Pogerite Composite",
       "item.mishmashed.glue_bucket": "Glue Bucket",
-      "item.mishmashed.susfragemt": "Susfragemt",
       "item.mishmashed.pingorite_scrap": "Pingorite Scrap",
       "block.mishmashed.enchantment_table": "Enchantment Table",
       "biome.mishmashed.experience_plains": "Experience Plains",
       "subtitles.jumpscream": "Screams",
+      "advancements.uh_oh.descr": "Craft a Pomb",
+      "advancements.shown_in_the_attic.descr": "Obtain Poggerrack",
       "item.mishmashed.pog_axe": "Pog Axe",
       "block.mishmashed.experience_ore": "Experience Ore",
       "item.mishmashed.muffin_traveller": "Muffin Traveller",
       "block.mishmashed.poggerrack": "Poggerrack",
+      "advancements.full_set_of_pog.descr": "Obtain a full suit of pog armor",
       "item.mishmashed.pomb": "Pomb Unlimited",
       "block.mishmashed.glue": "Glue",
+      "advancements.thats_how_its_made.descr": "Craft Sandpaper",
       "block.mishmashed.inspectah_poppy": "Inspectah Poppy",
       "block.mishmashed.enchant_plant": "Enchant Plant",
       "item.mishmashed.pog_shovel": "Pog Shovel"
@@ -1583,6 +1586,10 @@
             "children": []
           },
           {
+            "name": "MuffinEntity",
+            "children": []
+          },
+          {
             "name": "Items",
             "children": [
               {
@@ -1612,6 +1619,10 @@
       },
       {
         "name": "Taylor",
+        "children": []
+      },
+      {
+        "name": "Redstones",
         "children": []
       }
     ]

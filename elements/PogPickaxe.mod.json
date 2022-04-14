@@ -11,12 +11,12 @@
       "value": "CUSTOM:WHAT"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 15,
-    "efficiency": 20.0,
+    "harvestLevel": 5,
+    "efficiency": 11.0,
     "attackSpeed": 1.0,
-    "enchantability": 100,
-    "damageVsEntity": 14.0,
-    "usageCount": 3811,
+    "enchantability": 19,
+    "damageVsEntity": 7.0,
+    "usageCount": 2532,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

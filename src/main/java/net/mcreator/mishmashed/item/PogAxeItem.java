@@ -14,7 +14,7 @@ public class PogAxeItem extends AxeItem {
 	public PogAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 3811;
+				return 2532;
 			}
 
 			public float getSpeed() {
@@ -22,11 +22,11 @@ public class PogAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 62f;
+				return 10f;
 			}
 
 			public int getLevel() {
-				return 15;
+				return 5;
 			}
 
 			public int getEnchantmentValue() {
@@ -36,7 +36,7 @@ public class PogAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(MishmashedModItems.PINGOT));
 			}
-		}, 1, -3f, new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
+		}, 1, -2.7999999999999998f, new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
 		setRegistryName("pog_axe");
 	}
 }

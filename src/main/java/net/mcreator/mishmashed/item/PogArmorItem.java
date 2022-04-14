@@ -26,17 +26,17 @@ public abstract class PogArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 150;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 45;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{15, 50, 55, 25}[slot.getIndex()];
+				return new int[]{6, 12, 16, 6}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 95;
+				return 20;
 			}
 
 			@Override
@@ -56,12 +56,12 @@ public abstract class PogArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 6f;
+				return 4.5f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.5f;
+				return 0.2f;
 			}
 		}, slot, properties);
 	}
@@ -79,7 +79,7 @@ public abstract class PogArmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			FullPogProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+			FullPogProcedure.execute(entity);
 		}
 	}
 

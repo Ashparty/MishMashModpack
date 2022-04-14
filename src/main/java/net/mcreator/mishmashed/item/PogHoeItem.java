@@ -14,23 +14,23 @@ public class PogHoeItem extends HoeItem {
 	public PogHoeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 3811;
+				return 2532;
 			}
 
 			public float getSpeed() {
-				return 20f;
+				return 11f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 12f;
+				return -1f;
 			}
 
 			public int getLevel() {
-				return 15;
+				return 5;
 			}
 
 			public int getEnchantmentValue() {
-				return 100;
+				return 19;
 			}
 
 			public Ingredient getRepairIngredient() {

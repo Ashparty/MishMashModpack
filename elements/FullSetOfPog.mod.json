@@ -2,8 +2,8 @@
   "_fv": 24,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Cover Me In Pog",
-    "achievementDescription": "Obtain a full suit of pog armor",
+    "achievementName": "Cover Me in Pog",
+    "achievementDescription": "Get a full suit of pog armor",
     "achievementIcon": {
       "value": "CUSTOM:PogArmor.body"
     },
