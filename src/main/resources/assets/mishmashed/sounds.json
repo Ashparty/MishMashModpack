@@ -60,7 +60,7 @@
     ]
   },
   "sus": {
-    "category": "ambient",
+    "category": "player",
     "sounds": [
       {
         "name": "mishmashed:amogus_sound_effect",

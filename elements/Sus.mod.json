@@ -43,15 +43,15 @@
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
     "maxDamage": 50,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 2,
-    "enchantability": 9,
+    "damageValueHelmet": 10,
+    "damageValueBody": 15,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 8,
+    "enchantability": 50,
     "toughness": 2.5,
     "knockbackResistance": 0.5,
     "equipSound": {
-      "value": "block.anvil.fall"
+      "value": "CUSTOM:sus"
     },
     "repairItems": [
       {
