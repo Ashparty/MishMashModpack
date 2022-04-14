@@ -15,9 +15,3 @@ jobs:
       - uses: gradle/gradle-build-action@v2
         with:
           arguments: build
-      - name: Upload the built artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: Build.jar
-          path: build/libs/Build.jar
-          if-no-files-found: error
