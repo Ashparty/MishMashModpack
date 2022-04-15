@@ -40,7 +40,7 @@ public class MishmashedModEntities {
 			EntityType.Builder.<ImposterEntity>of(ImposterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(75)
 					.setUpdateInterval(3).setCustomClientFactory(ImposterEntity::new).fireImmune().sized(0.4f, 0.7f));
 	public static final EntityType<EntityMuffinEntity> ENTITY_MUFFIN = register("entity_muffin",
-			EntityType.Builder.<EntityMuffinEntity>of(EntityMuffinEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
+			EntityType.Builder.<EntityMuffinEntity>of(EntityMuffinEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EntityMuffinEntity::new).sized(0.6f, 0.6f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

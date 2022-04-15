@@ -59,7 +59,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_axe",
-      "path": "~/Peko/PogGear"
+      "path": "~/Peko/Gear"
     },
     {
       "name": "PogArmor",
@@ -74,7 +74,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/Peko/PogGear"
+      "path": "~/Peko/Gear"
     },
     {
       "name": "PogSword",
@@ -83,7 +83,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_sword",
-      "path": "~/Peko/PogGear"
+      "path": "~/Peko/Gear"
     },
     {
       "name": "PogSwordRecipe",
@@ -110,7 +110,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_locator",
-      "path": "~/Peko/PogGear"
+      "path": "~/Peko/Gear"
     },
     {
       "name": "Pomb",
@@ -119,7 +119,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pomb",
-      "path": "~/Peko/PogGear"
+      "path": "~/Peko/Gear"
     },
     {
       "name": "PogeriteComposite",
@@ -173,7 +173,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_shovel",
-      "path": "~/Peko/PogGear"
+      "path": "~/Peko/Gear"
     },
     {
       "name": "PogLocatorRightClickedInAir",
@@ -309,7 +309,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_pickaxe",
-      "path": "~/Peko/PogGear"
+      "path": "~/Peko/Gear"
     },
     {
       "name": "PogHoeRecipe",
@@ -327,7 +327,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog_hoe",
-      "path": "~/Peko/PogGear"
+      "path": "~/Peko/Gear"
     },
     {
       "name": "PogArmorBodyRecipe",
@@ -1267,7 +1267,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pog",
-      "path": "~/Peko/PogGear"
+      "path": "~/Peko/Gear"
     },
     {
       "name": "FullSetOfPog",
@@ -1447,6 +1447,39 @@
       "locked_code": false,
       "registry_name": "muffin_flower",
       "path": "~/Ash/Blocks/Plants"
+    },
+    {
+      "name": "NOPIGSTEP",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nopigstep",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Peko/Loot and procedure"
     }
   ],
   "variable_elements": [],
@@ -1685,7 +1718,7 @@
             "children": []
           },
           {
-            "name": "PogGear",
+            "name": "Gear",
             "children": []
           },
           {
