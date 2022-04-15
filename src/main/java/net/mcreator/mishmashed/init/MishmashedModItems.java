@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
@@ -78,6 +79,12 @@ public class MishmashedModItems {
 	public static final Item ASH_CREATIVE_TAB_ICON = register(new AshCreativeTabIconItem());
 	public static final Item EXPERIENCE_ORE = register(MishmashedModBlocks.EXPERIENCE_ORE, MishmashedModTabs.TAB_HM);
 	public static final Item POG = register(new PogItem());
+	public static final Item WILD_MUFFIN = register(
+			new SpawnEggItem(MishmashedModEntities.WILD_MUFFIN, -12049135, -6399442, new Item.Properties().tab(MishmashedModTabs.TAB_HM))
+					.setRegistryName("wild_muffin_spawn_egg"));
+	public static final Item TAMED_MUFFIN = register(
+			new SpawnEggItem(MishmashedModEntities.TAMED_MUFFIN, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("tamed_muffin_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

@@ -11,6 +11,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.mishmashed.client.renderer.WildMuffinRenderer;
+import net.mcreator.mishmashed.client.renderer.TamedMuffinRenderer;
 import net.mcreator.mishmashed.client.renderer.MuffinTravellerRenderer;
 import net.mcreator.mishmashed.client.renderer.MuffinLauncherRenderer;
 
@@ -21,5 +23,7 @@ public class MishmashedModEntityRenderers {
 		event.registerEntityRenderer(MishmashedModEntities.POMB, ThrownItemRenderer::new);
 		event.registerEntityRenderer(MishmashedModEntities.MUFFIN_LAUNCHER, MuffinLauncherRenderer::new);
 		event.registerEntityRenderer(MishmashedModEntities.MUFFIN_TRAVELLER, MuffinTravellerRenderer::new);
+		event.registerEntityRenderer(MishmashedModEntities.WILD_MUFFIN, WildMuffinRenderer::new);
+		event.registerEntityRenderer(MishmashedModEntities.TAMED_MUFFIN, TamedMuffinRenderer::new);
 	}
 }
