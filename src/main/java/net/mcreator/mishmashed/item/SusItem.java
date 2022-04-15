@@ -26,17 +26,17 @@ public abstract class SusItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{8, 12, 15, 10}[slot.getIndex()];
+				return new int[]{2, 5, 6, 2}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 50;
+				return 9;
 			}
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("mishmashed:sus"));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.fall"));
 			}
 
 			@Override

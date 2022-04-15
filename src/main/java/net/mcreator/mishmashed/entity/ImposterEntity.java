@@ -86,12 +86,12 @@ public class ImposterEntity extends Monster {
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("mishmashed:sus"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.ender_dragon.death"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("mishmashed:sus"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.player.burp"));
 	}
 
 	@Override

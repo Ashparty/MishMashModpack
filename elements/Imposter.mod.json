@@ -83,10 +83,10 @@
       "value": ""
     },
     "hurtSound": {
-      "value": "CUSTOM:sus"
+      "value": "entity.enderdragon.death"
     },
     "deathSound": {
-      "value": "CUSTOM:sus"
+      "value": "entity.player.burp"
     },
     "stepSound": {
       "value": ""
