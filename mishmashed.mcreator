@@ -1503,7 +1503,7 @@
       "name": "Purpleingot",
       "type": "item",
       "sortid": 61,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "purpleingot",
       "path": "~/Redstones/items"
@@ -1521,7 +1521,7 @@
       "name": "Pupleore",
       "type": "block",
       "sortid": 61,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "pupleore",
       "path": "~/Redstones/blocks"
@@ -1548,7 +1548,7 @@
       "name": "PurplepickaxeBlockDestroyedWithTool",
       "type": "procedure",
       "sortid": 63,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "purplepickaxe_block_destroyed_with_tool",
       "metadata": {
@@ -1581,7 +1581,7 @@
       "name": "Purplestick",
       "type": "item",
       "sortid": 64,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "purplestick",
       "path": "~/Redstones/items"
