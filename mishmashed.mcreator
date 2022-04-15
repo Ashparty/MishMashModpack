@@ -1425,7 +1425,7 @@
       "name": "E",
       "type": "biome",
       "sortid": 55,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "e",
       "path": "~/Redstones"
@@ -1507,8 +1507,8 @@
       "block.mishmashed.experience_flower": "Experience Flower",
       "item.mishmashed.inspectah_food": "Inspectah Food",
       "item.mishmashed.imposter_spawn_egg": "Imposter Spawn Egg",
-      "advancements.shown_in_the_attic.title": "Shown in The Attic",
       "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
+      "advancements.shown_in_the_attic.title": "Shown in The Attic",
       "subtitles.stop": "STOP",
       "item.mishmashed.ancient_nugget": "Ancient Nugget",
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
