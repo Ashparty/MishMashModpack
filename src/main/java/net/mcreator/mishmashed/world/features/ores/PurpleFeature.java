@@ -23,14 +23,14 @@ import net.mcreator.mishmashed.init.MishmashedModBlocks;
 import java.util.Set;
 import java.util.Random;
 
-public class ExperienceOreFeature extends OreFeature {
-	public static final ExperienceOreFeature FEATURE = (ExperienceOreFeature) new ExperienceOreFeature().setRegistryName("mishmashed:experience_ore");
+public class PurpleFeature extends OreFeature {
+	public static final PurpleFeature FEATURE = (PurpleFeature) new PurpleFeature().setRegistryName("mishmashed:purple");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(ExperienceOreFeatureRuleTest.INSTANCE, MishmashedModBlocks.EXPERIENCE_ORE.defaultBlockState(), 5))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(50)))).squared().count(4);
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("mishmashed:experience_plains"));
+			.configured(new OreConfiguration(PurpleFeatureRuleTest.INSTANCE, MishmashedModBlocks.PURPLE.defaultBlockState(), 32))
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)))).squared().count(32);
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("mishmashed:e"));
 
-	public ExperienceOreFeature() {
+	public PurpleFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -45,15 +45,23 @@ public class ExperienceOreFeature extends OreFeature {
 		return super.place(context);
 	}
 
-	private static class ExperienceOreFeatureRuleTest extends RuleTest {
-		static final ExperienceOreFeatureRuleTest INSTANCE = new ExperienceOreFeatureRuleTest();
-		static final com.mojang.serialization.Codec<ExperienceOreFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		static final RuleTestType<ExperienceOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
-				new ResourceLocation("mishmashed:experience_ore_match"), () -> codec);
+	private static class PurpleFeatureRuleTest extends RuleTest {
+		static final PurpleFeatureRuleTest INSTANCE = new PurpleFeatureRuleTest();
+		static final com.mojang.serialization.Codec<PurpleFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+		static final RuleTestType<PurpleFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
+				new ResourceLocation("mishmashed:purple_match"), () -> codec);
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.STONE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.ANDESITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.GRANITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.DEEPSLATE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.COBBLED_DEEPSLATE)
 				blockCriteria = true;
 			return blockCriteria;
 		}
