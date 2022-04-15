@@ -14,7 +14,6 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.mishmashed.block.SiftingBlockBlock;
 import net.mcreator.mishmashed.block.PoggerrackBlock;
-import net.mcreator.mishmashed.block.MuffinFlowerBlock;
 import net.mcreator.mishmashed.block.InspectahPoppyBlock;
 import net.mcreator.mishmashed.block.InspectahBlockBlock;
 import net.mcreator.mishmashed.block.GlueBlock;
@@ -40,7 +39,6 @@ public class MishmashedModBlocks {
 	public static final Block SIFTING_BLOCK = register(new SiftingBlockBlock());
 	public static final Block EXPERIENCE_FLOWER = register(new ExperienceFlowerBlock());
 	public static final Block EXPERIENCE_ORE = register(new ExperienceOreBlock());
-	public static final Block MUFFIN_FLOWER = register(new MuffinFlowerBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -61,7 +59,6 @@ public class MishmashedModBlocks {
 			EnchantPlantBlock.registerRenderLayer();
 			SiftingBlockBlock.registerRenderLayer();
 			ExperienceFlowerBlock.registerRenderLayer();
-			MuffinFlowerBlock.registerRenderLayer();
 		}
 	}
 }
