@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mishmashed:blocks/muffinplant",
+    "particle": "mishmashed:blocks/muffinplant"
+  }
+}

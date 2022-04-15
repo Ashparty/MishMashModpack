@@ -1429,6 +1429,24 @@
       "locked_code": false,
       "registry_name": "e",
       "path": "~/Redstones"
+    },
+    {
+      "name": "MuffinsBiome",
+      "type": "biome",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muffins_biome",
+      "path": "~/Ash/Biomes"
+    },
+    {
+      "name": "MuffinFlower",
+      "type": "plant",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muffin_flower",
+      "path": "~/Ash/Blocks/Plants"
     }
   ],
   "variable_elements": [],
@@ -1504,6 +1522,7 @@
       "item.mishmashed.sand_paper": "Sand Paper",
       "advancements.unable_to_balance.title": "Unable To Balance!",
       "item.mishmashed.enchant_dust": "Enchant Dust",
+      "biome.mishmashed.muffins_biome": "Muffins Biome",
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
       "subtitles.gluebucket": "Glue grogs",
       "block.mishmashed.experience_flower": "Experience Flower",
@@ -1515,6 +1534,7 @@
       "item.mishmashed.ancient_nugget": "Ancient Nugget",
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
       "advancements.uh_oh.title": "Uh Oh...",
+      "block.mishmashed.muffin_flower": "Muffin Flower",
       "item.mishmashed.muffin": "Muffin",
       "item.mishmashed.pog": "Pog",
       "block.mishmashed.sifting_block": "Sifting Station",

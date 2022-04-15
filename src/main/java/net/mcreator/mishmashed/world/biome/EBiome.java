@@ -58,8 +58,9 @@ import java.util.HashMap;
 import com.google.common.collect.ImmutableList;
 
 public class EBiome {
-	private static final ConfiguredSurfaceBuilder<?> SURFACE_BUILDER = SurfaceBuilder.DEFAULT.configured(new SurfaceBuilderBaseConfiguration(
-			Blocks.PURPLE_CANDLE_CAKE.defaultBlockState(), Blocks.BAMBOO.defaultBlockState(), Blocks.BAMBOO.defaultBlockState()));
+	private static final ConfiguredSurfaceBuilder<?> SURFACE_BUILDER = SurfaceBuilder.DEFAULT
+			.configured(new SurfaceBuilderBaseConfiguration(Blocks.PURPLE_CANDLE_CAKE.defaultBlockState(),
+					Blocks.MAGENTA_GLAZED_TERRACOTTA.defaultBlockState(), Blocks.MAGENTA_GLAZED_TERRACOTTA.defaultBlockState()));
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-256).waterColor(-6750055).waterFogColor(-16751002).skyColor(-256)
@@ -85,14 +86,10 @@ public class EBiome {
 		biomeGenerationSettings.addStructureStart(StructureFeatures.SHIPWRECH_BEACHED);
 		biomeGenerationSettings.addStructureStart(StructureFeatures.BURIED_TREASURE);
 		biomeGenerationSettings.addStructureStart(StructureFeatures.OCEAN_RUIN_COLD);
-		biomeGenerationSettings.addStructureStart(StructureFeatures.NETHER_BRIDGE);
-		biomeGenerationSettings.addStructureStart(StructureFeatures.NETHER_FOSSIL);
-		biomeGenerationSettings.addStructureStart(StructureFeatures.BASTION_REMNANT);
-		biomeGenerationSettings.addStructureStart(StructureFeatures.END_CITY);
 		biomeGenerationSettings.addStructureStart(StructureFeatures.RUINED_PORTAL_SWAMP);
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, register("trees", Feature.TREE
 				.configured((new TreeConfiguration.TreeConfigurationBuilder(new SimpleStateProvider(Blocks.HAY_BLOCK.defaultBlockState()),
-						new StraightTrunkPlacer(255, 2, 0), new SimpleStateProvider(Blocks.TNT.defaultBlockState()),
+						new StraightTrunkPlacer(143, 2, 0), new SimpleStateProvider(Blocks.TNT.defaultBlockState()),
 						new SimpleStateProvider(Blocks.OAK_SAPLING.defaultBlockState()),
 						new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1)))
 								.decorators(ImmutableList.of(ELeaveDecorator.INSTANCE, ETrunkDecorator.INSTANCE, EFruitDecorator.INSTANCE)).build())
@@ -135,7 +132,8 @@ public class EBiome {
 				register("disk_sand",
 						Feature.DISK
 								.configured(new DiskConfiguration(Blocks.SAND.defaultBlockState(), UniformInt.of(2, 4), 2,
-										ImmutableList.of(Blocks.PURPLE_CANDLE_CAKE.defaultBlockState(), Blocks.BAMBOO.defaultBlockState())))
+										ImmutableList.of(Blocks.PURPLE_CANDLE_CAKE.defaultBlockState(),
+												Blocks.MAGENTA_GLAZED_TERRACOTTA.defaultBlockState())))
 								.decorated(Features.Decorators.TOP_SOLID_HEIGHTMAP_SQUARE).count(1)));
 		biomeGenerationSettings
 				.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
