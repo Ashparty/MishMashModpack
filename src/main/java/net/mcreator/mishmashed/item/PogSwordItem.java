@@ -14,7 +14,7 @@ public class PogSwordItem extends SwordItem {
 	public PogSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 3811;
+				return 2532;
 			}
 
 			public float getSpeed() {
@@ -22,7 +22,7 @@ public class PogSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 41f;
+				return 8f;
 			}
 
 			public int getLevel() {
@@ -30,13 +30,13 @@ public class PogSwordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 100;
+				return 19;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(MishmashedModItems.PINGOT));
 			}
-		}, 3, -2f, new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
+		}, 3, -2.3f, new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
 		setRegistryName("pog_sword");
 	}
 }

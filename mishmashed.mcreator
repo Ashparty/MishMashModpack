@@ -1342,12 +1342,33 @@
       "path": "~/Peko"
     },
     {
-      "name": "WildMuffin",
-      "type": "livingentity",
-      "sortid": 49,
+      "name": "TamedMuffinRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wild_muffin",
+      "registry_name": "tamed_muffin_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ash/MuffinEntity"
+    },
+    {
+      "name": "TamedMuffin",
+      "type": "livingentity",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tamed_muffin",
       "path": "~/Ash/MuffinEntity"
     },
     {
@@ -1388,33 +1409,12 @@
       "path": "~/Ash/MuffinEntity"
     },
     {
-      "name": "TamedMuffinRightClickedOnEntity",
-      "type": "procedure",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tamed_muffin_right_clicked_on_entity",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Ash/MuffinEntity"
-    },
-    {
-      "name": "TamedMuffin",
+      "name": "WildMuffin",
       "type": "livingentity",
-      "sortid": 51,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tamed_muffin",
+      "registry_name": "wild_muffin",
       "path": "~/Ash/MuffinEntity"
     }
   ],
@@ -1597,6 +1597,10 @@
             "children": []
           },
           {
+            "name": "MuffinEntity",
+            "children": []
+          },
+          {
             "name": "Items",
             "children": [
               {
@@ -1617,10 +1621,6 @@
                 "children": []
               }
             ]
-          },
-          {
-            "name": "MuffinEntity",
-            "children": []
           }
         ]
       },

@@ -1,55 +1,15 @@
 
 package net.mcreator.mishmashed.entity;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fmllegacy.network.NetworkHooks;
-import net.minecraftforge.fmllegacy.network.FMLPlayMessages;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.world.BiomeLoadingEvent;
-
-import net.minecraft.world.level.levelgen.Heightmap;
-import net.minecraft.world.level.biome.MobSpawnSettings;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.SpawnEggItem;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
-import net.minecraft.world.entity.ai.goal.TemptGoal;
-import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
-import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.TamableAnimal;
-import net.minecraft.world.entity.SpawnPlacements;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.MobCategory;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.AgeableMob;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.world.InteractionHand;
-import net.minecraft.world.Difficulty;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.nbt.Tag;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.protocol.Packet;
-
-import net.mcreator.mishmashed.procedures.WildMuffinRightClickedOnEntityProcedure;
-import net.mcreator.mishmashed.init.MishmashedModItems;
-import net.mcreator.mishmashed.init.MishmashedModEntities;
-
-import java.util.List;
 
 @Mod.EventBusSubscriber
 public class WildMuffinEntity extends TamableAnimal {
+
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
 		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(MishmashedModEntities.WILD_MUFFIN, 20, 4, 4));
@@ -63,6 +23,7 @@ public class WildMuffinEntity extends TamableAnimal {
 		super(type, world);
 		xpReward = 1;
 		setNoAi(false);
+
 	}
 
 	@Override
@@ -73,10 +34,12 @@ public class WildMuffinEntity extends TamableAnimal {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
+
 		this.goalSelector.addGoal(1, new TemptGoal(this, 2, Ingredient.of(Items.SUGAR), false));
 		this.goalSelector.addGoal(2, new WaterAvoidingRandomStrollGoal(this, 0.8));
 		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(4, new FloatGoal(this));
+
 	}
 
 	@Override
@@ -114,6 +77,7 @@ public class WildMuffinEntity extends TamableAnimal {
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
 		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
+
 		Item item = itemstack.getItem();
 		if (itemstack.getItem() instanceof SpawnEggItem) {
 			retval = super.mobInteract(sourceentity, hand);
@@ -144,6 +108,7 @@ public class WildMuffinEntity extends TamableAnimal {
 				} else {
 					this.level.broadcastEntityEvent(this, (byte) 6);
 				}
+
 				this.setPersistenceRequired();
 				retval = InteractionResult.sidedSuccess(this.level.isClientSide());
 			} else {
@@ -152,6 +117,7 @@ public class WildMuffinEntity extends TamableAnimal {
 					this.setPersistenceRequired();
 			}
 		}
+
 		double x = this.getX();
 		double y = this.getY();
 		double z = this.getZ();
@@ -178,6 +144,7 @@ public class WildMuffinEntity extends TamableAnimal {
 		SpawnPlacements.register(MishmashedModEntities.WILD_MUFFIN, SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL
 						&& Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
+
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -186,8 +153,12 @@ public class WildMuffinEntity extends TamableAnimal {
 		builder = builder.add(Attributes.MAX_HEALTH, 7);
 		builder = builder.add(Attributes.ARMOR, 0.3);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.3);
+
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.2);
+
 		return builder;
 	}
+
 }

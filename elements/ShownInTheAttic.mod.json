@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Shown In The Attic",
+    "achievementName": "Shown in The Attic",
     "achievementDescription": "Obtain Poggerrack",
     "achievementIcon": {
       "value": "CUSTOM:Poggerrack"

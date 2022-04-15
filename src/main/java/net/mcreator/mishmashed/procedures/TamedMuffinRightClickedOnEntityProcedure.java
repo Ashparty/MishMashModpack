@@ -1,8 +1,6 @@
 package net.mcreator.mishmashed.procedures;
 
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.TamableAnimal;
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
 public class TamedMuffinRightClickedOnEntityProcedure {
 	public static void execute(Entity entity, Entity sourceentity) {
