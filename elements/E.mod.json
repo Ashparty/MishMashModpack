@@ -57,7 +57,7 @@
     "heightVariation": 2.0,
     "biomeType": "ICY",
     "spawnBiome": true,
-    "biomeWeight": 1,
+    "biomeWeight": 5,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 4,
     "seagrassPerChunk": 17,

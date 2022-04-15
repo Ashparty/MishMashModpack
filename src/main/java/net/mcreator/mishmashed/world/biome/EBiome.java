@@ -157,7 +157,7 @@ public class EBiome {
 		CONFIGURED_FEATURES.forEach((resourceLocation, configuredFeature) -> Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, resourceLocation,
 				configuredFeature));
 		BiomeManager.addBiome(BiomeManager.BiomeType.ICY,
-				new BiomeManager.BiomeEntry(ResourceKey.create(Registry.BIOME_REGISTRY, BuiltinRegistries.BIOME.getKey(MishmashedModBiomes.E)), 1));
+				new BiomeManager.BiomeEntry(ResourceKey.create(Registry.BIOME_REGISTRY, BuiltinRegistries.BIOME.getKey(MishmashedModBiomes.E)), 5));
 	}
 
 	private static final Map<ResourceLocation, ConfiguredFeature<?, ?>> CONFIGURED_FEATURES = new HashMap<>();
