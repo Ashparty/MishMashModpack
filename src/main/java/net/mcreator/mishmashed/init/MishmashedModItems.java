@@ -9,10 +9,13 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.mishmashed.item.SusfragemtItem;
+import net.mcreator.mishmashed.item.SusItem;
 import net.mcreator.mishmashed.item.SandPaperItem;
 import net.mcreator.mishmashed.item.PombItem;
 import net.mcreator.mishmashed.item.PogeriteCompositeItem;
@@ -75,9 +78,20 @@ public class MishmashedModItems {
 	public static final Item SIFTING_BLOCK = register(MishmashedModBlocks.SIFTING_BLOCK, MishmashedModTabs.TAB_WHAT);
 	public static final Item MUFFIN_TRAVELLER = register(new MuffinTravellerItem());
 	public static final Item EXPERIENCE_FLOWER = register(MishmashedModBlocks.EXPERIENCE_FLOWER, MishmashedModTabs.TAB_HM);
-	public static final Item POG = register(new PogItem());
 	public static final Item ASH_CREATIVE_TAB_ICON = register(new AshCreativeTabIconItem());
 	public static final Item EXPERIENCE_ORE = register(MishmashedModBlocks.EXPERIENCE_ORE, MishmashedModTabs.TAB_HM);
+	public static final Item POG = register(new PogItem());
+	public static final Item SUS_HELMET = register(new SusItem.Helmet());
+	public static final Item SUS_CHESTPLATE = register(new SusItem.Chestplate());
+	public static final Item SUS_LEGGINGS = register(new SusItem.Leggings());
+	public static final Item SUS_BOOTS = register(new SusItem.Boots());
+	public static final Item IMPOSTER = register(
+			new SpawnEggItem(MishmashedModEntities.IMPOSTER, -3407872, -16724788, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("imposter_spawn_egg"));
+	public static final Item SUSFRAGEMT = register(new SusfragemtItem());
+	public static final Item ENTITY_MUFFIN = register(
+			new SpawnEggItem(MishmashedModEntities.ENTITY_MUFFIN, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("entity_muffin_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

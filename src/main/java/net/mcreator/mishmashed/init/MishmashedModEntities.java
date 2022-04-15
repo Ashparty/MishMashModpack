@@ -17,6 +17,8 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.mishmashed.entity.PombEntity;
 import net.mcreator.mishmashed.entity.MuffinTravellerEntity;
 import net.mcreator.mishmashed.entity.MuffinLauncherEntity;
+import net.mcreator.mishmashed.entity.ImposterEntity;
+import net.mcreator.mishmashed.entity.EntityMuffinEntity;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -34,6 +36,12 @@ public class MishmashedModEntities {
 			EntityType.Builder.<MuffinTravellerEntity>of(MuffinTravellerEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(MuffinTravellerEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<ImposterEntity> IMPOSTER = register("imposter",
+			EntityType.Builder.<ImposterEntity>of(ImposterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(75)
+					.setUpdateInterval(3).setCustomClientFactory(ImposterEntity::new).fireImmune().sized(0.4f, 0.7f));
+	public static final EntityType<EntityMuffinEntity> ENTITY_MUFFIN = register("entity_muffin",
+			EntityType.Builder.<EntityMuffinEntity>of(EntityMuffinEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EntityMuffinEntity::new).sized(0.6f, 0.6f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -49,10 +57,14 @@ public class MishmashedModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			ImposterEntity.init();
+			EntityMuffinEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(IMPOSTER, ImposterEntity.createAttributes().build());
+		event.put(ENTITY_MUFFIN, EntityMuffinEntity.createAttributes().build());
 	}
 }
