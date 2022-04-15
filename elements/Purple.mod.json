@@ -146,8 +146,8 @@
         "value": "Blocks.COBBLED_DEEPSLATE"
       }
     ],
-    "frequencyPerChunks": 32,
-    "frequencyOnChunk": 32,
+    "frequencyPerChunks": 46,
+    "frequencyOnChunk": 45,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 256
   }

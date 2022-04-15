@@ -17,6 +17,8 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.mishmashed.item.SusfragemtItem;
 import net.mcreator.mishmashed.item.SusItem;
 import net.mcreator.mishmashed.item.SandPaperItem;
+import net.mcreator.mishmashed.item.PurplestickItem;
+import net.mcreator.mishmashed.item.PurplepickaxeItem;
 import net.mcreator.mishmashed.item.PurpleingotItem;
 import net.mcreator.mishmashed.item.PombItem;
 import net.mcreator.mishmashed.item.PogeriteCompositeItem;
@@ -97,6 +99,8 @@ public class MishmashedModItems {
 	public static final Item PURPLE = register(MishmashedModBlocks.PURPLE, MishmashedModTabs.TAB_REDSTONES);
 	public static final Item PURPLEINGOT = register(new PurpleingotItem());
 	public static final Item PUPLEORE = register(MishmashedModBlocks.PUPLEORE, MishmashedModTabs.TAB_REDSTONES);
+	public static final Item PURPLEPICKAXE = register(new PurplepickaxeItem());
+	public static final Item PURPLESTICK = register(new PurplestickItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

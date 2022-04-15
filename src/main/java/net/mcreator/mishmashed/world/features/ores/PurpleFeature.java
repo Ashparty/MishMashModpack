@@ -26,8 +26,8 @@ import java.util.Random;
 public class PurpleFeature extends OreFeature {
 	public static final PurpleFeature FEATURE = (PurpleFeature) new PurpleFeature().setRegistryName("mishmashed:purple");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(PurpleFeatureRuleTest.INSTANCE, MishmashedModBlocks.PURPLE.defaultBlockState(), 32))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)))).squared().count(32);
+			.configured(new OreConfiguration(PurpleFeatureRuleTest.INSTANCE, MishmashedModBlocks.PURPLE.defaultBlockState(), 45))
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)))).squared().count(46);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("mishmashed:e"));
 
 	public PurpleFeature() {

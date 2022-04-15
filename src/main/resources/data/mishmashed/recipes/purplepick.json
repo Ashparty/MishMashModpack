@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "mishmashed:purpleingot"
+    },
+    "1": {
+      "item": "mishmashed:purpleingot"
+    },
+    "2": {
+      "item": "mishmashed:purpleingot"
+    },
+    "4": {
+      "item": "mishmashed:purplestick"
+    },
+    "7": {
+      "item": "mishmashed:purplestick"
+    }
+  },
+  "result": {
+    "item": "mishmashed:purplepickaxe",
+    "count": 1
+  }
+}
