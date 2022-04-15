@@ -58,14 +58,5 @@
         "stream": false
       }
     ]
-  },
-  "sus": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "mishmashed:amogus_sound_effect",
-        "stream": false
-      }
-    ]
   }
 }
