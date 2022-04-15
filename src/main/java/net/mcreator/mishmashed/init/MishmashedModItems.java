@@ -92,6 +92,8 @@ public class MishmashedModItems {
 	public static final Item ENTITY_MUFFIN = register(
 			new SpawnEggItem(MishmashedModEntities.ENTITY_MUFFIN, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("entity_muffin_spawn_egg"));
+	public static final Item MUFFIN_FLOWER = register(MishmashedModBlocks.MUFFIN_FLOWER, MishmashedModTabs.TAB_HM);
+	public static final Item PURPLE = register(MishmashedModBlocks.PURPLE, MishmashedModTabs.TAB_REDSTONES);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
