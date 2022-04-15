@@ -1425,7 +1425,7 @@
       "name": "E",
       "type": "biome",
       "sortid": 55,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "e",
       "path": "~/Redstones"
