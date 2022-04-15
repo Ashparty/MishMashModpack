@@ -1,7 +1,9 @@
 {
   "subtitles.flymusic": "Player Is about to die",
   "block.mishmashed.inspectah_block": "Inspectah Block",
+  "biome.mishmashed.e": "E",
   "advancements.full_set_of_pog.title": "Cover Me in Pog",
+  "item.mishmashed.entity_muffin_spawn_egg": "Entity Muffin Spawn Egg",
   "subtitles.poggers": "POGGERS",
   "item.mishmashed.pog_armor_boots": "Pog Boots",
   "item.mishmashed.sus_helmet": "Sus Helmet",
@@ -49,6 +51,7 @@
   "item.mishmashed.susfragemt": "Susfragemt",
   "item.mishmashed.pingorite_scrap": "Pingorite Scrap",
   "block.mishmashed.enchantment_table": "Enchantment Table",
+  "entity.mishmashed.entity_muffin": "Entity Muffin",
   "biome.mishmashed.experience_plains": "Experience Plains",
   "subtitles.jumpscream": "Screams",
   "advancements.uh_oh.descr": "Construct a Pomb",
