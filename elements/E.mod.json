@@ -30,34 +30,34 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "block.big_dripleaf.hit"
     },
     "additionsSound": {
-      "value": ""
+      "value": "block.azalea_leaves.hit"
     },
     "music": {
-      "value": ""
+      "value": "block.bell.use"
     },
     "moodSound": {
-      "value": ""
+      "value": "block.respawn_anchor.ambient"
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "SLIME"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "NONE",
+    "biomeCategory": "ICY",
     "parent": {
       "value": "No parent"
     },
     "rainingPossibility": 0.5,
-    "temperature": 0.5,
-    "baseHeight": 0.1,
-    "heightVariation": 0.2,
-    "biomeType": "WARM",
+    "temperature": 2.0,
+    "baseHeight": 1.4000000000000001,
+    "heightVariation": 2.0,
+    "biomeType": "ICY",
     "spawnBiome": true,
-    "biomeWeight": 10,
+    "biomeWeight": 1,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 4,
     "seagrassPerChunk": 17,

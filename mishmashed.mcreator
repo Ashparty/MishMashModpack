@@ -1389,7 +1389,7 @@
       "name": "EntityMuffin",
       "type": "livingentity",
       "sortid": 55,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "entity_muffin",
       "path": "~/Ash/MuffinEntity"

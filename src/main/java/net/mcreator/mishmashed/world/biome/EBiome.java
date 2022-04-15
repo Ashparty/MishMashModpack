@@ -29,15 +29,21 @@ import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.biome.BiomeSpecialEffects;
 import net.minecraft.world.level.biome.BiomeGenerationSettings;
 import net.minecraft.world.level.biome.Biome;
+import net.minecraft.world.level.biome.AmbientParticleSettings;
+import net.minecraft.world.level.biome.AmbientMoodSettings;
+import net.minecraft.world.level.biome.AmbientAdditionsSettings;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.util.valueproviders.BiasedToBottomInt;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.Music;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.data.worldgen.StructureFeatures;
 import net.minecraft.data.worldgen.Features;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import net.minecraft.data.BuiltinRegistries;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Registry;
 
 import net.mcreator.mishmashed.world.features.treedecorators.ETrunkDecorator;
@@ -57,7 +63,12 @@ public class EBiome {
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-256).waterColor(-6750055).waterFogColor(-16751002).skyColor(-256)
-				.foliageColorOverride(-13369498).grassColorOverride(-10066177).build();
+				.foliageColorOverride(-13369498).grassColorOverride(-10066177)
+				.ambientLoopSound(new SoundEvent(new ResourceLocation("block.big_dripleaf.hit")))
+				.ambientMoodSound(new AmbientMoodSettings(new SoundEvent(new ResourceLocation("block.respawn_anchor.ambient")), 6000, 8, 2))
+				.ambientAdditionsSound(new AmbientAdditionsSettings(new SoundEvent(new ResourceLocation("block.azalea_leaves.hit")), 0.0111D))
+				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("block.bell.use")), 12000, 24000, true))
+				.ambientParticle(new AmbientParticleSettings(ParticleTypes.ITEM_SLIME, 0.005f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder().surfaceBuilder(SURFACE_BUILDER);
 		biomeGenerationSettings.addStructureStart(StructureFeatures.STRONGHOLD);
 		biomeGenerationSettings.addStructureStart(StructureFeatures.MINESHAFT);
@@ -136,8 +147,8 @@ public class EBiome {
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
 		BiomeDefaultFeatures.addSurfaceFreezing(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder().setPlayerCanSpawn();
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).depth(0.1f).scale(0.2f)
-				.temperature(0.5f).downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build())
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.ICY).depth(1.4000000000000001f)
+				.scale(2f).temperature(2f).downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build())
 				.generationSettings(biomeGenerationSettings.build()).build();
 	}
 
@@ -145,8 +156,8 @@ public class EBiome {
 		Registry.register(BuiltinRegistries.CONFIGURED_SURFACE_BUILDER, new ResourceLocation(MishmashedMod.MODID, "e"), SURFACE_BUILDER);
 		CONFIGURED_FEATURES.forEach((resourceLocation, configuredFeature) -> Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, resourceLocation,
 				configuredFeature));
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM,
-				new BiomeManager.BiomeEntry(ResourceKey.create(Registry.BIOME_REGISTRY, BuiltinRegistries.BIOME.getKey(MishmashedModBiomes.E)), 10));
+		BiomeManager.addBiome(BiomeManager.BiomeType.ICY,
+				new BiomeManager.BiomeEntry(ResourceKey.create(Registry.BIOME_REGISTRY, BuiltinRegistries.BIOME.getKey(MishmashedModBiomes.E)), 1));
 	}
 
 	private static final Map<ResourceLocation, ConfiguredFeature<?, ?>> CONFIGURED_FEATURES = new HashMap<>();
