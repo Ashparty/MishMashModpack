@@ -16,6 +16,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
+import net.mcreator.mishmashed.world.features.plants.MuffinFlowerFeature;
 import net.mcreator.mishmashed.world.features.plants.InspectahPoppyFeature;
 import net.mcreator.mishmashed.world.features.plants.ExperienceFlowerFeature;
 import net.mcreator.mishmashed.world.features.plants.EnchantPlantFeature;
@@ -46,6 +47,8 @@ public class MishmashedModFeatures {
 				ExperienceFlowerFeature.GENERATE_BIOMES, ExperienceFlowerFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(ExperienceOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				ExperienceOreFeature.GENERATE_BIOMES, ExperienceOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(MuffinFlowerFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
+				MuffinFlowerFeature.GENERATE_BIOMES, MuffinFlowerFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

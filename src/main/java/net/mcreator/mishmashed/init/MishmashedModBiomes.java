@@ -12,6 +12,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.mishmashed.world.biome.MuffinsBiomeBiome;
 import net.mcreator.mishmashed.world.biome.ExperiencePlainsBiome;
 import net.mcreator.mishmashed.world.biome.EBiome;
 import net.mcreator.mishmashed.MishmashedMod;
@@ -24,6 +25,7 @@ public class MishmashedModBiomes {
 	private static final List<Biome> REGISTRY = new ArrayList<>();
 	public static Biome EXPERIENCE_PLAINS = register("experience_plains", ExperiencePlainsBiome.createBiome());
 	public static Biome E = register("e", EBiome.createBiome());
+	public static Biome MUFFINS_BIOME = register("muffins_biome", MuffinsBiomeBiome.createBiome());
 
 	private static Biome register(String registryname, Biome biome) {
 		REGISTRY.add(biome.setRegistryName(new ResourceLocation(MishmashedMod.MODID, registryname)));
@@ -40,6 +42,7 @@ public class MishmashedModBiomes {
 		event.enqueueWork(() -> {
 			ExperiencePlainsBiome.init();
 			EBiome.init();
+			MuffinsBiomeBiome.init();
 		});
 	}
 }
