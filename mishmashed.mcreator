@@ -1345,7 +1345,7 @@
       "name": "Sus",
       "type": "armor",
       "sortid": 50,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "sus",
       "metadata": {
@@ -1360,7 +1360,7 @@
       "name": "Susfragemt",
       "type": "item",
       "sortid": 52,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "susfragemt",
       "path": "~/Taylor"
@@ -1396,7 +1396,7 @@
       "name": "Imposter",
       "type": "livingentity",
       "sortid": 51,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "imposter",
       "path": "~/Taylor"
@@ -1409,6 +1409,42 @@
       "locked_code": false,
       "registry_name": "e",
       "path": "~/Redstones"
+    },
+    {
+      "name": "Susings",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "susings",
+      "path": "~/Taylor"
+    },
+    {
+      "name": "Susplate",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "susplate",
+      "path": "~/Taylor"
+    },
+    {
+      "name": "Susmet",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "susmet",
+      "path": "~/Taylor"
+    },
+    {
+      "name": "EntityMuffin",
+      "type": "livingentity",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_muffin",
+      "path": "~/Ash/MuffinEntity"
     }
   ],
   "variable_elements": [],
@@ -1474,10 +1510,10 @@
     "en_us": {
       "subtitles.flymusic": "Player Is about to die",
       "block.mishmashed.inspectah_block": "Inspectah Block",
-      "biome.mishmashed.e": "E",
       "advancements.full_set_of_pog.title": "Cover Me In Pog",
       "subtitles.poggers": "POGGERS",
       "item.mishmashed.pog_armor_boots": "Pog Boots",
+      "item.mishmashed.sus_helmet": "Sus Helmet",
       "item.mishmashed.pog_armor_leggings": "Pog Leggings",
       "item.mishmashed.sand_paper": "Sand Paper",
       "advancements.unable_to_balance.title": "Unable To Balance!",
@@ -1486,8 +1522,9 @@
       "subtitles.gluebucket": "Glue grogs",
       "block.mishmashed.experience_flower": "Experience Flower",
       "item.mishmashed.inspectah_food": "Inspectah Food",
-      "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
+      "item.mishmashed.imposter_spawn_egg": "Imposter Spawn Egg",
       "advancements.shown_in_the_attic.title": "Shown In The Attic",
+      "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
       "subtitles.stop": "STOP",
       "item.mishmashed.ancient_nugget": "Ancient Nugget",
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
@@ -1501,11 +1538,16 @@
       "item.mishmashed.pog_locator": "Pomb",
       "advancements.thats_how_its_made.title": "Thats How It\u0027s Made?",
       "item.mishmashed.pog_hoe": "Pog Hoe",
+      "item.mishmashed.sus_boots": "Sus Boots",
+      "entity.mishmashed.imposter": "Imposter",
       "itemGroup.tabhm": "HMM?",
       "item.mishmashed.muffin_launcher": "Muffin Launcher",
       "item.mishmashed.funny_cookie": "Funny Cookie",
       "subtitles.muffinpew": "Pew!",
+      "item.mishmashed.sus_leggings": "Sus Leggings",
+      "itemGroup.tabhell": "Hell",
       "itemGroup.tabwhat": "WHAT",
+      "item.mishmashed.sus_chestplate": "Sus Body",
       "fluid.mishmashed.glue": "Glue",
       "item.mishmashed.pingot": "Pingot",
       "subtitles.sus": "",
@@ -1513,6 +1555,7 @@
       "item.mishmashed.pog_sword": "Pog Sword",
       "item.mishmashed.pogerite_composite": "Pogerite Composite",
       "item.mishmashed.glue_bucket": "Glue Bucket",
+      "item.mishmashed.susfragemt": "Susfragemt",
       "item.mishmashed.pingorite_scrap": "Pingorite Scrap",
       "block.mishmashed.enchantment_table": "Enchantment Table",
       "biome.mishmashed.experience_plains": "Experience Plains",
@@ -1551,10 +1594,6 @@
             "children": []
           },
           {
-            "name": "Zombies",
-            "children": []
-          },
-          {
             "name": "Blocks",
             "children": [
               {
@@ -1576,11 +1615,19 @@
             "children": []
           },
           {
-            "name": "Biomes",
+            "name": "Creepers",
             "children": []
           },
           {
-            "name": "Creepers",
+            "name": "Spiders",
+            "children": []
+          },
+          {
+            "name": "Zombies",
+            "children": []
+          },
+          {
+            "name": "Biomes",
             "children": []
           },
           {
@@ -1589,10 +1636,6 @@
           },
           {
             "name": "Skeletons",
-            "children": []
-          },
-          {
-            "name": "Spiders",
             "children": []
           },
           {
@@ -1625,7 +1668,32 @@
       },
       {
         "name": "Peko",
-        "children": []
+        "children": [
+          {
+            "name": "Crafting ingredients",
+            "children": []
+          },
+          {
+            "name": "Loot and procedure",
+            "children": []
+          },
+          {
+            "name": "PogGear",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Advancements",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Taylor",
