@@ -9,7 +9,6 @@
   "advancements.unable_to_balance.title": "Unable To Balance!",
   "item.mishmashed.enchant_dust": "Enchant Dust",
   "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
-  "item.mishmashed.tamed_muffin_spawn_egg": "Tamed Muffin Spawn Egg",
   "subtitles.gluebucket": "Glue grogs",
   "block.mishmashed.experience_flower": "Experience Flower",
   "item.mishmashed.inspectah_food": "Inspectah Food",
@@ -32,7 +31,6 @@
   "item.mishmashed.muffin_launcher": "Muffin Launcher",
   "item.mishmashed.funny_cookie": "Funny Cookie",
   "subtitles.muffinpew": "Pew!",
-  "entity.mishmashed.tamed_muffin": "Tamed Muffin",
   "itemGroup.tabwhat": "WHAT",
   "fluid.mishmashed.glue": "Glue",
   "item.mishmashed.pingot": "Pingot",
@@ -49,7 +47,6 @@
   "item.mishmashed.pog_axe": "Pog Axe",
   "block.mishmashed.experience_ore": "Experience Ore",
   "item.mishmashed.muffin_traveller": "Muffin Traveller",
-  "entity.mishmashed.wild_muffin": "Wild Muffin",
   "block.mishmashed.poggerrack": "Poggerrack",
   "advancements.full_set_of_pog.descr": "Obtain a full suit of pog armor",
   "item.mishmashed.pomb": "Pomb Unlimited",
@@ -57,6 +54,5 @@
   "advancements.thats_how_its_made.descr": "Craft Sandpaper",
   "block.mishmashed.inspectah_poppy": "Inspectah Poppy",
   "block.mishmashed.enchant_plant": "Enchant Plant",
-  "item.mishmashed.wild_muffin_spawn_egg": "Wild Muffin Spawn Egg",
   "item.mishmashed.pog_shovel": "Pog Shovel"
 }

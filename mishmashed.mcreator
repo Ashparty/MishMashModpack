@@ -1340,82 +1340,6 @@
         ]
       },
       "path": "~/Peko"
-    },
-    {
-      "name": "TamedMuffinRightClickedOnEntity",
-      "type": "procedure",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tamed_muffin_right_clicked_on_entity",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Ash/MuffinEntity"
-    },
-    {
-      "name": "TamedMuffin",
-      "type": "livingentity",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tamed_muffin",
-      "path": "~/Ash/MuffinEntity"
-    },
-    {
-      "name": "WildMuffinRightClickedOnEntity",
-      "type": "procedure",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wild_muffin_right_clicked_on_entity",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Ash/MuffinEntity"
-    },
-    {
-      "name": "WildMuffin",
-      "type": "livingentity",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wild_muffin",
-      "path": "~/Ash/MuffinEntity"
     }
   ],
   "variable_elements": [],
@@ -1481,12 +1405,11 @@
       "advancements.unable_to_balance.title": "Unable To Balance!",
       "item.mishmashed.enchant_dust": "Enchant Dust",
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
-      "item.mishmashed.tamed_muffin_spawn_egg": "Tamed Muffin Spawn Egg",
       "subtitles.gluebucket": "Glue grogs",
       "block.mishmashed.experience_flower": "Experience Flower",
       "item.mishmashed.inspectah_food": "Inspectah Food",
-      "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
       "advancements.shown_in_the_attic.title": "Shown In The Attic",
+      "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
       "subtitles.stop": "STOP",
       "item.mishmashed.ancient_nugget": "Ancient Nugget",
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
@@ -1504,7 +1427,6 @@
       "item.mishmashed.muffin_launcher": "Muffin Launcher",
       "item.mishmashed.funny_cookie": "Funny Cookie",
       "subtitles.muffinpew": "Pew!",
-      "entity.mishmashed.tamed_muffin": "Tamed Muffin",
       "itemGroup.tabwhat": "WHAT",
       "fluid.mishmashed.glue": "Glue",
       "item.mishmashed.pingot": "Pingot",
@@ -1521,7 +1443,6 @@
       "item.mishmashed.pog_axe": "Pog Axe",
       "block.mishmashed.experience_ore": "Experience Ore",
       "item.mishmashed.muffin_traveller": "Muffin Traveller",
-      "entity.mishmashed.wild_muffin": "Wild Muffin",
       "block.mishmashed.poggerrack": "Poggerrack",
       "advancements.full_set_of_pog.descr": "Obtain a full suit of pog armor",
       "item.mishmashed.pomb": "Pomb Unlimited",
@@ -1529,7 +1450,6 @@
       "advancements.thats_how_its_made.descr": "Craft Sandpaper",
       "block.mishmashed.inspectah_poppy": "Inspectah Poppy",
       "block.mishmashed.enchant_plant": "Enchant Plant",
-      "item.mishmashed.wild_muffin_spawn_egg": "Wild Muffin Spawn Egg",
       "item.mishmashed.pog_shovel": "Pog Shovel"
     }
   },
