@@ -89,6 +89,9 @@ public class MishmashedModItems {
 			new SpawnEggItem(MishmashedModEntities.IMPOSTER, -3407872, -16724788, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("imposter_spawn_egg"));
 	public static final Item SUSFRAGEMT = register(new SusfragemtItem());
+	public static final Item ENTITY_MUFFIN = register(
+			new SpawnEggItem(MishmashedModEntities.ENTITY_MUFFIN, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("entity_muffin_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

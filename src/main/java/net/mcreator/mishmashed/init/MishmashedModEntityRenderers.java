@@ -14,6 +14,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.mcreator.mishmashed.client.renderer.MuffinTravellerRenderer;
 import net.mcreator.mishmashed.client.renderer.MuffinLauncherRenderer;
 import net.mcreator.mishmashed.client.renderer.ImposterRenderer;
+import net.mcreator.mishmashed.client.renderer.EntityMuffinRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class MishmashedModEntityRenderers {
@@ -23,5 +24,6 @@ public class MishmashedModEntityRenderers {
 		event.registerEntityRenderer(MishmashedModEntities.MUFFIN_LAUNCHER, MuffinLauncherRenderer::new);
 		event.registerEntityRenderer(MishmashedModEntities.MUFFIN_TRAVELLER, MuffinTravellerRenderer::new);
 		event.registerEntityRenderer(MishmashedModEntities.IMPOSTER, ImposterRenderer::new);
+		event.registerEntityRenderer(MishmashedModEntities.ENTITY_MUFFIN, EntityMuffinRenderer::new);
 	}
 }
