@@ -1,0 +1,62 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "susmet",
+    "enableBody": true,
+    "textureBody": "susplate",
+    "enableLeggings": true,
+    "textureLeggings": "suspant",
+    "enableBoots": true,
+    "textureBoots": "susboots",
+    "creativeTab": {
+      "value": "CUSTOM:Hell"
+    },
+    "armorTextureFile": "sus",
+    "helmetName": "Sus Helmet",
+    "bodyName": "Sus Body",
+    "leggingsName": "Sus Leggings",
+    "bootsName": "Sus Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 50,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 2.5,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": "block.anvil.fall"
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.SPONGE#1"
+      }
+    ]
+  }
+}
