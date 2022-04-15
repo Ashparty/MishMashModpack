@@ -1585,6 +1585,42 @@
       "locked_code": false,
       "registry_name": "purplestick",
       "path": "~/Redstones/items"
+    },
+    {
+      "name": "TwitchOre",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twitch_ore",
+      "path": "~/Peko/Blocks"
+    },
+    {
+      "name": "SuperGlue",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_glue",
+      "path": "~/Peko/Loot and procedure"
+    },
+    {
+      "name": "WHATTHEHELL",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whatthehell",
+      "path": "~/Peko/Advancements"
+    },
+    {
+      "name": "SuperGloo",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_gloo",
+      "path": "~/Peko/Recipes"
     }
   ],
   "variable_elements": [],
@@ -1649,6 +1685,7 @@
   "language_map": {
     "en_us": {
       "subtitles.flymusic": "Player Is about to die",
+      "advancements.whatthehell.title": "WHAT THE HELL?",
       "block.mishmashed.inspectah_block": "Inspectah Block",
       "biome.mishmashed.e": "E",
       "advancements.full_set_of_pog.title": "Cover Me in Pog",
@@ -1657,6 +1694,7 @@
       "item.mishmashed.pog_armor_boots": "Pog Boots",
       "item.mishmashed.sus_helmet": "Sus Helmet",
       "item.mishmashed.pog_armor_leggings": "Pog Leggings",
+      "block.mishmashed.twitch_ore": "Twitch Ore",
       "item.mishmashed.sand_paper": "Sand Paper",
       "advancements.unable_to_balance.title": "Unable To Balance!",
       "item.mishmashed.purplepickaxe": "Purple pickaxe",
@@ -1680,6 +1718,7 @@
       "item.mishmashed.pog": "Pog",
       "block.mishmashed.sifting_block": "Sifting Station",
       "item.mishmashed.ash_creative_tab_icon": "Ash Creative Tab Icon",
+      "advancements.whatthehell.descr": "WHAT IS THAT THING?",
       "block.mishmashed.creepe_plant": "Creepe Plant",
       "item.mishmashed.pog_armor_helmet": "Pog Helmet",
       "item.mishmashed.pog_locator": "Pomb",
@@ -1709,6 +1748,7 @@
       "block.mishmashed.enchantment_table": "Enchantment Table",
       "entity.mishmashed.entity_muffin": "Entity Muffin",
       "biome.mishmashed.experience_plains": "Experience Plains",
+      "item.mishmashed.super_glue": "Super Glue",
       "subtitles.jumpscream": "Screams",
       "advancements.uh_oh.descr": "Construct a Pomb",
       "advancements.shown_in_the_attic.descr": "Obtain Poggerrack",

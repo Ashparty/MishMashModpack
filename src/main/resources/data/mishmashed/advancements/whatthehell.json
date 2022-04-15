@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "mishmashed:super_glue"
+    },
+    "title": {
+      "translate": "advancements.whatthehell.title"
+    },
+    "description": {
+      "translate": "advancements.whatthehell.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "whatthehell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mishmashed:super_glue"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mishmashed:full_set_of_pog"
+}

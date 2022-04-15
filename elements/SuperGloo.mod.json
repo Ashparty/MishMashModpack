@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PogArmor.helmet"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PogArmor.legs"
+      },
+      {
+        "value": "CUSTOM:Glue"
+      },
+      {
+        "value": "CUSTOM:PogArmor.body"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PogArmor.boots"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SuperGlue"
+    },
+    "name": "super_gloo",
+    "namespace": "mod"
+  }
+}

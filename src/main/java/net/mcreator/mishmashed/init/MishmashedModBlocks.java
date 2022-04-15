@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.mishmashed.block.TwitchOreBlock;
 import net.mcreator.mishmashed.block.SiftingBlockBlock;
 import net.mcreator.mishmashed.block.PurpleBlock;
 import net.mcreator.mishmashed.block.PupleoreBlock;
@@ -45,6 +46,7 @@ public class MishmashedModBlocks {
 	public static final Block MUFFIN_FLOWER = register(new MuffinFlowerBlock());
 	public static final Block PURPLE = register(new PurpleBlock());
 	public static final Block PUPLEORE = register(new PupleoreBlock());
+	public static final Block TWITCH_ORE = register(new TwitchOreBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
