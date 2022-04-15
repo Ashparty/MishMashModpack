@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "purple_smile",
-    "textureTop": "purple_smile",
-    "textureLeft": "purple_smile",
-    "textureFront": "purple_smile",
-    "textureRight": "purple_smile",
-    "textureBack": "purple_smile",
+    "texture": "purple_ore",
+    "textureTop": "purple_ore",
+    "textureLeft": "purple_ore",
+    "textureFront": "purple_ore",
+    "textureRight": "purple_ore",
+    "textureBack": "purple_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Purple",
+    "name": "Pupleore",
     "specialInfo": [],
-    "hardness": 0.09999999999999999,
-    "resistance": 1000.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -43,12 +43,12 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Purpleingot"
     },
-    "dropAmount": 1,
+    "dropAmount": 2,
     "useLootTableForDrops": false,
-    "enchantPowerBonus": 100.0,
-    "plantsGrowOn": true,
+    "enchantPowerBonus": 1001.0,
+    "plantsGrowOn": false,
     "canRedstoneConnect": true,
     "lightOpacity": 15,
     "material": {
@@ -56,7 +56,7 @@
     },
     "tickRate": 10,
     "tickRandomly": false,
-    "isReplaceable": true,
+    "isReplaceable": false,
     "canProvidePower": true,
     "emittedRedstonePower": {
       "fixedValue": 15.0
@@ -67,12 +67,12 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 1,
-    "fireSpreadSpeed": 97,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 1.5,
-    "jumpFactor": 1.5,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -96,7 +96,7 @@
     },
     "luminance": 15,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -131,24 +131,12 @@
     ],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.DEEPSLATE"
-      },
-      {
-        "value": "Blocks.COBBLED_DEEPSLATE"
+        "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 46,
-    "frequencyOnChunk": 45,
+    "frequencyPerChunks": 6,
+    "frequencyOnChunk": 7,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 256
+    "maxGenerateHeight": 30
   }
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mishmashed:purple"
+    },
+    {
+      "item": "mishmashed:purple"
+    }
+  ],
+  "result": {
+    "item": "mishmashed:deleted_mod_element",
+    "count": 4
+  }
+}
