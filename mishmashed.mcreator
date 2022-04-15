@@ -1449,6 +1449,15 @@
       "path": "~/Ash/Blocks/Plants"
     },
     {
+      "name": "Purple",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple",
+      "path": "~/Redstones"
+    },
+    {
       "name": "Redstones",
       "type": "tab",
       "sortid": 60,
@@ -1458,13 +1467,37 @@
       "path": "~/Redstones"
     },
     {
-      "name": "Purple",
-      "type": "block",
+      "name": "NOPIGSTEP",
+      "type": "procedure",
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "purple",
-      "path": "~/Redstones"
+      "registry_name": "nopigstep",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Peko/Loot and procedure"
     }
   ],
   "variable_elements": [],
@@ -1539,10 +1572,9 @@
       "item.mishmashed.pog_armor_leggings": "Pog Leggings",
       "item.mishmashed.sand_paper": "Sand Paper",
       "advancements.unable_to_balance.title": "Unable To Balance!",
-      "item.mishmashed.enchant_dust": "Enchant Dust",
       "biome.mishmashed.muffins_biome": "Muffins Biome",
+      "item.mishmashed.enchant_dust": "Enchant Dust",
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
-      "itemGroup.tabredstones": "Redstones",
       "subtitles.gluebucket": "Glue grogs",
       "block.mishmashed.experience_flower": "Experience Flower",
       "item.mishmashed.inspectah_food": "Inspectah Food",
@@ -1581,7 +1613,6 @@
       "item.mishmashed.pogerite_composite": "Pogerite Composite",
       "item.mishmashed.glue_bucket": "Glue Bucket",
       "item.mishmashed.susfragemt": "Susfragemt",
-      "block.mishmashed.purple": "Purple",
       "item.mishmashed.pingorite_scrap": "Pingorite Scrap",
       "block.mishmashed.enchantment_table": "Enchantment Table",
       "entity.mishmashed.entity_muffin": "Entity Muffin",
