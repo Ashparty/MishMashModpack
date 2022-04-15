@@ -75,24 +75,24 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "GROUND"
     },
     "breakSound": {
-      "value": ""
+      "value": "CUSTOM:inspectahblockbreaks"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:inblockabient"
     },
     "placeSound": {
-      "value": ""
+      "value": "CUSTOM:inblockabient"
     },
     "hitSound": {
-      "value": ""
+      "value": "CUSTOM:inblockabient"
     },
     "fallSound": {
-      "value": ""
+      "value": "CUSTOM:inblockabient"
     },
     "luminance": 0,
     "unbreakable": false,

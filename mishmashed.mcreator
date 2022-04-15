@@ -1587,13 +1587,13 @@
       "path": "~/Redstones/items"
     },
     {
-      "name": "TwitchOre",
-      "type": "block",
-      "sortid": 65,
+      "name": "WHATTHEHELL",
+      "type": "achievement",
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "twitch_ore",
-      "path": "~/Peko/Blocks"
+      "registry_name": "whatthehell",
+      "path": "~/Peko/Advancements"
     },
     {
       "name": "SuperGlue",
@@ -1605,15 +1605,6 @@
       "path": "~/Peko/Loot and procedure"
     },
     {
-      "name": "WHATTHEHELL",
-      "type": "achievement",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "whatthehell",
-      "path": "~/Peko/Advancements"
-    },
-    {
       "name": "SuperGloo",
       "type": "recipe",
       "sortid": 68,
@@ -1621,6 +1612,88 @@
       "locked_code": false,
       "registry_name": "super_gloo",
       "path": "~/Peko/Recipes"
+    },
+    {
+      "name": "TwitchOre",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twitch_ore",
+      "path": "~/Peko/Blocks"
+    },
+    {
+      "name": "Purpleswords",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpleswords",
+      "path": "~/Redstones/recipies"
+    },
+    {
+      "name": "Purpleapple",
+      "type": "food",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpleapple",
+      "path": "~/Redstones/items"
+    },
+    {
+      "name": "PurpleswordEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplesword_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Redstones/procedures"
+    },
+    {
+      "name": "PurpleswordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplesword_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstones/procedures"
+    },
+    {
+      "name": "Purplesword",
+      "type": "tool",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplesword",
+      "path": "~/Redstones/items"
     }
   ],
   "variable_elements": [],
@@ -1680,35 +1753,51 @@
       ],
       "category": "ambient",
       "subtitle": ""
+    },
+    {
+      "name": "inblockabient",
+      "files": [
+        "inblock"
+      ],
+      "category": "neutral",
+      "subtitle": "Inspectah has a stroke"
+    },
+    {
+      "name": "inspectahblockbreaks",
+      "files": [
+        "inspectahblockbreaking"
+      ],
+      "category": "neutral",
+      "subtitle": "Pop Screams"
     }
   ],
   "language_map": {
     "en_us": {
       "subtitles.flymusic": "Player Is about to die",
-      "advancements.whatthehell.title": "WHAT THE HELL?",
       "block.mishmashed.inspectah_block": "Inspectah Block",
       "biome.mishmashed.e": "E",
-      "advancements.full_set_of_pog.title": "Cover Me in Pog",
       "item.mishmashed.entity_muffin_spawn_egg": "Entity Muffin Spawn Egg",
+      "advancements.full_set_of_pog.title": "Cover Me in Pog",
       "subtitles.poggers": "POGGERS",
       "item.mishmashed.pog_armor_boots": "Pog Boots",
       "item.mishmashed.sus_helmet": "Sus Helmet",
       "item.mishmashed.pog_armor_leggings": "Pog Leggings",
-      "block.mishmashed.twitch_ore": "Twitch Ore",
       "item.mishmashed.sand_paper": "Sand Paper",
       "advancements.unable_to_balance.title": "Unable To Balance!",
-      "item.mishmashed.purplepickaxe": "Purple pickaxe",
-      "item.mishmashed.enchant_dust": "Enchant Dust",
-      "biome.mishmashed.muffins_biome": "Muffins Biome",
       "item.mishmashed.purpleingot": "Purple Ingot",
-      "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
+      "biome.mishmashed.muffins_biome": "Muffins Biome",
+      "item.mishmashed.enchant_dust": "Enchant Dust",
+      "item.mishmashed.purplepickaxe": "Purple pickaxe",
       "block.mishmashed.pupleore": "Pupleore",
+      "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
+      "itemGroup.tabredstones": "Redstones",
       "subtitles.gluebucket": "Glue grogs",
       "block.mishmashed.experience_flower": "Experience Flower",
       "item.mishmashed.inspectah_food": "Inspectah Food",
       "item.mishmashed.imposter_spawn_egg": "Imposter Spawn Egg",
       "advancements.shown_in_the_attic.title": "Shown in The Attic",
       "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
+      "subtitles.inblockabient": "Inspectah has a stroke",
       "subtitles.stop": "STOP",
       "item.mishmashed.ancient_nugget": "Ancient Nugget",
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
@@ -1718,7 +1807,6 @@
       "item.mishmashed.pog": "Pog",
       "block.mishmashed.sifting_block": "Sifting Station",
       "item.mishmashed.ash_creative_tab_icon": "Ash Creative Tab Icon",
-      "advancements.whatthehell.descr": "WHAT IS THAT THING?",
       "block.mishmashed.creepe_plant": "Creepe Plant",
       "item.mishmashed.pog_armor_helmet": "Pog Helmet",
       "item.mishmashed.pog_locator": "Pomb",
@@ -1726,6 +1814,7 @@
       "item.mishmashed.pog_hoe": "Pog Hoe",
       "item.mishmashed.sus_boots": "Sus Boots",
       "entity.mishmashed.imposter": "Imposter",
+      "subtitles.inspectahblockbreaks": "Pop Screams",
       "item.mishmashed.purplestick": "Purplestick",
       "itemGroup.tabhm": "HMM?",
       "item.mishmashed.muffin_launcher": "Muffin Launcher",
@@ -1748,7 +1837,6 @@
       "block.mishmashed.enchantment_table": "Enchantment Table",
       "entity.mishmashed.entity_muffin": "Entity Muffin",
       "biome.mishmashed.experience_plains": "Experience Plains",
-      "item.mishmashed.super_glue": "Super Glue",
       "subtitles.jumpscream": "Screams",
       "advancements.uh_oh.descr": "Construct a Pomb",
       "advancements.shown_in_the_attic.descr": "Obtain Poggerrack",

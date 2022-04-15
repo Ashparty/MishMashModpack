@@ -18,9 +18,11 @@ import net.mcreator.mishmashed.item.SusfragemtItem;
 import net.mcreator.mishmashed.item.SusItem;
 import net.mcreator.mishmashed.item.SuperGlueItem;
 import net.mcreator.mishmashed.item.SandPaperItem;
+import net.mcreator.mishmashed.item.PurpleswordItem;
 import net.mcreator.mishmashed.item.PurplestickItem;
 import net.mcreator.mishmashed.item.PurplepickaxeItem;
 import net.mcreator.mishmashed.item.PurpleingotItem;
+import net.mcreator.mishmashed.item.PurpleappleItem;
 import net.mcreator.mishmashed.item.PombItem;
 import net.mcreator.mishmashed.item.PogeriteCompositeItem;
 import net.mcreator.mishmashed.item.PogSwordItem;
@@ -103,7 +105,9 @@ public class MishmashedModItems {
 	public static final Item PURPLEPICKAXE = register(new PurplepickaxeItem());
 	public static final Item PURPLESTICK = register(new PurplestickItem());
 	public static final Item TWITCH_ORE = register(MishmashedModBlocks.TWITCH_ORE, MishmashedModTabs.TAB_WHAT);
+	public static final Item PURPLESWORD = register(new PurpleswordItem());
 	public static final Item SUPER_GLUE = register(new SuperGlueItem());
+	public static final Item PURPLEAPPLE = register(new PurpleappleItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

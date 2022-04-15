@@ -1,0 +1,39 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "purple_sword",
+    "customModelName": "Normal",
+    "name": "Purple sword",
+    "specialInfo": [
+      "sword but purple"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Redstones"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 4.0,
+    "enchantability": 44,
+    "damageVsEntity": 10.0,
+    "usageCount": 3000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Purpleingot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "PurpleswordRightClickedInAir"
+    },
+    "onEntitySwing": {
+      "name": "PurpleswordEntitySwingsItem"
+    }
+  }
+}
