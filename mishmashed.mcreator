@@ -1557,6 +1557,22 @@
       ],
       "category": "ambient",
       "subtitle": ""
+    },
+    {
+      "name": "inspectahblockbreaks",
+      "files": [
+        "inspectahblockbreaking"
+      ],
+      "category": "neutral",
+      "subtitle": "Pop Screams"
+    },
+    {
+      "name": "inblockabient",
+      "files": [
+        "inblock"
+      ],
+      "category": "neutral",
+      "subtitle": "Inspectah has a stroke"
     }
   ],
   "language_map": {
@@ -1580,6 +1596,7 @@
       "block.mishmashed.experience_flower": "Experience Flower",
       "item.mishmashed.inspectah_food": "Inspectah Food",
       "item.mishmashed.imposter_spawn_egg": "Imposter Spawn Egg",
+      "subtitles.inblockabient": "Inspectah has a stroke",
       "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
       "advancements.shown_in_the_attic.title": "Shown in The Attic",
       "subtitles.stop": "STOP",
@@ -1598,6 +1615,7 @@
       "item.mishmashed.pog_hoe": "Pog Hoe",
       "item.mishmashed.sus_boots": "Sus Boots",
       "entity.mishmashed.imposter": "Imposter",
+      "subtitles.inspectahblockbreaks": "Pop Screams",
       "itemGroup.tabhm": "HMM?",
       "item.mishmashed.muffin_launcher": "Muffin Launcher",
       "item.mishmashed.funny_cookie": "Funny Cookie",

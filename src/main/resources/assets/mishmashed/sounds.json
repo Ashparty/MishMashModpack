@@ -67,5 +67,25 @@
         "stream": false
       }
     ]
+  },
+  "inspectahblockbreaks": {
+    "category": "neutral",
+    "subtitle": "subtitles.inspectahblockbreaks",
+    "sounds": [
+      {
+        "name": "mishmashed:inspectahblockbreaking",
+        "stream": false
+      }
+    ]
+  },
+  "inblockabient": {
+    "category": "neutral",
+    "subtitle": "subtitles.inblockabient",
+    "sounds": [
+      {
+        "name": "mishmashed:inblock",
+        "stream": false
+      }
+    ]
   }
 }
