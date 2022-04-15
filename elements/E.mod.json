@@ -7,7 +7,7 @@
       "value": "Blocks.CANDLE_CAKE#11"
     },
     "undergroundBlock": {
-      "value": "Blocks.MAGENTA_GLAZED_TERRACOTTA"
+      "value": "Blocks.AMETHYST_BLOCK"
     },
     "airColor": {
       "value": -256,
@@ -30,7 +30,7 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "block.big_dripleaf.hit"
+      "value": ""
     },
     "additionsSound": {
       "value": "block.azalea_leaves.hit"
@@ -59,7 +59,7 @@
     "spawnBiome": true,
     "biomeWeight": 5,
     "biomeDictionaryTypes": [],
-    "grassPerChunk": 4,
+    "grassPerChunk": 12,
     "seagrassPerChunk": 17,
     "flowersPerChunk": 1,
     "mushroomsPerChunk": 1,

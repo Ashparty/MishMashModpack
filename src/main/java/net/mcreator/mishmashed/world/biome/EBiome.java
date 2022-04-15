@@ -58,14 +58,12 @@ import java.util.HashMap;
 import com.google.common.collect.ImmutableList;
 
 public class EBiome {
-	private static final ConfiguredSurfaceBuilder<?> SURFACE_BUILDER = SurfaceBuilder.DEFAULT
-			.configured(new SurfaceBuilderBaseConfiguration(Blocks.PURPLE_CANDLE_CAKE.defaultBlockState(),
-					Blocks.MAGENTA_GLAZED_TERRACOTTA.defaultBlockState(), Blocks.MAGENTA_GLAZED_TERRACOTTA.defaultBlockState()));
+	private static final ConfiguredSurfaceBuilder<?> SURFACE_BUILDER = SurfaceBuilder.DEFAULT.configured(new SurfaceBuilderBaseConfiguration(
+			Blocks.PURPLE_CANDLE_CAKE.defaultBlockState(), Blocks.AMETHYST_BLOCK.defaultBlockState(), Blocks.AMETHYST_BLOCK.defaultBlockState()));
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-256).waterColor(-6750055).waterFogColor(-16751002).skyColor(-256)
 				.foliageColorOverride(-13369498).grassColorOverride(-10066177)
-				.ambientLoopSound(new SoundEvent(new ResourceLocation("block.big_dripleaf.hit")))
 				.ambientMoodSound(new AmbientMoodSettings(new SoundEvent(new ResourceLocation("block.respawn_anchor.ambient")), 6000, 8, 2))
 				.ambientAdditionsSound(new AmbientAdditionsSettings(new SoundEvent(new ResourceLocation("block.azalea_leaves.hit")), 0.0111D))
 				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("block.bell.use")), 12000, 24000, true))
@@ -98,7 +96,7 @@ public class EBiome {
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				register("grass",
 						Feature.RANDOM_PATCH.configured(Features.Configs.DEFAULT_GRASS_CONFIG).decorated(Features.Decorators.HEIGHTMAP_DOUBLE_SQUARE)
-								.decorated(FeatureDecorator.COUNT_NOISE.configured(new NoiseDependantDecoratorConfiguration(-0.8D, 5, 4)))));
+								.decorated(FeatureDecorator.COUNT_NOISE.configured(new NoiseDependantDecoratorConfiguration(-0.8D, 5, 12)))));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, register("seagrass", Feature.SEAGRASS
 				.configured(new ProbabilityFeatureConfiguration(0.3F)).count(17).decorated(Features.Decorators.TOP_SOLID_HEIGHTMAP_SQUARE)));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
@@ -128,13 +126,14 @@ public class EBiome {
 						new SimpleStateProvider(Blocks.MUSHROOM_STEM.defaultBlockState().setValue(HugeMushroomBlock.UP, Boolean.FALSE)
 								.setValue(HugeMushroomBlock.DOWN, Boolean.FALSE)),
 						2))));
-		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				register("disk_sand",
-						Feature.DISK
-								.configured(new DiskConfiguration(Blocks.SAND.defaultBlockState(), UniformInt.of(2, 4), 2,
-										ImmutableList.of(Blocks.PURPLE_CANDLE_CAKE.defaultBlockState(),
-												Blocks.MAGENTA_GLAZED_TERRACOTTA.defaultBlockState())))
-								.decorated(Features.Decorators.TOP_SOLID_HEIGHTMAP_SQUARE).count(1)));
+		biomeGenerationSettings
+				.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
+						register("disk_sand",
+								Feature.DISK
+										.configured(new DiskConfiguration(Blocks.SAND.defaultBlockState(), UniformInt.of(2, 4), 2,
+												ImmutableList.of(Blocks.PURPLE_CANDLE_CAKE.defaultBlockState(),
+														Blocks.AMETHYST_BLOCK.defaultBlockState())))
+										.decorated(Features.Decorators.TOP_SOLID_HEIGHTMAP_SQUARE).count(1)));
 		biomeGenerationSettings
 				.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 						register("patch_cactus",

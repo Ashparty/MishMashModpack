@@ -1480,6 +1480,111 @@
         ]
       },
       "path": "~/Peko/Loot and procedure"
+    },
+    {
+      "name": "Purpleingot",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpleingot",
+      "path": "~/Redstones/items"
+    },
+    {
+      "name": "Purplepick",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplepick",
+      "path": "~/Redstones/recipies"
+    },
+    {
+      "name": "Purple",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple",
+      "path": "~/Redstones/blocks"
+    },
+    {
+      "name": "Pupleore",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pupleore",
+      "path": "~/Redstones/blocks"
+    },
+    {
+      "name": "Redstones",
+      "type": "tab",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstones",
+      "path": "~/Redstones"
+    },
+    {
+      "name": "Purplepickaxe",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplepickaxe",
+      "path": "~/Redstones/items"
+    },
+    {
+      "name": "Purplesticks",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplesticks",
+      "path": "~/Redstones/recipies"
+    },
+    {
+      "name": "PurplepickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplepickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstones/procedures"
+    },
+    {
+      "name": "Purplestick",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplestick",
+      "path": "~/Redstones/items"
     }
   ],
   "variable_elements": [],
@@ -1556,6 +1661,7 @@
       "advancements.unable_to_balance.title": "Unable To Balance!",
       "biome.mishmashed.muffins_biome": "Muffins Biome",
       "item.mishmashed.enchant_dust": "Enchant Dust",
+      "item.mishmashed.purplepickaxe": "Purple pickaxe",
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
       "subtitles.gluebucket": "Glue grogs",
       "block.mishmashed.experience_flower": "Experience Flower",
@@ -1741,7 +1847,28 @@
       },
       {
         "name": "Redstones",
-        "children": []
+        "children": [
+          {
+            "name": "items",
+            "children": []
+          },
+          {
+            "name": "biomes",
+            "children": []
+          },
+          {
+            "name": "procedures",
+            "children": []
+          },
+          {
+            "name": "blocks",
+            "children": []
+          },
+          {
+            "name": "recipies",
+            "children": []
+          }
+        ]
       }
     ]
   },

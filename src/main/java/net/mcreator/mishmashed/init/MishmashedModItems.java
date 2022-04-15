@@ -17,6 +17,9 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.mishmashed.item.SusfragemtItem;
 import net.mcreator.mishmashed.item.SusItem;
 import net.mcreator.mishmashed.item.SandPaperItem;
+import net.mcreator.mishmashed.item.PurplestickItem;
+import net.mcreator.mishmashed.item.PurplepickaxeItem;
+import net.mcreator.mishmashed.item.PurpleingotItem;
 import net.mcreator.mishmashed.item.PombItem;
 import net.mcreator.mishmashed.item.PogeriteCompositeItem;
 import net.mcreator.mishmashed.item.PogSwordItem;
@@ -93,6 +96,11 @@ public class MishmashedModItems {
 			new SpawnEggItem(MishmashedModEntities.ENTITY_MUFFIN, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("entity_muffin_spawn_egg"));
 	public static final Item MUFFIN_FLOWER = register(MishmashedModBlocks.MUFFIN_FLOWER, MishmashedModTabs.TAB_HM);
+	public static final Item PURPLE = register(MishmashedModBlocks.PURPLE, MishmashedModTabs.TAB_REDSTONES);
+	public static final Item PURPLEINGOT = register(new PurpleingotItem());
+	public static final Item PUPLEORE = register(MishmashedModBlocks.PUPLEORE, MishmashedModTabs.TAB_REDSTONES);
+	public static final Item PURPLEPICKAXE = register(new PurplepickaxeItem());
+	public static final Item PURPLESTICK = register(new PurplestickItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

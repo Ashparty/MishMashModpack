@@ -13,6 +13,8 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.mishmashed.block.SiftingBlockBlock;
+import net.mcreator.mishmashed.block.PurpleBlock;
+import net.mcreator.mishmashed.block.PupleoreBlock;
 import net.mcreator.mishmashed.block.PoggerrackBlock;
 import net.mcreator.mishmashed.block.MuffinFlowerBlock;
 import net.mcreator.mishmashed.block.InspectahPoppyBlock;
@@ -41,6 +43,8 @@ public class MishmashedModBlocks {
 	public static final Block EXPERIENCE_FLOWER = register(new ExperienceFlowerBlock());
 	public static final Block EXPERIENCE_ORE = register(new ExperienceOreBlock());
 	public static final Block MUFFIN_FLOWER = register(new MuffinFlowerBlock());
+	public static final Block PURPLE = register(new PurpleBlock());
+	public static final Block PUPLEORE = register(new PupleoreBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

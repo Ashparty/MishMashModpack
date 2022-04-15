@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mishmashed:blocks/purple_smile",
+    "up": "mishmashed:blocks/purple_smile",
+    "north": "mishmashed:blocks/purple_smile",
+    "east": "mishmashed:blocks/purple_smile",
+    "south": "mishmashed:blocks/purple_smile",
+    "west": "mishmashed:blocks/purple_smile",
+    "particle": "mishmashed:blocks/purple_smile"
+  }
+}
