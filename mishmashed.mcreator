@@ -1428,7 +1428,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "e",
-      "path": "~/Redstones"
+      "path": "~/Redstones/biomes"
     },
     {
       "name": "MuffinsBiome",
@@ -1455,7 +1455,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple",
-      "path": "~/Redstones"
+      "path": "~/Redstones/blocks"
     },
     {
       "name": "Redstones",
@@ -1498,6 +1498,24 @@
         ]
       },
       "path": "~/Peko/Loot and procedure"
+    },
+    {
+      "name": "Purpleingot",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpleingot",
+      "path": "~/Redstones/items"
+    },
+    {
+      "name": "Pupleore",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pupleore",
+      "path": "~/Redstones/blocks"
     }
   ],
   "variable_elements": [],
@@ -1572,8 +1590,10 @@
       "item.mishmashed.pog_armor_leggings": "Pog Leggings",
       "item.mishmashed.sand_paper": "Sand Paper",
       "advancements.unable_to_balance.title": "Unable To Balance!",
+      "item.mishmashed.purpleingot": "Purple Ingot",
       "biome.mishmashed.muffins_biome": "Muffins Biome",
       "item.mishmashed.enchant_dust": "Enchant Dust",
+      "block.mishmashed.pupleore": "Pupleore",
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
       "itemGroup.tabredstones": "Redstones",
       "subtitles.gluebucket": "Glue grogs",
@@ -1761,7 +1781,20 @@
       },
       {
         "name": "Redstones",
-        "children": []
+        "children": [
+          {
+            "name": "items",
+            "children": []
+          },
+          {
+            "name": "biomes",
+            "children": []
+          },
+          {
+            "name": "blocks",
+            "children": []
+          }
+        ]
       }
     ]
   },
