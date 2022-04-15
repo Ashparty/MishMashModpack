@@ -16,14 +16,14 @@
       "item": "mishmashed:purpleingot"
     },
     "4": {
-      "item": "mishmashed:purplestick"
+      "item": "mishmashed:deleted_mod_element"
     },
     "7": {
-      "item": "mishmashed:purplestick"
+      "item": "mishmashed:deleted_mod_element"
     }
   },
   "result": {
-    "item": "mishmashed:purplepickaxe",
+    "item": "mishmashed:deleted_mod_element",
     "count": 1
   }
 }

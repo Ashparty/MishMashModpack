@@ -1,9 +1,6 @@
 package net.mcreator.mishmashed.procedures;
 
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraftforge.eventbus.api.Event;
 
 public class PurpleswordEntitySwingsItemProcedure {
 	public static void execute(Entity entity) {
