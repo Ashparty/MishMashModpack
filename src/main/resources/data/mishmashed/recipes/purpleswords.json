@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mishmashed:purpleingot"
+    },
+    {
+      "item": "mishmashed:purpleingot"
+    },
+    {
+      "item": "mishmashed:purplestick"
+    }
+  ],
+  "result": {
+    "item": "mishmashed:purplesword",
+    "count": 1
+  }
+}

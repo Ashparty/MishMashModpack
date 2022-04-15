@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "apple",
+    "customModelName": "Normal",
+    "name": "Purple apple",
+    "rarity": "EPIC",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 100,
+    "saturation": 100.0,
+    "eatingSpeed": 20,
+    "resultItem": {
+      "value": "Items.TOTEM_OF_UNDYING"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "bow",
+    "hasGlow": false
+  }
+}
