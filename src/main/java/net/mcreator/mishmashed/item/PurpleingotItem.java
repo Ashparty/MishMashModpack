@@ -1,12 +1,16 @@
 
 package net.mcreator.mishmashed.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.mishmashed.init.MishmashedModTabs;
 
 public class PurpleingotItem extends Item {
-
 	public PurpleingotItem() {
-		super(new Item.Properties().tab(MishmashedModTabs.TAB_DELETED_MOD_ELEMENT).stacksTo(64).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(MishmashedModTabs.TAB_REDSTONES).stacksTo(64).fireResistant().rarity(Rarity.EPIC));
 		setRegistryName("purpleingot");
 	}
 
@@ -24,5 +28,4 @@ public class PurpleingotItem extends Item {
 	public boolean isCorrectToolForDrops(BlockState state) {
 		return true;
 	}
-
 }
