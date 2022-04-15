@@ -13,6 +13,7 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.mishmashed.world.biome.ExperiencePlainsBiome;
+import net.mcreator.mishmashed.world.biome.EBiome;
 import net.mcreator.mishmashed.MishmashedMod;
 
 import java.util.List;
@@ -22,6 +23,7 @@ import java.util.ArrayList;
 public class MishmashedModBiomes {
 	private static final List<Biome> REGISTRY = new ArrayList<>();
 	public static Biome EXPERIENCE_PLAINS = register("experience_plains", ExperiencePlainsBiome.createBiome());
+	public static Biome E = register("e", EBiome.createBiome());
 
 	private static Biome register(String registryname, Biome biome) {
 		REGISTRY.add(biome.setRegistryName(new ResourceLocation(MishmashedMod.MODID, registryname)));
@@ -37,6 +39,7 @@ public class MishmashedModBiomes {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			ExperiencePlainsBiome.init();
+			EBiome.init();
 		});
 	}
 }

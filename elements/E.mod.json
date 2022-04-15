@@ -1,0 +1,114 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "E",
+    "groundBlock": {
+      "value": "Blocks.CANDLE_CAKE#11"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.BAMBOO"
+    },
+    "airColor": {
+      "value": -256,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -10066177,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13369498,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -6750055,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16751002,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 17,
+    "flowersPerChunk": 1,
+    "mushroomsPerChunk": 1,
+    "bigMushroomsChunk": 2,
+    "sandPatchesPerChunk": 1,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 10,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 255,
+    "treeStem": {
+      "value": "Blocks.HAY_BLOCK"
+    },
+    "treeBranch": {
+      "value": "Blocks.TNT"
+    },
+    "treeVines": {
+      "value": "Blocks.BUBBLE_COLUMN"
+    },
+    "treeFruits": {
+      "value": "Blocks.CHORUS_PLANT"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "snowy",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": true,
+    "spawnSwampHut": true,
+    "spawnIgloo": true,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": true,
+    "spawnShipwreckBeached": true,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "COLD",
+    "spawnNetherBridge": true,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": true,
+    "spawnEndCity": true,
+    "spawnRuinedPortal": "SWAMP",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": []
+  }
+}

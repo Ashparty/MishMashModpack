@@ -1345,7 +1345,7 @@
       "name": "Sus",
       "type": "armor",
       "sortid": 50,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "sus",
       "metadata": {
@@ -1360,7 +1360,7 @@
       "name": "Susfragemt",
       "type": "item",
       "sortid": 52,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "susfragemt",
       "path": "~/Taylor"
@@ -1396,10 +1396,19 @@
       "name": "Imposter",
       "type": "livingentity",
       "sortid": 51,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "imposter",
       "path": "~/Taylor"
+    },
+    {
+      "name": "E",
+      "type": "biome",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e",
+      "path": "~/Redstones"
     }
   ],
   "variable_elements": [],
@@ -1465,6 +1474,7 @@
     "en_us": {
       "subtitles.flymusic": "Player Is about to die",
       "block.mishmashed.inspectah_block": "Inspectah Block",
+      "biome.mishmashed.e": "E",
       "advancements.full_set_of_pog.title": "Cover Me In Pog",
       "subtitles.poggers": "POGGERS",
       "item.mishmashed.pog_armor_boots": "Pog Boots",
