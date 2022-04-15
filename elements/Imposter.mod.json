@@ -52,7 +52,7 @@
     "movementSpeed": 0.5,
     "armorBaseValue": 30.0,
     "trackingRange": 75,
-    "health": 500,
+    "health": 750,
     "xpAmount": 100,
     "waterMob": false,
     "flyingMob": false,

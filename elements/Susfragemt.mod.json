@@ -8,7 +8,7 @@
     "name": "Susfragemt",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Hell"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -18,12 +18,12 @@
     "recipeRemainder": {
       "value": ""
     },
-    "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "destroyAnyBlock": true,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
+    "damageVsEntity": 5.0,
     "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

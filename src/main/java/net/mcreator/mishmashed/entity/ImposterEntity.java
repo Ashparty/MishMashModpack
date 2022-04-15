@@ -151,7 +151,7 @@ public class ImposterEntity extends Monster {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
-		builder = builder.add(Attributes.MAX_HEALTH, 500);
+		builder = builder.add(Attributes.MAX_HEALTH, 750);
 		builder = builder.add(Attributes.ARMOR, 30);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 5);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 4);

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "mishmashed:susfragemt"
+    },
+    "1": {
+      "item": "mishmashed:susfragemt"
+    },
+    "2": {
+      "item": "mishmashed:susfragemt"
+    },
+    "3": {
+      "item": "mishmashed:susfragemt"
+    },
+    "5": {
+      "item": "mishmashed:susfragemt"
+    },
+    "6": {
+      "item": "mishmashed:susfragemt"
+    },
+    "8": {
+      "item": "mishmashed:susfragemt"
+    }
+  },
+  "result": {
+    "item": "mishmashed:sus_leggings",
+    "count": 1
+  }
+}
