@@ -1,16 +1,37 @@
 
 package net.mcreator.mishmashed.block;
 
+import net.minecraftforge.common.IPlantable;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.FallingBlock;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+import net.minecraft.client.Minecraft;
+
+import net.mcreator.mishmashed.init.MishmashedModItems;
+
+import java.util.Random;
+import java.util.List;
+import java.util.Collections;
 
 public class StupidityOreBlock extends FallingBlock {
-
 	public StupidityOreBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.SLIME_BLOCK).strength(1.25f, 10f).requiresCorrectToolForDrops()
 				.friction(1f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
-
 		setRegistryName("stupidity_ore");
 	}
 
@@ -43,11 +64,10 @@ public class StupidityOreBlock extends FallingBlock {
 
 	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(MishmashedModItems.DELETED_MOD_ELEMENT));
+		return Collections.singletonList(new ItemStack(MishmashedModItems.GREEN));
 	}
 
 	@OnlyIn(Dist.CLIENT)
@@ -65,5 +85,4 @@ public class StupidityOreBlock extends FallingBlock {
 			world.addParticle(ParticleTypes.NOTE, x0, y0, z0, 0, 0, 0);
 		}
 	}
-
 }

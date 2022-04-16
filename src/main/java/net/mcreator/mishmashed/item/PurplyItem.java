@@ -1,11 +1,20 @@
 
 package net.mcreator.mishmashed.item;
 
-public class PurplyItem extends Item {
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.core.BlockPos;
 
+import net.mcreator.mishmashed.init.MishmashedModTabs;
+import net.mcreator.mishmashed.block.PurplyPortalBlock;
+
+public class PurplyItem extends Item {
 	public PurplyItem() {
 		super(new Item.Properties().tab(MishmashedModTabs.TAB_REDSTONES).durability(64));
-
 		setRegistryName("purply");
 	}
 
@@ -22,13 +31,11 @@ public class PurplyItem extends Item {
 			int y = pos.getY();
 			int z = pos.getZ();
 			boolean success = false;
-
 			if (world.isEmptyBlock(pos) && true) {
 				PurplyPortalBlock.portalSpawn(world, pos);
 				itemstack.hurtAndBreak(1, entity, c -> c.broadcastBreakEvent(context.getHand()));
 				success = true;
 			}
-
 			return success ? InteractionResult.SUCCESS : InteractionResult.FAIL;
 		}
 	}

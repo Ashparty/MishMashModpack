@@ -39,7 +39,7 @@
     "igniterTab": {
       "value": "CUSTOM:Redstones"
     },
-    "texture": "purple_stick",
+    "texture": "gsh",
     "portalTexture": "purple_smile",
     "enablePortal": true
   }

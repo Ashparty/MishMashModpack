@@ -23,14 +23,14 @@ import net.mcreator.mishmashed.init.MishmashedModBlocks;
 import java.util.Set;
 import java.util.Random;
 
-public class StupidityOreFeature extends OreFeature {
-	public static final StupidityOreFeature FEATURE = (StupidityOreFeature) new StupidityOreFeature().setRegistryName("mishmashed:stupidity_ore");
+public class PurplegravelFeature extends OreFeature {
+	public static final PurplegravelFeature FEATURE = (PurplegravelFeature) new PurplegravelFeature().setRegistryName("mishmashed:purplegravel");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(StupidityOreFeatureRuleTest.INSTANCE, MishmashedModBlocks.STUPIDITY_ORE.defaultBlockState(), 5))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(14), VerticalAnchor.absolute(83)))).squared().count(3);
+			.configured(new OreConfiguration(PurplegravelFeatureRuleTest.INSTANCE, MishmashedModBlocks.PURPLEGRAVEL.defaultBlockState(), 16))
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)))).squared().count(3);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 
-	public StupidityOreFeature() {
+	public PurplegravelFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -40,24 +40,24 @@ public class StupidityOreFeature extends OreFeature {
 		boolean dimensionCriteria = false;
 		if (dimensionType == Level.OVERWORLD)
 			dimensionCriteria = true;
-		if (dimensionType == Level.NETHER)
-			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return false;
 		return super.place(context);
 	}
 
-	private static class StupidityOreFeatureRuleTest extends RuleTest {
-		static final StupidityOreFeatureRuleTest INSTANCE = new StupidityOreFeatureRuleTest();
-		static final com.mojang.serialization.Codec<StupidityOreFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		static final RuleTestType<StupidityOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
-				new ResourceLocation("mishmashed:stupidity_ore_match"), () -> codec);
+	private static class PurplegravelFeatureRuleTest extends RuleTest {
+		static final PurplegravelFeatureRuleTest INSTANCE = new PurplegravelFeatureRuleTest();
+		static final com.mojang.serialization.Codec<PurplegravelFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+		static final RuleTestType<PurplegravelFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
+				new ResourceLocation("mishmashed:purplegravel_match"), () -> codec);
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.STONE)
+			if (blockAt.getBlock() == Blocks.WATER)
 				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.NETHERRACK)
+			if (blockAt.getBlock() == Blocks.WATER)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.BUBBLE_COLUMN)
 				blockCriteria = true;
 			return blockCriteria;
 		}

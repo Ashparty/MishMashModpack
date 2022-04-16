@@ -22,6 +22,7 @@ import net.mcreator.mishmashed.world.features.plants.ExperienceFlowerFeature;
 import net.mcreator.mishmashed.world.features.plants.EnchantPlantFeature;
 import net.mcreator.mishmashed.world.features.plants.CreepePlantFeature;
 import net.mcreator.mishmashed.world.features.ores.StupidityOreFeature;
+import net.mcreator.mishmashed.world.features.ores.PurplegravelFeature;
 import net.mcreator.mishmashed.world.features.ores.PurpleFeature;
 import net.mcreator.mishmashed.world.features.ores.PupleoreFeature;
 import net.mcreator.mishmashed.world.features.ores.PoggerrackFeature;
@@ -61,6 +62,8 @@ public class MishmashedModFeatures {
 				StupidityOreFeature.GENERATE_BIOMES, StupidityOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(PurplefluidFeature.FEATURE,
 				new FeatureRegistration(GenerationStep.Decoration.LAKES, PurplefluidFeature.GENERATE_BIOMES, PurplefluidFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(PurplegravelFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				PurplegravelFeature.GENERATE_BIOMES, PurplegravelFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

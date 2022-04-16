@@ -24,6 +24,7 @@ import net.mcreator.mishmashed.item.PurplestickItem;
 import net.mcreator.mishmashed.item.PurplepickaxeItem;
 import net.mcreator.mishmashed.item.PurpleingotItem;
 import net.mcreator.mishmashed.item.PurplefluidItem;
+import net.mcreator.mishmashed.item.PurpleflintItem;
 import net.mcreator.mishmashed.item.PurpleappleItem;
 import net.mcreator.mishmashed.item.PombItem;
 import net.mcreator.mishmashed.item.PogeriteCompositeItem;
@@ -117,6 +118,8 @@ public class MishmashedModItems {
 	public static final Item BLUE = register(new BlueItem());
 	public static final Item PURPLEFLUID_BUCKET = register(new PurplefluidItem());
 	public static final Item PURPLY = register(new PurplyItem());
+	public static final Item PURPLEFLINT = register(new PurpleflintItem());
+	public static final Item PURPLEGRAVEL = register(MishmashedModBlocks.PURPLEGRAVEL, MishmashedModTabs.TAB_REDSTONES);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
