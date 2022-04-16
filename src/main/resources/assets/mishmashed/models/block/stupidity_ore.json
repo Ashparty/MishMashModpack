@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mishmashed:blocks/funnyore",
+    "up": "mishmashed:blocks/funnyore",
+    "north": "mishmashed:blocks/funnyore",
+    "east": "mishmashed:blocks/funnyore",
+    "south": "mishmashed:blocks/funnyore",
+    "west": "mishmashed:blocks/funnyore",
+    "particle": "mishmashed:blocks/funnyore"
+  }
+}

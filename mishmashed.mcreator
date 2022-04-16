@@ -1759,6 +1759,42 @@
         "ep": true
       },
       "path": "~/Redstones/dimensions"
+    },
+    {
+      "name": "BlueDiscRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_disc_recipe",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "Blue",
+      "type": "musicdisc",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "StupidityOre",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stupidity_ore",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "Green",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
     }
   ],
   "variable_elements": [],
@@ -1834,6 +1870,14 @@
       ],
       "category": "neutral",
       "subtitle": "Pop Screams"
+    },
+    {
+      "name": "letsanotgo",
+      "files": [
+        "letsanotgo"
+      ],
+      "category": "record",
+      "subtitle": "Its not going."
     }
   ],
   "language_map": {
@@ -1842,15 +1886,14 @@
       "advancements.whatthehell.title": "WHAT THE HELL?",
       "block.mishmashed.inspectah_block": "Inspectah Block",
       "biome.mishmashed.e": "purple biome",
-      "item.mishmashed.entity_muffin_spawn_egg": "Entity Muffin Spawn Egg",
       "advancements.full_set_of_pog.title": "Cover Me in Pog",
+      "item.mishmashed.entity_muffin_spawn_egg": "Entity Muffin Spawn Egg",
       "subtitles.poggers": "POGGERS",
       "item.mishmashed.pog_armor_boots": "Pog Boots",
       "item.mishmashed.sus_helmet": "Sus Helmet",
       "item.mishmashed.pog_armor_leggings": "Pog Leggings",
       "block.mishmashed.twitch_ore": "Twitch Ore",
       "item.mishmashed.sand_paper": "Sand Paper",
-      "item.mishmashed.purply": "Purply Portal Igniter",
       "advancements.unable_to_balance.title": "Unable To Balance!",
       "item.mishmashed.purplepickaxe": "Purple pickaxe",
       "item.mishmashed.enchant_dust": "Enchant Dust",
@@ -1901,6 +1944,7 @@
       "item.mishmashed.pingot": "Pingot",
       "subtitles.sus": "",
       "advancements.unable_to_balance.descr": "Construct a Sifting Station",
+      "subtitles.letsanotgo": "Its not going.",
       "item.mishmashed.pog_sword": "Pog Sword",
       "item.mishmashed.pogerite_composite": "Pogerite Composite",
       "item.mishmashed.glue_bucket": "Glue Bucket",
@@ -1951,7 +1995,12 @@
             "children": [
               {
                 "name": "Ores",
-                "children": []
+                "children": [
+                  {
+                    "name": "Stupidity Ore",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Fluids",
@@ -2064,6 +2113,10 @@
             "children": []
           },
           {
+            "name": "dimensions",
+            "children": []
+          },
+          {
             "name": "biomes",
             "children": []
           },
@@ -2077,10 +2130,6 @@
           },
           {
             "name": "recipies",
-            "children": []
-          },
-          {
-            "name": "dimensions",
             "children": []
           }
         ]

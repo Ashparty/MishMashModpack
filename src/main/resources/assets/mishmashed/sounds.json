@@ -87,5 +87,15 @@
         "stream": false
       }
     ]
+  },
+  "letsanotgo": {
+    "category": "record",
+    "subtitle": "subtitles.letsanotgo",
+    "sounds": [
+      {
+        "name": "mishmashed:letsanotgo",
+        "stream": true
+      }
+    ]
   }
 }

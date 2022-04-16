@@ -1,16 +1,6 @@
 package net.mcreator.mishmashed.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.world.BlockEvent;
-
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.mishmashed.init.MishmashedModBlocks;
-
-import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
 public class TrampProcedure {

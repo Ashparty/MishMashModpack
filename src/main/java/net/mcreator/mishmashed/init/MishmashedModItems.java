@@ -42,9 +42,11 @@ import net.mcreator.mishmashed.item.MuffinTravellerItem;
 import net.mcreator.mishmashed.item.MuffinLauncherItem;
 import net.mcreator.mishmashed.item.MuffinItem;
 import net.mcreator.mishmashed.item.InspectahFoodItem;
+import net.mcreator.mishmashed.item.GreenItem;
 import net.mcreator.mishmashed.item.GlueItem;
 import net.mcreator.mishmashed.item.FunnyCookieItem;
 import net.mcreator.mishmashed.item.EnchantDustItem;
+import net.mcreator.mishmashed.item.BlueItem;
 import net.mcreator.mishmashed.item.AshCreativeTabIconItem;
 import net.mcreator.mishmashed.item.AncientNuggetItem;
 
@@ -110,6 +112,9 @@ public class MishmashedModItems {
 	public static final Item TWITCH_ORE = register(MishmashedModBlocks.TWITCH_ORE, MishmashedModTabs.TAB_WHAT);
 	public static final Item SUPER_GLUE = register(new SuperGlueItem());
 	public static final Item PURPLEAPPLE = register(new PurpleappleItem());
+	public static final Item STUPIDITY_ORE = register(MishmashedModBlocks.STUPIDITY_ORE, MishmashedModTabs.TAB_WHAT);
+	public static final Item GREEN = register(new GreenItem());
+	public static final Item BLUE = register(new BlueItem());
 	public static final Item PURPLEFLUID_BUCKET = register(new PurplefluidItem());
 	public static final Item PURPLY = register(new PurplyItem());
 

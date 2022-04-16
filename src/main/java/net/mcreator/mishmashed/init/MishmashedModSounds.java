@@ -28,6 +28,7 @@ public class MishmashedModSounds {
 		REGISTRY.put(new ResourceLocation("mishmashed", "inblockabient"), new SoundEvent(new ResourceLocation("mishmashed", "inblockabient")));
 		REGISTRY.put(new ResourceLocation("mishmashed", "inspectahblockbreaks"),
 				new SoundEvent(new ResourceLocation("mishmashed", "inspectahblockbreaks")));
+		REGISTRY.put(new ResourceLocation("mishmashed", "letsanotgo"), new SoundEvent(new ResourceLocation("mishmashed", "letsanotgo")));
 	}
 
 	@SubscribeEvent
