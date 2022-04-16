@@ -4,9 +4,9 @@
     "item": "mishmashed:pog_armor_helmet"
   },
   "addition": {
-    "item": "mishmashed:twitch"
+    "item": "mishmashed:deleted_mod_element"
   },
   "result": {
-    "item": "mishmashed:twitchy_armor_helmet"
+    "item": "mishmashed:deleted_mod_element_helmet"
   }
 }

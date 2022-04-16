@@ -1869,7 +1869,7 @@
       "name": "Purply",
       "type": "dimension",
       "sortid": 73,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "purply",
       "metadata": {
@@ -2106,6 +2106,24 @@
       "locked_code": false,
       "registry_name": "twitchy_pickaxe_recipe",
       "path": "~/Peko/Recipes"
+    },
+    {
+      "name": "Purplegravel",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplegravel",
+      "path": "~/Redstones/items"
+    },
+    {
+      "name": "Purpleflint",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpleflint",
+      "path": "~/Redstones/items"
     }
   ],
   "variable_elements": [],

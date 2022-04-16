@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "twitchy_hoe",
+    "texture": "twitchhoe",
     "customModelName": "Normal",
     "name": "Twitchy Hoe",
     "specialInfo": [],

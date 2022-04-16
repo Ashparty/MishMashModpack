@@ -4,9 +4,9 @@
     "item": "mishmashed:pog_armor_boots"
   },
   "addition": {
-    "item": "mishmashed:twitch"
+    "item": "mishmashed:deleted_mod_element"
   },
   "result": {
-    "item": "mishmashed:twitchy_armor_boots"
+    "item": "mishmashed:deleted_mod_element_boots"
   }
 }
