@@ -1761,7 +1761,7 @@
       "name": "Blue",
       "type": "musicdisc",
       "sortid": 71,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "blue",
       "path": "~/Ash/Blocks/Ores/Stupidity Ore"
@@ -1770,7 +1770,7 @@
       "name": "StupidityOre",
       "type": "block",
       "sortid": 70,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "stupidity_ore",
       "path": "~/Ash/Blocks/Ores/Stupidity Ore"
@@ -1779,7 +1779,7 @@
       "name": "Green",
       "type": "item",
       "sortid": 70,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "green",
       "path": "~/Ash/Blocks/Ores/Stupidity Ore"
@@ -1869,7 +1869,7 @@
       "name": "Subway",
       "type": "structure",
       "sortid": 73,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "subway",
       "path": "~/Ash/Structures"
@@ -1923,7 +1923,7 @@
       "name": "TwitchyPickaxe",
       "type": "tool",
       "sortid": 77,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "twitchy_pickaxe",
       "path": "~/Peko/Gear"
@@ -1982,7 +1982,7 @@
       "name": "Gluebucket",
       "type": "item",
       "sortid": 70,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "gluebucket",
       "path": "~/Inspectah"
@@ -1991,7 +1991,7 @@
       "name": "TwitchFragment2",
       "type": "item",
       "sortid": 71,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "twitch_fragment_2",
       "path": "~/Peko/Crafting ingredients"
@@ -2000,7 +2000,7 @@
       "name": "TwitchySword",
       "type": "tool",
       "sortid": 79,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "twitchy_sword",
       "path": "~/Peko/Gear"
@@ -2036,7 +2036,7 @@
       "name": "McdonaldsEmployee",
       "type": "tool",
       "sortid": 76,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "mcdonalds_employee",
       "path": "~/Ash/Blocks/Ores/Stupidity Ore"
@@ -2045,7 +2045,7 @@
       "name": "TwitchFragment3",
       "type": "item",
       "sortid": 72,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "twitch_fragment_3",
       "path": "~/Peko/Crafting ingredients"
@@ -2090,7 +2090,7 @@
       "name": "CloudsSword",
       "type": "tool",
       "sortid": 78,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "clouds_sword",
       "path": "~/Ash/Blocks/Ores/Stupidity Ore"
@@ -2112,6 +2112,15 @@
       "locked_code": false,
       "registry_name": "cover_me_in_twitch",
       "path": "~/Peko/Advancements"
+    },
+    {
+      "name": "Purplyigniter",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplyigniter",
+      "path": "~/Redstones/recipies"
     }
   ],
   "variable_elements": [],
@@ -2261,6 +2270,7 @@
       "item.mishmashed.gluebucket": "Gluebucket",
       "itemGroup.tabwhat": "WHAT",
       "item.mishmashed.sus_chestplate": "Sus Body",
+      "block.mishmashed.purplegravel": "Purple gravel",
       "item.mishmashed.pingot": "Pingot",
       "advancements.unable_to_balance.descr": "Construct a Sifting Station",
       "subtitles.letsanotgo": "Its not going.",
