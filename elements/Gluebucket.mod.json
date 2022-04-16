@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "enchantdust",
+    "texture": "gluebuckettexture",
     "customModelName": "Normal",
-    "name": "Enchant Dust",
+    "name": "Gluebucket",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:InspectahPop"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

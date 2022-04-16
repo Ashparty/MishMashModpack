@@ -5,7 +5,7 @@
     "name": "Glue",
     "bucketName": "Glue Bucket",
     "textureStill": "new_project_5",
-    "textureFlowing": "new_project_6",
+    "textureFlowing": "new_project_5",
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 23,
@@ -23,7 +23,7 @@
     "temperature": 300,
     "type": "WATER",
     "generateBucket": true,
-    "textureBucket": "",
+    "textureBucket": "gluebuckettexture",
     "creativeTab": {
       "value": "MISC"
     },
@@ -40,15 +40,11 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "SNOW",
-    "frequencyOnChunks": 8,
+    "frequencyOnChunks": 20,
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "badlands"
-      }
-    ],
+    "restrictionBiomes": [],
     "onEntityCollides": {
       "name": "GlueMobplayerCollidesBlock"
     }
