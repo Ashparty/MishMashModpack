@@ -40,7 +40,7 @@ import net.mcreator.mishmashed.init.MishmashedModEntities;
 public class ImposterEntity extends Monster {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(MishmashedModEntities.IMPOSTER, 20, 1, 1));
+		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(MishmashedModEntities.IMPOSTER, 2, 1, 1));
 	}
 
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED,

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:E"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Purple"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Purplefluid"
+    },
+    "airColor": {
+      "value": -6750055,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Pupleore"
+    },
+    "portalParticles": {
+      "value": "SPELL"
+    },
+    "portalLuminance": 13,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Purply Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:Redstones"
+    },
+    "texture": "purple_stick",
+    "portalTexture": "purple_smile",
+    "enablePortal": true
+  }
+}

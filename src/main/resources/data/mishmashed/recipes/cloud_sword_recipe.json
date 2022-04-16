@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "mishmashed:deleted_mod_element"
+    },
+    "3": {
+      "item": "mishmashed:muffin"
+    },
+    "4": {
+      "item": "minecraft:iron_sword"
+    },
+    "5": {
+      "item": "mishmashed:muffin"
+    },
+    "7": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "mishmashed:deleted_mod_element",
+    "count": 1
+  }
+}

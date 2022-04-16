@@ -21,11 +21,14 @@ import net.mcreator.mishmashed.world.features.plants.InspectahPoppyFeature;
 import net.mcreator.mishmashed.world.features.plants.ExperienceFlowerFeature;
 import net.mcreator.mishmashed.world.features.plants.EnchantPlantFeature;
 import net.mcreator.mishmashed.world.features.plants.CreepePlantFeature;
+import net.mcreator.mishmashed.world.features.ores.StupidityOreFeature;
 import net.mcreator.mishmashed.world.features.ores.PurpleFeature;
 import net.mcreator.mishmashed.world.features.ores.PupleoreFeature;
 import net.mcreator.mishmashed.world.features.ores.PoggerrackFeature;
 import net.mcreator.mishmashed.world.features.ores.ExperienceOreFeature;
+import net.mcreator.mishmashed.world.features.lakes.PurplefluidFeature;
 import net.mcreator.mishmashed.world.features.lakes.GlueFeature;
+import net.mcreator.mishmashed.world.features.SubwayFeature;
 
 import java.util.Set;
 import java.util.Map;
@@ -55,6 +58,12 @@ public class MishmashedModFeatures {
 				new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, PurpleFeature.GENERATE_BIOMES, PurpleFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(PupleoreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, PupleoreFeature.GENERATE_BIOMES,
 				PupleoreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(StupidityOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				StupidityOreFeature.GENERATE_BIOMES, StupidityOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(PurplefluidFeature.FEATURE,
+				new FeatureRegistration(GenerationStep.Decoration.LAKES, PurplefluidFeature.GENERATE_BIOMES, PurplefluidFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(SubwayFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, SubwayFeature.GENERATE_BIOMES,
+				SubwayFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

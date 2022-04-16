@@ -1,14 +1,7 @@
 
 package net.mcreator.mishmashed.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-
-import net.mcreator.mishmashed.init.MishmashedModTabs;
-import net.mcreator.mishmashed.init.MishmashedModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class TwitchySwordItem extends SwordItem {
 	public TwitchySwordItem() {
@@ -36,7 +29,13 @@ public class TwitchySwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(MishmashedModItems.TWITCH));
 			}
-		}, 3, -2f, new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
+		},
+
+				3, -2f,
+
+				new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
+
 		setRegistryName("twitchy_sword");
 	}
+
 }

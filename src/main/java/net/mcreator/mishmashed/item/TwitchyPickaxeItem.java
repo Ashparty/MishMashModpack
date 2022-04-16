@@ -1,14 +1,7 @@
 
 package net.mcreator.mishmashed.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-
-import net.mcreator.mishmashed.init.MishmashedModTabs;
-import net.mcreator.mishmashed.init.MishmashedModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class TwitchyPickaxeItem extends PickaxeItem {
 	public TwitchyPickaxeItem() {
@@ -36,7 +29,13 @@ public class TwitchyPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(MishmashedModItems.TWITCH));
 			}
-		}, 1, -3f, new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
+		},
+
+				1, -3f,
+
+				new Item.Properties().tab(MishmashedModTabs.TAB_WHAT).fireResistant());
+
 		setRegistryName("twitchy_pickaxe");
 	}
+
 }

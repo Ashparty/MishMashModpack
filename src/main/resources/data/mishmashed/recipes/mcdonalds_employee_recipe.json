@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "3": {
+      "item": "minecraft:yellow_wool"
+    },
+    "4": {
+      "item": "minecraft:red_dye"
+    },
+    "5": {
+      "item": "mishmashed:deleted_mod_element"
+    },
+    "7": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "result": {
+    "item": "mishmashed:deleted_mod_element",
+    "count": 1
+  }
+}

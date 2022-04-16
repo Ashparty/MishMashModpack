@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "mishmashed:glue",
-    "mishmashed:flowing_glue"
+    "mishmashed:flowing_glue",
+    "mishmashed:purplefluid",
+    "mishmashed:flowing_purplefluid"
   ]
 }
