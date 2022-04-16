@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mishmashed:pog_armor_helmet"
+    },
+    {
+      "item": "mishmashed:pog_armor_leggings"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "mishmashed:pog_armor_chestplate"
+    },
+    {
+      "item": "mishmashed:pog_armor_boots"
+    }
+  ],
+  "result": {
+    "item": "mishmashed:super_glue",
+    "count": 1
+  }
+}

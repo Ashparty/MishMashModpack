@@ -46,6 +46,7 @@ public class MishmashedModBlocks {
 	public static final Block MUFFIN_FLOWER = register(new MuffinFlowerBlock());
 	public static final Block PURPLE = register(new PurpleBlock());
 	public static final Block PUPLEORE = register(new PupleoreBlock());
+	public static final Block TWITCH_ORE = register(new TwitchOreBlock());
 	public static final Block PURPLEFLUID = register(new PurplefluidBlock());
 
 	private static Block register(Block block) {

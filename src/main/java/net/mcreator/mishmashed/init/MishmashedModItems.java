@@ -105,6 +105,8 @@ public class MishmashedModItems {
 	public static final Item PURPLEPICKAXE = register(new PurplepickaxeItem());
 	public static final Item PURPLESTICK = register(new PurplestickItem());
 	public static final Item PURPLESWORD = register(new PurpleswordItem());
+	public static final Item TWITCH_ORE = register(MishmashedModBlocks.TWITCH_ORE, MishmashedModTabs.TAB_WHAT);
+	public static final Item SUPER_GLUE = register(new SuperGlueItem());
 	public static final Item PURPLEAPPLE = register(new PurpleappleItem());
 	public static final Item PURPLEFLUID_BUCKET = register(new PurplefluidItem());
 
