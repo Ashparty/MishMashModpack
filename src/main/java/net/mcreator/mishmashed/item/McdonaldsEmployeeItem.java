@@ -1,14 +1,7 @@
 
 package net.mcreator.mishmashed.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.AxeItem;
-
-import net.mcreator.mishmashed.init.MishmashedModTabs;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class McdonaldsEmployeeItem extends AxeItem {
 	public McdonaldsEmployeeItem() {
@@ -36,7 +29,13 @@ public class McdonaldsEmployeeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.POTATO));
 			}
-		}, 1, -3f, new Item.Properties().tab(MishmashedModTabs.TAB_HM));
+		},
+
+				1, -3f,
+
+				new Item.Properties().tab(MishmashedModTabs.TAB_HM));
+
 		setRegistryName("mcdonalds_employee");
 	}
+
 }

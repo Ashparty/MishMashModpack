@@ -1,14 +1,7 @@
 
 package net.mcreator.mishmashed.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-
-import net.mcreator.mishmashed.init.MishmashedModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class CloudsSwordItem extends SwordItem {
 	public CloudsSwordItem() {
@@ -36,7 +29,13 @@ public class CloudsSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(MishmashedModItems.GREEN));
 			}
-		}, 3, -2.6f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+		},
+
+				3, -2.6f,
+
+				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+
 		setRegistryName("clouds_sword");
 	}
+
 }
