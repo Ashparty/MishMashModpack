@@ -29,7 +29,7 @@ public abstract class TwitchyArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(MishmashedModItems.DELETED_MOD_ELEMENT));
+				return Ingredient.of(new ItemStack(MishmashedModItems.TWITCH));
 			}
 
 			@Override
@@ -59,9 +59,13 @@ public abstract class TwitchyArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "mishmashed:textures/models/armor/twitchy_layer_1.png";
+			return "mishmashed:textures/models/armor/layer_1twitch_layer_1.png";
 		}
 
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			TwitchyArmorHelmetTickEventProcedure.execute(entity);
+		}
 	}
 
 	public static class Chestplate extends TwitchyArmorItem {
@@ -74,7 +78,7 @@ public abstract class TwitchyArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "mishmashed:textures/models/armor/twitchy_layer_1.png";
+			return "mishmashed:textures/models/armor/layer_1twitch_layer_1.png";
 		}
 
 	}
@@ -89,7 +93,7 @@ public abstract class TwitchyArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "mishmashed:textures/models/armor/twitchy_layer_2.png";
+			return "mishmashed:textures/models/armor/layer_1twitch_layer_2.png";
 		}
 
 	}
@@ -104,7 +108,7 @@ public abstract class TwitchyArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "mishmashed:textures/models/armor/twitchy_layer_1.png";
+			return "mishmashed:textures/models/armor/layer_1twitch_layer_1.png";
 		}
 
 	}

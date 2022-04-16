@@ -19,7 +19,7 @@
       "item": "mishmashed:pingot"
     },
     "4": {
-      "item": "mishmashed:deleted_mod_element"
+      "item": "mishmashed:flimsy_twitch"
     },
     "5": {
       "item": "mishmashed:sand_paper"
@@ -35,7 +35,7 @@
     }
   },
   "result": {
-    "item": "mishmashed:deleted_mod_element",
+    "item": "mishmashed:twitch",
     "count": 1
   }
 }
