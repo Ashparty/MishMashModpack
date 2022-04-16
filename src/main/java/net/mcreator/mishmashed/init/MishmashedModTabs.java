@@ -16,6 +16,7 @@ public class MishmashedModTabs {
 	public static CreativeModeTab TAB_HM;
 	public static CreativeModeTab TAB_HELL;
 	public static CreativeModeTab TAB_REDSTONES;
+	public static CreativeModeTab TAB_INSPECTAH_POP;
 
 	public static void load() {
 		TAB_WHAT = new CreativeModeTab("tabwhat") {
@@ -55,6 +56,17 @@ public class MishmashedModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(Items.REDSTONE);
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return true;
+			}
+		}.setBackgroundSuffix("item_search.png");
+		TAB_INSPECTAH_POP = new CreativeModeTab("tabinspectah_pop") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(MishmashedModBlocks.INSPECTAH_BLOCK);
 			}
 
 			@OnlyIn(Dist.CLIENT)

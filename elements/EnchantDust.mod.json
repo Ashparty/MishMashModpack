@@ -8,7 +8,7 @@
     "name": "Enchant Dust",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:InspectahPop"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.WOODEN_SHOVEL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#4"
+      },
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "CUSTOM:Green"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.WOODEN_SHOVEL"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:McdonaldsEmployee"
+    },
+    "name": "mcdonalds_employee_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mishmashed:pog_sword"
+  },
+  "addition": {
+    "item": "mishmashed:deleted_mod_element"
+  },
+  "result": {
+    "item": "mishmashed:deleted_mod_element"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "twitchy_sword",
+    "customModelName": "Normal",
+    "name": "Twitchy Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:WHAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 10,
+    "efficiency": 15.5,
+    "attackSpeed": 2.0,
+    "enchantability": 64,
+    "damageVsEntity": 28.0,
+    "usageCount": 3553,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Twitch"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

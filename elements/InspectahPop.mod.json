@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Inspectah Pop",
+    "icon": {
+      "value": "CUSTOM:InspectahBlock"
+    },
+    "showSearch": true
+  }
+}

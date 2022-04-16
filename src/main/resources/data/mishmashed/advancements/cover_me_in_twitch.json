@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mishmashed:twitchy_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.cover_me_in_twitch.title"
+    },
+    "description": {
+      "translate": "advancements.cover_me_in_twitch.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "cover_me_in_twitch": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "mishmashed:whatthehell"
+}

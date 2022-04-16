@@ -1,19 +1,10 @@
 
 package net.mcreator.mishmashed.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.Component;
-
-import net.mcreator.mishmashed.init.MishmashedModTabs;
-
-import java.util.List;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class PurpleflintItem extends Item {
+
 	public PurpleflintItem() {
 		super(new Item.Properties().tab(MishmashedModTabs.TAB_REDSTONES).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
 		setRegistryName("purpleflint");
@@ -29,4 +20,5 @@ public class PurpleflintItem extends Item {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(new TextComponent("flinty be plurply"));
 	}
+
 }

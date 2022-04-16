@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "mishmashed:purplestick"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "mishmashed:green"
+    }
+  },
+  "result": {
+    "item": "mishmashed:deleted_mod_element",
+    "count": 1
+  }
+}

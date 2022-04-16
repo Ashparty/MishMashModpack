@@ -22,7 +22,7 @@ import net.mcreator.mishmashed.init.MishmashedModBlocks;
 public abstract class GlueFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> MishmashedModFluids.GLUE,
 			() -> MishmashedModFluids.FLOWING_GLUE,
-			FluidAttributes.builder(new ResourceLocation("mishmashed:blocks/new_project_5"), new ResourceLocation("mishmashed:blocks/new_project_6"))
+			FluidAttributes.builder(new ResourceLocation("mishmashed:blocks/new_project_5"), new ResourceLocation("mishmashed:blocks/new_project_5"))
 
 					.density(10000).viscosity(10000)
 
