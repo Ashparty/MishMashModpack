@@ -1776,7 +1776,7 @@
       "name": "Purply",
       "type": "dimension",
       "sortid": 73,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "purply",
       "metadata": {
