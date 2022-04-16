@@ -1,8 +1,16 @@
 
 package net.mcreator.mishmashed.block;
 
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.mishmashed.init.MishmashedModFluids;
 
 public class PurplefluidBlock extends LiquidBlock {
 	public PurplefluidBlock() {
@@ -25,5 +33,4 @@ public class PurplefluidBlock extends LiquidBlock {
 	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
 		return true;
 	}
-
 }
