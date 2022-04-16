@@ -12,9 +12,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.mishmashed.block.TwitchOreBlock;
 import net.mcreator.mishmashed.block.StupidityOreBlock;
 import net.mcreator.mishmashed.block.SiftingBlockBlock;
+import net.mcreator.mishmashed.block.PurplefluidBlock;
 import net.mcreator.mishmashed.block.PurpleBlock;
 import net.mcreator.mishmashed.block.PupleoreBlock;
 import net.mcreator.mishmashed.block.PoggerrackBlock;
@@ -49,6 +49,7 @@ public class MishmashedModBlocks {
 	public static final Block PUPLEORE = register(new PupleoreBlock());
 	public static final Block TWITCH_ORE = register(new TwitchOreBlock());
 	public static final Block STUPIDITY_ORE = register(new StupidityOreBlock());
+	public static final Block PURPLEFLUID = register(new PurplefluidBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

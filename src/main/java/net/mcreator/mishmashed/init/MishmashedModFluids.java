@@ -15,6 +15,7 @@ import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
+import net.mcreator.mishmashed.fluid.PurplefluidFluid;
 import net.mcreator.mishmashed.fluid.GlueFluid;
 
 import java.util.List;
@@ -25,6 +26,8 @@ public class MishmashedModFluids {
 	private static final List<Fluid> REGISTRY = new ArrayList<>();
 	public static final FlowingFluid GLUE = register(new GlueFluid.Source());
 	public static final FlowingFluid FLOWING_GLUE = register(new GlueFluid.Flowing());
+	public static final FlowingFluid PURPLEFLUID = register(new PurplefluidFluid.Source());
+	public static final FlowingFluid FLOWING_PURPLEFLUID = register(new PurplefluidFluid.Flowing());
 
 	private static FlowingFluid register(FlowingFluid fluid) {
 		REGISTRY.add(fluid);
@@ -42,6 +45,8 @@ public class MishmashedModFluids {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			ItemBlockRenderTypes.setRenderLayer(GLUE, renderType -> renderType == RenderType.translucent());
 			ItemBlockRenderTypes.setRenderLayer(FLOWING_GLUE, renderType -> renderType == RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(PURPLEFLUID, renderType -> renderType == RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(FLOWING_PURPLEFLUID, renderType -> renderType == RenderType.translucent());
 		}
 	}
 }

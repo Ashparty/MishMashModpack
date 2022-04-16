@@ -1696,21 +1696,12 @@
       "path": "~/Redstones/items"
     },
     {
-      "name": "Green",
-      "type": "item",
-      "sortid": 70,
+      "name": "BlueDiscRecipe",
+      "type": "recipe",
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "green",
-      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
-    },
-    {
-      "name": "StupidityOre",
-      "type": "block",
-      "sortid": 70,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stupidity_ore",
+      "registry_name": "blue_disc_recipe",
       "path": "~/Ash/Blocks/Ores/Stupidity Ore"
     },
     {
@@ -1723,13 +1714,75 @@
       "path": "~/Ash/Blocks/Ores/Stupidity Ore"
     },
     {
-      "name": "BlueDiscRecipe",
-      "type": "recipe",
+      "name": "StupidityOre",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stupidity_ore",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "Green",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "Tramp",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tramp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstones/procedures"
+    },
+    {
+      "name": "PurpleappleLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpleapple_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Redstones/items"
+    },
+    {
+      "name": "Purplefluid",
+      "type": "fluid",
       "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blue_disc_recipe",
-      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+      "registry_name": "purplefluid",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/Redstones/fluids"
     }
   ],
   "variable_elements": [],
@@ -1861,7 +1914,6 @@
       "advancements.thats_how_its_made.title": "Thats How it\u0027s Made?",
       "item.mishmashed.pog_hoe": "Pog Hoe",
       "item.mishmashed.sus_boots": "Sus Boots",
-      "block.mishmashed.stupidity_ore": "Stupidity Ore",
       "entity.mishmashed.imposter": "Imposter",
       "subtitles.inspectahblockbreaks": "Pop Screams",
       "item.mishmashed.purplestick": "Purplestick",
@@ -1872,10 +1924,8 @@
       "subtitles.muffinpew": "Pew!",
       "item.mishmashed.sus_leggings": "Sus Leggings",
       "itemGroup.tabhell": "Hell",
-      "item.mishmashed.green": "Green",
       "itemGroup.tabwhat": "WHAT",
       "item.mishmashed.sus_chestplate": "Sus Body",
-      "item.mishmashed.blue": "Blue",
       "fluid.mishmashed.glue": "Glue",
       "item.mishmashed.pingot": "Pingot",
       "subtitles.sus": "",
@@ -1890,7 +1940,6 @@
       "block.mishmashed.enchantment_table": "Enchantment Table",
       "entity.mishmashed.entity_muffin": "Entity Muffin",
       "biome.mishmashed.experience_plains": "Experience Plains",
-      "item.mishmashed.blue.desc": "SiIvaGunner - Delphino plaza but it never begins",
       "item.mishmashed.super_glue": "Super Glue",
       "subtitles.jumpscream": "Screams",
       "advancements.uh_oh.descr": "Construct a Pomb",
@@ -2042,6 +2091,10 @@
         "children": [
           {
             "name": "items",
+            "children": []
+          },
+          {
+            "name": "fluids",
             "children": []
           },
           {

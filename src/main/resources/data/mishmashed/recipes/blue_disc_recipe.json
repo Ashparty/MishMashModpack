@@ -16,14 +16,14 @@
       "item": "minecraft:diamond"
     },
     "5": {
-      "item": "mishmashed:green"
+      "item": "mishmashed:deleted_mod_element"
     },
     "7": {
       "tag": "minecraft:sand"
     }
   },
   "result": {
-    "item": "mishmashed:blue",
+    "item": "mishmashed:deleted_mod_element",
     "count": 1
   }
 }

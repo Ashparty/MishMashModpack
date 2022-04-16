@@ -26,6 +26,7 @@ import net.mcreator.mishmashed.world.features.ores.PurpleFeature;
 import net.mcreator.mishmashed.world.features.ores.PupleoreFeature;
 import net.mcreator.mishmashed.world.features.ores.PoggerrackFeature;
 import net.mcreator.mishmashed.world.features.ores.ExperienceOreFeature;
+import net.mcreator.mishmashed.world.features.lakes.PurplefluidFeature;
 import net.mcreator.mishmashed.world.features.lakes.GlueFeature;
 
 import java.util.Set;
@@ -58,6 +59,8 @@ public class MishmashedModFeatures {
 				PupleoreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(StupidityOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				StupidityOreFeature.GENERATE_BIOMES, StupidityOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(PurplefluidFeature.FEATURE,
+				new FeatureRegistration(GenerationStep.Decoration.LAKES, PurplefluidFeature.GENERATE_BIOMES, PurplefluidFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent
