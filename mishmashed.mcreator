@@ -1747,6 +1747,18 @@
       "locked_code": false,
       "registry_name": "twitch_ore",
       "path": "~/Peko/Blocks"
+    },
+    {
+      "name": "Purply",
+      "type": "dimension",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purply",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Redstones/dimensions"
     }
   ],
   "variable_elements": [],
@@ -1835,9 +1847,10 @@
       "subtitles.poggers": "POGGERS",
       "item.mishmashed.pog_armor_boots": "Pog Boots",
       "item.mishmashed.sus_helmet": "Sus Helmet",
-      "block.mishmashed.twitch_ore": "Twitch Ore",
       "item.mishmashed.pog_armor_leggings": "Pog Leggings",
+      "block.mishmashed.twitch_ore": "Twitch Ore",
       "item.mishmashed.sand_paper": "Sand Paper",
+      "item.mishmashed.purply": "Purply Portal Igniter",
       "advancements.unable_to_balance.title": "Unable To Balance!",
       "item.mishmashed.purplepickaxe": "Purple pickaxe",
       "item.mishmashed.enchant_dust": "Enchant Dust",
@@ -1846,6 +1859,7 @@
       "block.mishmashed.pupleore": "Pupleore",
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
       "itemGroup.tabredstones": "Redstones",
+      "item.mishmashed.purplefluid_bucket": "Purplefluid Bucket",
       "subtitles.gluebucket": "Glue grogs",
       "block.mishmashed.experience_flower": "Experience Flower",
       "item.mishmashed.inspectah_food": "Inspectah Food",
@@ -1882,6 +1896,7 @@
       "itemGroup.tabhell": "Hell",
       "itemGroup.tabwhat": "WHAT",
       "item.mishmashed.sus_chestplate": "Sus Body",
+      "fluid.mishmashed.purplefluid": "Purple fluid",
       "fluid.mishmashed.glue": "Glue",
       "item.mishmashed.pingot": "Pingot",
       "subtitles.sus": "",
@@ -1905,6 +1920,7 @@
       "block.mishmashed.poggerrack": "Poggerrack",
       "advancements.full_set_of_pog.descr": "Get a full suit of pog armor",
       "item.mishmashed.pomb": "Pomb Unlimited",
+      "block.mishmashed.purplefluid": "Purple fluid",
       "block.mishmashed.glue": "Glue",
       "advancements.thats_how_its_made.descr": "Construct Sandpaper",
       "block.mishmashed.inspectah_poppy": "Inspectah Poppy",
@@ -2061,6 +2077,10 @@
           },
           {
             "name": "recipies",
+            "children": []
+          },
+          {
+            "name": "dimensions",
             "children": []
           }
         ]

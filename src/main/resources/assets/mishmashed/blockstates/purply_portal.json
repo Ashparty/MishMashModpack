@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mishmashed:block/purply_portal_ew"
+    },
+    "axis=x": {
+      "model": "mishmashed:block/purply_portal_ns"
+    }
+  }
+}
