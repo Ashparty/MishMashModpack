@@ -21,6 +21,7 @@ import net.mcreator.mishmashed.item.PurpleswordItem;
 import net.mcreator.mishmashed.item.PurplestickItem;
 import net.mcreator.mishmashed.item.PurplepickaxeItem;
 import net.mcreator.mishmashed.item.PurpleingotItem;
+import net.mcreator.mishmashed.item.PurplefluidItem;
 import net.mcreator.mishmashed.item.PurpleappleItem;
 import net.mcreator.mishmashed.item.PombItem;
 import net.mcreator.mishmashed.item.PogeriteCompositeItem;
@@ -105,6 +106,7 @@ public class MishmashedModItems {
 	public static final Item PURPLESTICK = register(new PurplestickItem());
 	public static final Item PURPLESWORD = register(new PurpleswordItem());
 	public static final Item PURPLEAPPLE = register(new PurpleappleItem());
+	public static final Item PURPLEFLUID_BUCKET = register(new PurplefluidItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
