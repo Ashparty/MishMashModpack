@@ -36,6 +36,7 @@ import net.mcreator.mishmashed.item.PurplestickItem;
 import net.mcreator.mishmashed.item.PurplepickaxeItem;
 import net.mcreator.mishmashed.item.PurpleingotItem;
 import net.mcreator.mishmashed.item.PurplefluidItem;
+import net.mcreator.mishmashed.item.PurpleflintItem;
 import net.mcreator.mishmashed.item.PurpleappleItem;
 import net.mcreator.mishmashed.item.PombItem;
 import net.mcreator.mishmashed.item.PogeriteCompositeItem;
@@ -140,6 +141,8 @@ public class MishmashedModItems {
 	public static final Item PURPLY = register(new PurplyItem());
 	public static final Item FLIMSY_TWITCH = register(new FlimsyTwitchItem());
 	public static final Item SPOON = register(new SpoonItem());
+	public static final Item PURPLEGRAVEL = register(MishmashedModBlocks.PURPLEGRAVEL, MishmashedModTabs.TAB_REDSTONES);
+	public static final Item PURPLEFLINT = register(new PurpleflintItem());
 	public static final Item TWITCH = register(new TwitchItem());
 	public static final Item MCDONALDS_EMPLOYEE = register(new McdonaldsEmployeeItem());
 	public static final Item TWITCHY_PICKAXE = register(new TwitchyPickaxeItem());

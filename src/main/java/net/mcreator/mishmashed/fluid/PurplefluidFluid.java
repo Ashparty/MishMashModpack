@@ -1,8 +1,24 @@
 
 package net.mcreator.mishmashed.fluid;
 
-public abstract class PurplefluidFluid extends ForgeFlowingFluid {
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fluids.ForgeFlowingFluid;
+import net.minecraftforge.fluids.FluidAttributes;
 
+import net.minecraft.world.level.material.FluidState;
+import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.particles.ParticleOptions;
+
+import net.mcreator.mishmashed.init.MishmashedModItems;
+import net.mcreator.mishmashed.init.MishmashedModFluids;
+import net.mcreator.mishmashed.init.MishmashedModBlocks;
+
+public abstract class PurplefluidFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> MishmashedModFluids.PURPLEFLUID,
 			() -> MishmashedModFluids.FLOWING_PURPLEFLUID,
 			FluidAttributes.builder(new ResourceLocation("mishmashed:blocks/untitled"), new ResourceLocation("mishmashed:blocks/untitled"))
@@ -57,5 +73,4 @@ public abstract class PurplefluidFluid extends ForgeFlowingFluid {
 			return false;
 		}
 	}
-
 }

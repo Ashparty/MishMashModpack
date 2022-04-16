@@ -30,7 +30,7 @@ public class SubwayFeature extends Feature<NoneFeatureConfiguration> {
 		if (template == null)
 			return false;
 
-		if ((context.random().nextInt(1000000) + 1) <= 10000) {
+		if ((context.random().nextInt(1000000) + 1) <= 1000) {
 			boolean anyPlaced = false;
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
