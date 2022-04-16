@@ -16,6 +16,8 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.mishmashed.item.SusfragemtItem;
 import net.mcreator.mishmashed.item.SusItem;
+import net.mcreator.mishmashed.item.SuperGlueItem;
+import net.mcreator.mishmashed.item.SpoonItem;
 import net.mcreator.mishmashed.item.SandPaperItem;
 import net.mcreator.mishmashed.item.PurpleswordItem;
 import net.mcreator.mishmashed.item.PurplestickItem;
@@ -39,11 +41,13 @@ import net.mcreator.mishmashed.item.PekoCreativeTabIconItem;
 import net.mcreator.mishmashed.item.MuffinTravellerItem;
 import net.mcreator.mishmashed.item.MuffinLauncherItem;
 import net.mcreator.mishmashed.item.MuffinItem;
+import net.mcreator.mishmashed.item.McdonaldsEmployeeItem;
 import net.mcreator.mishmashed.item.InspectahFoodItem;
 import net.mcreator.mishmashed.item.GreenItem;
 import net.mcreator.mishmashed.item.GlueItem;
 import net.mcreator.mishmashed.item.FunnyCookieItem;
 import net.mcreator.mishmashed.item.EnchantDustItem;
+import net.mcreator.mishmashed.item.CloudsSwordItem;
 import net.mcreator.mishmashed.item.BlueItem;
 import net.mcreator.mishmashed.item.AshCreativeTabIconItem;
 import net.mcreator.mishmashed.item.AncientNuggetItem;
@@ -114,6 +118,9 @@ public class MishmashedModItems {
 	public static final Item GREEN = register(new GreenItem());
 	public static final Item BLUE = register(new BlueItem());
 	public static final Item PURPLEFLUID_BUCKET = register(new PurplefluidItem());
+	public static final Item SPOON = register(new SpoonItem());
+	public static final Item MCDONALDS_EMPLOYEE = register(new McdonaldsEmployeeItem());
+	public static final Item CLOUDS_SWORD = register(new CloudsSwordItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

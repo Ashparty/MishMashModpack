@@ -7,23 +7,23 @@
   ],
   "key": {
     "1": {
-      "tag": "minecraft:sand"
-    },
-    "3": {
-      "item": "minecraft:oak_sapling"
-    },
-    "4": {
-      "item": "minecraft:diamond"
-    },
-    "5": {
       "item": "mishmashed:green"
     },
+    "3": {
+      "item": "mishmashed:muffin"
+    },
+    "4": {
+      "item": "minecraft:iron_sword"
+    },
+    "5": {
+      "item": "mishmashed:muffin"
+    },
     "7": {
-      "tag": "minecraft:sand"
+      "item": "minecraft:black_wool"
     }
   },
   "result": {
-    "item": "mishmashed:blue",
+    "item": "mishmashed:clouds_sword",
     "count": 1
   }
 }

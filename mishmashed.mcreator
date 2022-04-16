@@ -1783,6 +1783,69 @@
         "gb": true
       },
       "path": "~/Redstones/fluids"
+    },
+    {
+      "name": "Subway",
+      "type": "structure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subway",
+      "path": "~/Ash/Structures"
+    },
+    {
+      "name": "Spoon",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spoon",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "SpoonRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spoon_recipe",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "McdonaldsEmployee",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcdonalds_employee",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "McdonaldsEmployeeRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcdonalds_employee_recipe",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "CloudsSword",
+      "type": "tool",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clouds_sword",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "CloudSwordRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud_sword_recipe",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
     }
   ],
   "variable_elements": [],
@@ -1874,13 +1937,15 @@
       "advancements.whatthehell.title": "WHAT THE HELL?",
       "block.mishmashed.inspectah_block": "Inspectah Block",
       "biome.mishmashed.e": "purple biome",
-      "item.mishmashed.entity_muffin_spawn_egg": "Entity Muffin Spawn Egg",
       "advancements.full_set_of_pog.title": "Cover Me in Pog",
+      "item.mishmashed.entity_muffin_spawn_egg": "Entity Muffin Spawn Egg",
+      "item.mishmashed.mcdonalds_employee": "Mcdonalds Employee",
       "subtitles.poggers": "POGGERS",
       "item.mishmashed.pog_armor_boots": "Pog Boots",
       "item.mishmashed.sus_helmet": "Sus Helmet",
-      "block.mishmashed.twitch_ore": "Twitch Ore",
       "item.mishmashed.pog_armor_leggings": "Pog Leggings",
+      "block.mishmashed.twitch_ore": "Twitch Ore",
+      "item.mishmashed.spoon": "Spoon",
       "item.mishmashed.sand_paper": "Sand Paper",
       "advancements.unable_to_balance.title": "Unable To Balance!",
       "item.mishmashed.purplepickaxe": "Purple pickaxe",
@@ -1890,6 +1955,7 @@
       "block.mishmashed.pupleore": "Pupleore",
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
       "itemGroup.tabredstones": "Redstones",
+      "item.mishmashed.purplefluid_bucket": "Purplefluid Bucket",
       "subtitles.gluebucket": "Glue grogs",
       "block.mishmashed.experience_flower": "Experience Flower",
       "item.mishmashed.inspectah_food": "Inspectah Food",
@@ -1898,6 +1964,7 @@
       "item.mishmashed.pog_pickaxe": "Pog Pickaxe",
       "subtitles.inblockabient": "Inspectah has a stroke",
       "subtitles.stop": "STOP",
+      "item.mishmashed.clouds_sword": "Clouds Sword",
       "item.mishmashed.ancient_nugget": "Ancient Nugget",
       "item.mishmashed.peko_creative_tab_icon": "Peko Creative Tab Icon",
       "advancements.uh_oh.title": "Uh Oh...",
@@ -1914,6 +1981,7 @@
       "advancements.thats_how_its_made.title": "Thats How it\u0027s Made?",
       "item.mishmashed.pog_hoe": "Pog Hoe",
       "item.mishmashed.sus_boots": "Sus Boots",
+      "block.mishmashed.stupidity_ore": "Stupidity Ore",
       "entity.mishmashed.imposter": "Imposter",
       "subtitles.inspectahblockbreaks": "Pop Screams",
       "item.mishmashed.purplestick": "Purplestick",
@@ -1924,8 +1992,11 @@
       "subtitles.muffinpew": "Pew!",
       "item.mishmashed.sus_leggings": "Sus Leggings",
       "itemGroup.tabhell": "Hell",
+      "item.mishmashed.green": "Green",
       "itemGroup.tabwhat": "WHAT",
       "item.mishmashed.sus_chestplate": "Sus Body",
+      "fluid.mishmashed.purplefluid": "Purple fluid",
+      "item.mishmashed.blue": "Blue",
       "fluid.mishmashed.glue": "Glue",
       "item.mishmashed.pingot": "Pingot",
       "subtitles.sus": "",
@@ -1940,6 +2011,7 @@
       "block.mishmashed.enchantment_table": "Enchantment Table",
       "entity.mishmashed.entity_muffin": "Entity Muffin",
       "biome.mishmashed.experience_plains": "Experience Plains",
+      "item.mishmashed.blue.desc": "SiIvaGunner - Delphino plaza but it never begins",
       "item.mishmashed.super_glue": "Super Glue",
       "subtitles.jumpscream": "Screams",
       "advancements.uh_oh.descr": "Construct a Pomb",
@@ -1950,6 +2022,7 @@
       "block.mishmashed.poggerrack": "Poggerrack",
       "advancements.full_set_of_pog.descr": "Get a full suit of pog armor",
       "item.mishmashed.pomb": "Pomb Unlimited",
+      "block.mishmashed.purplefluid": "Purple fluid",
       "block.mishmashed.glue": "Glue",
       "advancements.thats_how_its_made.descr": "Construct Sandpaper",
       "block.mishmashed.inspectah_poppy": "Inspectah Poppy",
@@ -2050,6 +2123,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Structures",
+            "children": []
           }
         ]
       },

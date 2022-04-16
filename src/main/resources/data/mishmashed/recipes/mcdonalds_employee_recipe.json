@@ -7,23 +7,23 @@
   ],
   "key": {
     "1": {
-      "tag": "minecraft:sand"
+      "item": "minecraft:wooden_shovel"
     },
     "3": {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:yellow_wool"
     },
     "4": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:red_dye"
     },
     "5": {
       "item": "mishmashed:green"
     },
     "7": {
-      "tag": "minecraft:sand"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {
-    "item": "mishmashed:blue",
+    "item": "mishmashed:mcdonalds_employee",
     "count": 1
   }
 }
