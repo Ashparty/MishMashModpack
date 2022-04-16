@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mishmashed:pingot"
+    },
+    "1": {
+      "item": "mishmashed:pingot"
+    },
+    "2": {
+      "item": "mishmashed:pingot"
+    },
+    "3": {
+      "item": "mishmashed:pingot"
+    },
+    "4": {
+      "item": "mishmashed:deleted_mod_element"
+    },
+    "5": {
+      "item": "mishmashed:sand_paper"
+    },
+    "6": {
+      "item": "mishmashed:pingot"
+    },
+    "7": {
+      "item": "mishmashed:pingot"
+    },
+    "8": {
+      "item": "mishmashed:pingot"
+    }
+  },
+  "result": {
+    "item": "mishmashed:deleted_mod_element",
+    "count": 1
+  }
+}

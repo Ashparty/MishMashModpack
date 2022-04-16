@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "twitchy_hoe",
+    "customModelName": "Normal",
+    "name": "Twitchy Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:WHAT"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 10,
+    "efficiency": 15.5,
+    "attackSpeed": 1.0,
+    "enchantability": 64,
+    "damageVsEntity": 10.0,
+    "usageCount": 3553,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Twitch"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

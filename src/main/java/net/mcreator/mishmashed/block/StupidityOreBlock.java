@@ -67,7 +67,7 @@ public class StupidityOreBlock extends FallingBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(MishmashedModItems.GREEN));
+		return Collections.singletonList(new ItemStack(MishmashedModItems.DELETED_MOD_ELEMENT));
 	}
 
 	@OnlyIn(Dist.CLIENT)

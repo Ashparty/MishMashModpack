@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "twitchy_axe",
+    "customModelName": "Normal",
+    "name": "Twitchy Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:WHAT"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 10,
+    "efficiency": 15.5,
+    "attackSpeed": 1.5,
+    "enchantability": 64,
+    "damageVsEntity": 42.0,
+    "usageCount": 3553,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Twitch"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

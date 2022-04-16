@@ -16,14 +16,14 @@
       "item": "minecraft:red_dye"
     },
     "5": {
-      "item": "mishmashed:green"
+      "item": "mishmashed:deleted_mod_element"
     },
     "7": {
       "item": "minecraft:wooden_shovel"
     }
   },
   "result": {
-    "item": "mishmashed:mcdonalds_employee",
+    "item": "mishmashed:deleted_mod_element",
     "count": 1
   }
 }
