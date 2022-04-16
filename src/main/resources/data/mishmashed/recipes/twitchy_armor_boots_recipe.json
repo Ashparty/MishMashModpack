@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mishmashed:pog_armor_boots"
+  },
+  "addition": {
+    "item": "mishmashed:twitch"
+  },
+  "result": {
+    "item": "mishmashed:twitchy_armor_boots"
+  }
+}

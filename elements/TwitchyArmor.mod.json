@@ -1,0 +1,62 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "twitchy_head",
+    "enableBody": true,
+    "textureBody": "twitchy_body",
+    "enableLeggings": true,
+    "textureLeggings": "twitchy_leggings",
+    "enableBoots": true,
+    "textureBoots": "twitchy_boots",
+    "creativeTab": {
+      "value": "CUSTOM:WHAT"
+    },
+    "armorTextureFile": "twitchy",
+    "helmetName": "Twitchy Helmet",
+    "bodyName": "Twitchy Chestplate",
+    "leggingsName": "Twitchy Leggings",
+    "bootsName": "Twitchy Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 69,
+    "damageValueHelmet": 10,
+    "damageValueBody": 24,
+    "damageValueLeggings": 28,
+    "damageValueBoots": 10,
+    "enchantability": 42,
+    "toughness": 6.5,
+    "knockbackResistance": 1.0,
+    "equipSound": {
+      "value": "CUSTOM:poggers"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Twitch"
+      }
+    ]
+  }
+}

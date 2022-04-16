@@ -14,6 +14,17 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.mishmashed.item.TwitchySwordItem;
+import net.mcreator.mishmashed.item.TwitchyShovelItem;
+import net.mcreator.mishmashed.item.TwitchyPickaxeItem;
+import net.mcreator.mishmashed.item.TwitchyHoeItem;
+import net.mcreator.mishmashed.item.TwitchyAxeItem;
+import net.mcreator.mishmashed.item.TwitchyArmorItem;
+import net.mcreator.mishmashed.item.TwitchItem;
+import net.mcreator.mishmashed.item.TwitchFragmentItem;
+import net.mcreator.mishmashed.item.TwitchFragment4Item;
+import net.mcreator.mishmashed.item.TwitchFragment3Item;
+import net.mcreator.mishmashed.item.TwitchFragment2Item;
 import net.mcreator.mishmashed.item.SusfragemtItem;
 import net.mcreator.mishmashed.item.SusItem;
 import net.mcreator.mishmashed.item.SuperGlueItem;
@@ -42,6 +53,7 @@ import net.mcreator.mishmashed.item.MuffinItem;
 import net.mcreator.mishmashed.item.InspectahFoodItem;
 import net.mcreator.mishmashed.item.GlueItem;
 import net.mcreator.mishmashed.item.FunnyCookieItem;
+import net.mcreator.mishmashed.item.FlimsyTwitchItem;
 import net.mcreator.mishmashed.item.EnchantDustItem;
 import net.mcreator.mishmashed.item.AshCreativeTabIconItem;
 import net.mcreator.mishmashed.item.AncientNuggetItem;
@@ -108,6 +120,21 @@ public class MishmashedModItems {
 	public static final Item PURPLESWORD = register(new PurpleswordItem());
 	public static final Item SUPER_GLUE = register(new SuperGlueItem());
 	public static final Item PURPLEAPPLE = register(new PurpleappleItem());
+	public static final Item TWITCH_FRAGMENT = register(new TwitchFragmentItem());
+	public static final Item TWITCH_FRAGMENT_2 = register(new TwitchFragment2Item());
+	public static final Item TWITCH_FRAGMENT_3 = register(new TwitchFragment3Item());
+	public static final Item TWITCH_FRAGMENT_4 = register(new TwitchFragment4Item());
+	public static final Item FLIMSY_TWITCH = register(new FlimsyTwitchItem());
+	public static final Item TWITCH = register(new TwitchItem());
+	public static final Item TWITCHY_PICKAXE = register(new TwitchyPickaxeItem());
+	public static final Item TWITCHY_AXE = register(new TwitchyAxeItem());
+	public static final Item TWITCHY_SWORD = register(new TwitchySwordItem());
+	public static final Item TWITCHY_SHOVEL = register(new TwitchyShovelItem());
+	public static final Item TWITCHY_HOE = register(new TwitchyHoeItem());
+	public static final Item TWITCHY_ARMOR_HELMET = register(new TwitchyArmorItem.Helmet());
+	public static final Item TWITCHY_ARMOR_CHESTPLATE = register(new TwitchyArmorItem.Chestplate());
+	public static final Item TWITCHY_ARMOR_LEGGINGS = register(new TwitchyArmorItem.Leggings());
+	public static final Item TWITCHY_ARMOR_BOOTS = register(new TwitchyArmorItem.Boots());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
