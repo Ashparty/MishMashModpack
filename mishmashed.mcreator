@@ -1660,6 +1660,15 @@
       "path": "~/Redstones/items"
     },
     {
+      "name": "InspectahPop",
+      "type": "tab",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inspectah_pop",
+      "path": "~/Inspectah"
+    },
+    {
       "name": "Gluebucket",
       "type": "item",
       "sortid": 70,
@@ -1669,13 +1678,141 @@
       "path": "~/Inspectah"
     },
     {
-      "name": "InspectahPop",
-      "type": "tab",
+      "name": "Tramp",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tramp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstones/procedures"
+    },
+    {
+      "name": "WHATTHEHELL",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whatthehell",
+      "path": "~/Peko/Advancements"
+    },
+    {
+      "name": "BlueDiscRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_disc_recipe",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "SuperGlue",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_glue",
+      "path": "~/Peko/Loot and procedure"
+    },
+    {
+      "name": "SuperGloo",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_gloo",
+      "path": "~/Peko/Recipes"
+    },
+    {
+      "name": "Blue",
+      "type": "musicdisc",
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "inspectah_pop",
-      "path": "~/Inspectah"
+      "registry_name": "blue",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "StupidityOre",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stupidity_ore",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
+    },
+    {
+      "name": "PurpleappleLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpleapple_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Redstones/items"
+    },
+    {
+      "name": "Purply",
+      "type": "dimension",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purply",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Redstones/dimensions"
+    },
+    {
+      "name": "TwitchOre",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twitch_ore",
+      "path": "~/Peko/Blocks"
+    },
+    {
+      "name": "Purplefluid",
+      "type": "fluid",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplefluid",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/Redstones/fluids"
+    },
+    {
+      "name": "Green",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green",
+      "path": "~/Ash/Blocks/Ores/Stupidity Ore"
     }
   ],
   "variable_elements": [],
@@ -1751,6 +1888,14 @@
       ],
       "category": "neutral",
       "subtitle": "Pop Screams"
+    },
+    {
+      "name": "letsanotgo",
+      "files": [
+        "letsanotgo"
+      ],
+      "category": "record",
+      "subtitle": "Its not going."
     }
   ],
   "language_map": {
@@ -1773,7 +1918,6 @@
       "item.mishmashed.pog_armor_chestplate": "Pog Chestplate",
       "itemGroup.tabredstones": "Redstones",
       "block.mishmashed.pupleore": "Pupleore",
-      "itemGroup.tabinspectah_pop": "Inspectah Pop",
       "subtitles.gluebucket": "Glue grogs",
       "block.mishmashed.experience_flower": "Experience Flower",
       "item.mishmashed.inspectah_food": "Inspectah Food",
@@ -1807,13 +1951,13 @@
       "subtitles.muffinpew": "Pew!",
       "item.mishmashed.sus_leggings": "Sus Leggings",
       "itemGroup.tabhell": "Hell",
-      "item.mishmashed.gluebucket": "Gluebucket",
       "itemGroup.tabwhat": "WHAT",
       "item.mishmashed.sus_chestplate": "Sus Body",
       "fluid.mishmashed.glue": "Glue",
       "item.mishmashed.pingot": "Pingot",
       "subtitles.sus": "",
       "advancements.unable_to_balance.descr": "Construct a Sifting Station",
+      "subtitles.letsanotgo": "Its not going.",
       "item.mishmashed.pog_sword": "Pog Sword",
       "item.mishmashed.pogerite_composite": "Pogerite Composite",
       "item.mishmashed.glue_bucket": "Glue Bucket",
@@ -1862,7 +2006,12 @@
             "children": [
               {
                 "name": "Ores",
-                "children": []
+                "children": [
+                  {
+                    "name": "Stupidity Ore",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Fluids",
@@ -1968,6 +2117,14 @@
         "children": [
           {
             "name": "items",
+            "children": []
+          },
+          {
+            "name": "fluids",
+            "children": []
+          },
+          {
+            "name": "dimensions",
             "children": []
           },
           {

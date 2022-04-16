@@ -16,11 +16,14 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.mishmashed.item.SusfragemtItem;
 import net.mcreator.mishmashed.item.SusItem;
+import net.mcreator.mishmashed.item.SuperGlueItem;
 import net.mcreator.mishmashed.item.SandPaperItem;
+import net.mcreator.mishmashed.item.PurplyItem;
 import net.mcreator.mishmashed.item.PurpleswordItem;
 import net.mcreator.mishmashed.item.PurplestickItem;
 import net.mcreator.mishmashed.item.PurplepickaxeItem;
 import net.mcreator.mishmashed.item.PurpleingotItem;
+import net.mcreator.mishmashed.item.PurplefluidItem;
 import net.mcreator.mishmashed.item.PurpleappleItem;
 import net.mcreator.mishmashed.item.PombItem;
 import net.mcreator.mishmashed.item.PogeriteCompositeItem;
@@ -39,10 +42,12 @@ import net.mcreator.mishmashed.item.MuffinTravellerItem;
 import net.mcreator.mishmashed.item.MuffinLauncherItem;
 import net.mcreator.mishmashed.item.MuffinItem;
 import net.mcreator.mishmashed.item.InspectahFoodItem;
+import net.mcreator.mishmashed.item.GreenItem;
 import net.mcreator.mishmashed.item.GluebucketItem;
 import net.mcreator.mishmashed.item.GlueItem;
 import net.mcreator.mishmashed.item.FunnyCookieItem;
 import net.mcreator.mishmashed.item.EnchantDustItem;
+import net.mcreator.mishmashed.item.BlueItem;
 import net.mcreator.mishmashed.item.AshCreativeTabIconItem;
 import net.mcreator.mishmashed.item.AncientNuggetItem;
 
@@ -105,8 +110,15 @@ public class MishmashedModItems {
 	public static final Item PURPLEPICKAXE = register(new PurplepickaxeItem());
 	public static final Item PURPLESTICK = register(new PurplestickItem());
 	public static final Item PURPLESWORD = register(new PurpleswordItem());
+	public static final Item TWITCH_ORE = register(MishmashedModBlocks.TWITCH_ORE, MishmashedModTabs.TAB_WHAT);
+	public static final Item SUPER_GLUE = register(new SuperGlueItem());
 	public static final Item PURPLEAPPLE = register(new PurpleappleItem());
 	public static final Item GLUEBUCKET = register(new GluebucketItem());
+	public static final Item STUPIDITY_ORE = register(MishmashedModBlocks.STUPIDITY_ORE, MishmashedModTabs.TAB_WHAT);
+	public static final Item GREEN = register(new GreenItem());
+	public static final Item BLUE = register(new BlueItem());
+	public static final Item PURPLEFLUID_BUCKET = register(new PurplefluidItem());
+	public static final Item PURPLY = register(new PurplyItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
