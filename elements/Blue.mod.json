@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "bluedisc",
+    "name": "Blue",
+    "description": "SiIvaGunner - Delphino plaza but it never begins",
+    "creativeTab": {
+      "value": "CUSTOM:Hm"
+    },
+    "music": {
+      "value": "CUSTOM:letsanotgo"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
