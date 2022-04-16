@@ -3,17 +3,20 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "twitchy_head",
+    "textureHelmet": "twitchhelmet",
     "enableBody": true,
-    "textureBody": "twitchy_body",
+    "textureBody": "twitchchestplate",
     "enableLeggings": true,
-    "textureLeggings": "twitchy_leggings",
+    "textureLeggings": "twitchleggings",
     "enableBoots": true,
-    "textureBoots": "twitchy_boots",
+    "textureBoots": "twitchboots",
+    "onHelmetTick": {
+      "name": "TwitchyArmorHelmetTickEvent"
+    },
     "creativeTab": {
       "value": "CUSTOM:WHAT"
     },
-    "armorTextureFile": "twitchy",
+    "armorTextureFile": "layer_1twitch",
     "helmetName": "Twitchy Helmet",
     "bodyName": "Twitchy Chestplate",
     "leggingsName": "Twitchy Leggings",
